@@ -1,0 +1,166 @@
+.Rectangle {
+    padding:45px 0 15px 0;
+    max-height: 100px;
+    width: 100%;
+    background: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    box-shadow: inset 0 -1px 0 0 rgb(41 42 44 / 15%)
+  }
+  img.Setur-logo {
+    width: 112px;
+    height: 36px;
+    object-fit: contain;
+    background-color: var(--tomato);
+  }
+  
+  .Otel {
+   
+    width: 28px;
+    height: 19px;
+    margin: 0 32px 9px 62px;
+    font-family: SourceSansPro;
+    font-size: 15.4px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-grey);
+  }
+  
+  .Tur {
+    width: 23px;
+    height: 19px;
+    margin: 0 32px 9px;
+    font-family: SourceSansPro;
+    font-size: 15.4px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-grey);
+  }
+  .Gemi {
+    width: 35px;
+    height: 19px;
+    margin: 0 32px 9px;
+    font-family: SourceSansPro;
+    font-size: 15.4px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-grey);
+  }
+  .Ucak {
+    width: 33px;
+    height: 19px;
+    margin: 0 32px 9px;
+    font-family: SourceSansPro;
+    font-size: 15.4px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-grey);
+  }
+  .Vize {
+    width: 27px;
+    height: 19px;
+    margin: 0 28px 9px 32px;
+    font-family: SourceSansPro;
+    font-size: 15.4px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-grey);
+  }
+  .OzelCozumler {
+    width: 95px;
+    height: 19px;
+    margin: 0 23px 9px 28px;
+    font-family: SourceSansPro;
+    font-size: 15.4px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-grey);
+  }
+  .Kampanyalar {
+    width: 89px;
+    height: 19px;
+    margin: 0 0 9px 23px;
+    font-family: SourceSansPro;
+    font-size: 15.4px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-grey);
+  }
+  .uyeOlGirisYap {
+    
+      width: 116px;
+      height: 20px;
+      margin: 3px 10px 1px 0;
+      font-family: SourceSansPro;
+      font-size: 16px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: right;
+      color: var(--dark-grey);
+    }
+   img.topBlackRectangle {
+    width: 1440px;
+    height: 5px;
+    margin-top: -50px;
+    
+    object-fit: contain;
+    background-color: var(--dark-grey);
+  }
+  img.topBlackShape {
+    width: 435px;
+    height: 35px;
+    margin: 0 0 0 1005px;
+    margin-top: -px;
+   
+    object-fit: contain;
+    background-color: var(--dark-grey);
+  }
+  
+  img {
+	display: inline !important;
+	width: 20%;
+	vertical-align: top;
+	height: auto;
+	top: 0;
+	left: 0;
+}
+  

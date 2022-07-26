@@ -6,6 +6,7 @@ import a2 from './UpBannerImages/a2.png';
 import a3 from './UpBannerImages/a3.jpg';
 
 
+
 function UpBanner() {
     return (
         <Carousel  className='UpBanner'>
@@ -14,6 +15,7 @@ function UpBanner() {
               className="d-block w-100"
               src={a1}
               alt="First slide"
+              
             />
             
           </Carousel.Item>

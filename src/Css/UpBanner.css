@@ -1,0 +1,15 @@
+.UpBanner {
+    width: 960px;
+    height: 278px;
+    margin: 20px 100px 20px 20px;
+    padding: 117px 8px 14px 10px;
+    border-radius: 2px;
+    background-color: #8f8f8f;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover !important;
+  }
+ 

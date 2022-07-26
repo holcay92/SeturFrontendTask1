@@ -140,8 +140,7 @@
    img.topBlackRectangle {
     width: 1440px;
     height: 5px;
-    margin-top: -50px;
-    
+    margin-top: -25px; 
     object-fit: contain;
     background-color: var(--dark-grey);
   }
@@ -149,8 +148,7 @@
     width: 435px;
     height: 35px;
     margin: 0 0 0 1005px;
-    margin-top: -px;
-   
+    margin-top: -44px;
     object-fit: contain;
     background-color: var(--dark-grey);
   }

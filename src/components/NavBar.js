@@ -7,36 +7,37 @@ import seturlogo from './setur-logo.svg';
 import personicon from './icon-person.svg';
 import topBlackShape from './topBlackShape.svg';
 import topBlackRectangle from './topBlackRectangle.svg';
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 
 function NavBar() {
   return (
 
     <Container>
 
-
-<Container>
-              <img
-                src={topBlackRectangle}
-                className="topBlackRectangle"
-                alt="some value" />
-              <img
-                src={topBlackShape}
-                className="topBlackShape"
-                alt="some value" />
-            </Container>
+      {/*Doesnt fit properly look again */}
+      <Container>
+        <img
+          src={topBlackRectangle}
+          className="topBlackRectangle"
+          alt="some value" />
+        <img
+          src={topBlackShape}
+          className="topBlackShape"
+          alt="some value" />
+      </Container>
       <Navbar className="Rectangle" bg="light" expand="lg"  >
-      
+
 
         <Container>
-        
+
           <Navbar.Brand className='Setur-logo' href="https://www.setur.com.tr">
-          
+
             <img
               src={seturlogo}
               className="Setur-logo"
               alt="some value"
             />
-           
+
 
 
           </Navbar.Brand>
@@ -48,7 +49,7 @@ function NavBar() {
 
             <Nav >
 
-
+            <NavbarCollapse>hfghfhfhfg</NavbarCollapse>
               <NavDropdown className='Otel' title="Otel">Otel</NavDropdown>
               <NavDropdown className='Tur' title="Tur">Tur</NavDropdown>
               <NavDropdown className='Gemi' title="Gemi">Gemi</NavDropdown>

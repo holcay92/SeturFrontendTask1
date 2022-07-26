@@ -1,15 +1,15 @@
 //import { Carousel } from 'bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
-import a1 from './a1.jpg';
-import a2 from './a2.png';
-import a3 from './a3.jpg';
+import a1 from './UpBannerImages/a1.jpg';
+import a2 from './UpBannerImages/a2.png';
+import a3 from './UpBannerImages/a3.jpg';
 
 
 function UpBanner() {
     return (
-        <Carousel>
-          <Carousel.Item>
+        <Carousel  className='UpBanner'>
+          <Carousel.Item >
             <img
               className="d-block w-100"
               src={a1}
@@ -23,8 +23,7 @@ function UpBanner() {
               src={a2}
               alt="Second slide"
             />
-    
-            
+              
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -33,7 +32,7 @@ function UpBanner() {
               alt="Third slide"
             />
     
-            
+          
           </Carousel.Item>
         </Carousel>
       );

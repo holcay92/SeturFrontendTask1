@@ -3,10 +3,10 @@ import NavLink from 'react-bootstrap/esm/NavLink';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import seturlogo from './setur-logo.svg';
-import personicon from './icon-person.svg';
-import topBlackShape from './topBlackShape.svg';
-import topBlackRectangle from './topBlackRectangle.svg';
+import seturlogo from './NavBarIcons/setur-logo.svg';
+import personicon from './NavBarIcons/icon-person.svg';
+import topBlackShape from './NavBarIcons/topBlackShape.svg';
+import topBlackRectangle from './NavBarIcons/topBlackRectangle.svg';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 
 function NavBar() {

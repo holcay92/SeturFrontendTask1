@@ -9,25 +9,26 @@ import a3 from './UpBannerImages/a3.jpg';
 
 function UpBanner() {
     return (
-        <Carousel  className='UpBanner'>
-          <Carousel.Item >
+       <div>
+<Carousel className='Carousel' >
+          <Carousel.Item  className='Carousel.Item'>
             <img
-              className="d-block w-100"
+              className=' w-100'
               src={a1}
               alt="First slide"
               
             />
             
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item className='Carousel.Item'>
             <img
               className="d-block w-100"
               src={a2}
               alt="Second slide"
             />
               
-          </Carousel.Item>
-          <Carousel.Item>
+          </Carousel.Item >
+          <Carousel.Item className='Carousel.Item'>
             <img
               className="d-block w-100"
               src={a3}
@@ -37,6 +38,7 @@ function UpBanner() {
           
           </Carousel.Item>
         </Carousel>
+       </div> 
       );
     }
 

@@ -61,7 +61,7 @@ function NavBar() {
             </NavDropdown>
             <NavDropdown className='Kampanyalar' title="Kampanyalar">Link</NavDropdown>
 
-            <NavLink className='uyeOlGirisYap' title="uyeOlGirisYap">  Üye Ol/Giriş Yap
+            <NavLink className='uyeOlGirisYap' >Üye Ol/Giriş Yap
               <img
                 src={personicon}
                 className="iconperson"

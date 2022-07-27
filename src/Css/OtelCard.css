@@ -1,0 +1,65 @@
+.OtelCard {
+    width: 960px;
+    height: 305px;
+    margin-left: 380px;
+    margin: 20px 0px 100px 380px;
+    padding: 0 19px 0 0;
+    border-radius: 2px;
+    border: solid 1px #dedede;
+    background-color: #fff;
+  }
+  img.otelImg {
+    width: 252px;
+    height: 305px;
+    margin-left: 380px;
+    margin: 0 20px 0 0;
+    padding: 10px 6px 10px 4px;
+    object-fit: contain;
+    border-radius: 2px;
+    border: solid 1px #dedede;
+  }
+  .OteliSecButton {
+    width: 1440px;
+    height: 5205px;
+    background-color: #f7f7f7;
+  }
+  .OtelAd {
+    width: 462px;
+    height: 23px;
+    margin:0 0 0 272px ;
+    font-family: SourceSansPro;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--dark-grey);
+  }
+  .OtelLokasyon {
+    width: 91px;
+    height: 18px;
+    margin: 0 0 0 4px;
+    opacity: 0.6;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+  }
+  .UltraHerSeyDahil {
+    width: 120px;
+    height: 18px;
+    margin: 5px 75px 15px 20px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: var(--dark-grey);
+  }

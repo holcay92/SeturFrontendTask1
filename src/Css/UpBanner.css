@@ -2,6 +2,7 @@
     width: 960px;
     height: 278px;
    margin-left: 380px;
+   display: flex;
     border-radius: 2px;
     background-color: #8f8f8f; 
     -webkit-background-size: cover;
@@ -12,8 +13,8 @@
   }
   .Carousel.Item {
     width: 960px;
-    height: 278px;
-   
+    height: 278px; 
+    display: flex;
     border-radius: 2px;
     background-color: #8f8f8f; 
     -webkit-background-size: cover;

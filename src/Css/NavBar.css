@@ -1,7 +1,7 @@
 .Rectangle {
+    width: auto;
     padding:45px 0 15px 0;
     max-height: 100px;
-    width: 100%;
     background: #ffffff;
     display: -webkit-box;
     display: -webkit-flex;
@@ -15,6 +15,22 @@
     z-index: 100;
     box-shadow: inset 0 -1px 0 0 rgb(41 42 44 / 15%)
   }
+  img.topBlackRectangle {
+    width: auto;
+    height: 5px;
+    margin-top: -25px; 
+    object-fit: contain;
+    background-color: var(--dark-grey);
+  }
+  img.topBlackShape {
+    width: 435px;
+    height: 35px;
+    margin: 0 0 0 1005px;
+    margin-top: -44px;
+    object-fit: contain;
+    background-color: var(--dark-grey);
+  }
+  
   img.Setur-logo {
     width: 112px;
     height: 36px;
@@ -22,8 +38,7 @@
     background-color: var(--tomato);
   }
   
-  .Otel {
-   
+  .Otel {  
     width: 28px;
     height: 19px;
     margin: 0 32px 9px 62px;
@@ -51,6 +66,7 @@
     letter-spacing: normal;
     text-align: center;
     color: var(--dark-grey);
+    content:none
   }
   .Gemi {
     width: 35px;
@@ -107,6 +123,7 @@
     letter-spacing: normal;
     text-align: center;
     color: var(--dark-grey);
+   
   }
   .Kampanyalar {
     width: 89px;
@@ -125,8 +142,9 @@
   .uyeOlGirisYap {  
       width: 116px;
       height: 20px;
-      margin: 3px 10px 1px 0;
-      font-family: SourceSansPro;
+      
+      margin: 3px 10px 10px 50px;
+      font-family:SourceSansPro;
       font-size: 16px;
       font-weight: 600;
       font-stretch: normal;
@@ -136,21 +154,6 @@
       text-align: right;
       color: var(--dark-grey);
     }
-   img.topBlackRectangle {
-    width: 1440px;
-    height: 5px;
-    margin-top: -25px; 
-    object-fit: contain;
-    background-color: var(--dark-grey);
-  }
-  img.topBlackShape {
-    width: 435px;
-    height: 35px;
-    margin: 0 0 0 1005px;
-    margin-top: -44px;
-    object-fit: contain;
-    background-color: var(--dark-grey);
-  }
   
   img {
 	display: inline !important;
@@ -160,4 +163,3 @@
 	top: 0;
 	left: 0;
 }
-  

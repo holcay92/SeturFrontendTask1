@@ -1,4 +1,4 @@
-import Container from 'react-bootstrap/Container';
+
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -10,7 +10,7 @@ import topBlackRectangle from './NavBarIcons/topBlackRectangle.svg';
 function NavBar() {
   return (
 
-    <Container>
+    <div>
 
       {/*Doesnt fit properly look again */}
       <div className='col-md-12'>
@@ -39,7 +39,7 @@ function NavBar() {
 
           <Nav >
 
-            <NavDropdown className='Otel' title="Otel">Otel</NavDropdown>
+            <NavDropdown data-toggle="dropdown" className='Otel' title="Otel">Otel</NavDropdown>
             <NavDropdown className='Tur' title="Tur">Tur</NavDropdown>
             <NavDropdown className='Gemi' title="Gemi">Gemi</NavDropdown>
             <NavDropdown className='Ucak' title="Uçak">Uçak</NavDropdown>
@@ -55,19 +55,19 @@ function NavBar() {
 
 
             <NavDropdown className='uyeOlGirisYap' title="Üye Ol/Giriş Yap" > Üye Ol/Giriş Yap
-              <img
+              
+            </NavDropdown>
+            <img
                 src={personicon}
                 className="iconperson"
                 alt="some value"
 
               />
-            </NavDropdown>
-
           </Nav>
 
         </Navbar.Collapse>
 
-      </Navbar></Container>
+      </Navbar></div>
   );
 }
 

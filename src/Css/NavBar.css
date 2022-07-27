@@ -37,7 +37,9 @@
     object-fit: contain;
     background-color: var(--tomato);
   }
-  
+  .Otel::after{
+    display: none;
+  }
   .Otel {  
     width: 28px;
     height: 19px;
@@ -142,10 +144,10 @@
   .uyeOlGirisYap {  
       width: 116px;
       height: 20px;
-      
-      margin: 3px 10px 10px 50px;
+     
+      margin: 0px 10px 0px 50px;
       font-family:SourceSansPro;
-      font-size: 16px;
+      font-size: 15.4px;
       font-weight: 600;
       font-stretch: normal;
       font-style: normal;

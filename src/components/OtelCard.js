@@ -5,6 +5,7 @@ function OtelCard() {
   return (
     <div className="OtelCard" >
     <h5 className="OtelAd">Concorde Luxury Resort Casino Convention & SPA</h5>
+    <h6 className="UltraHerSeyDahil">Ultra Her Şey Dahil</h6>
   <img className="otelImg" src={otelimage} alt="info"/>
   
   <div className="card-body">

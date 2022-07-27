@@ -1,14 +1,14 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import otelimage from './images/otelImg.png';
-import locationIcon from './images/locationIcon.svg';
+import locationIcon from './images/navbarImages/locationIcon.svg';
 
 function GroupExample() {
     return (
         <CardGroup className='OtelCard'>
             <Card >
                 <Card.Body className='ImageCard'>
-                    <Card.Img className='otelImg' variant="center" src={otelimage} />
+                    <Card.Img className='OtelImg' variant="center" src={otelimage} />
                 </Card.Body>
 
                 {/*

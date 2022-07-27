@@ -11,16 +11,13 @@
   .ImageCard{
     width: 252px;
     height: 305px;
+    image-orientation: from-image;
+    
   }
-  img.otelImg {
-    width: 252px;
-    height: 305px;
-    margin-left: 380px;
-    margin: 0 20px 0 0;
-    padding: 10px 6px 10px 4px;
-    object-fit: contain;
-    border-radius: 2px;
-    border: solid 1px #dedede;
+  .OtelImg {
+    width: 282px;
+    height: 275px;
+   
   }
   .LocationIcon{
     width: 9px;

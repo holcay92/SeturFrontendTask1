@@ -1,20 +1,13 @@
-
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import seturlogo from './NavBarIcons/setur-logo.svg';
 import personicon from './NavBarIcons/icon-person.svg';
-import topBlackShape from './NavBarIcons/topBlackShape.svg';
-import topBlackRectangle from './NavBarIcons/topBlackRectangle.svg';
 
 function NavBar() {
   return (
-
     <div>
-
-      {/*Doesnt fit properly look again */}
-      <div className='col-md-12'>
-        <img
+     {/* <img
           src={topBlackRectangle}
           className="topBlackRectangle"
           alt="some value" />
@@ -22,10 +15,14 @@ function NavBar() {
         <img
           src={topBlackShape}
           className="topBlackShape"
-          alt="some value" />
+          alt="some value" />*/}
+      <div className='Rectangle'>
+        
       </div>
       <Navbar className="col-md-12" bg="light"  >
+        
         <Navbar.Brand className='Setur-logo' href="https://www.setur.com.tr">
+          
           <img
             src={seturlogo}
             className="Setur-logo"

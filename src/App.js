@@ -9,8 +9,6 @@ import GroupExample from './components/GroupExample';
 
 
 
-
-
 function App() {
   
   return (

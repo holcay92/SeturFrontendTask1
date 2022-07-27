@@ -51,7 +51,7 @@ function NavBar() {
             <NavDropdown className='Kampanyalar' title="Kampanyalar">Link</NavDropdown>
 
 
-            <NavDropdown className='uyeOlGirisYap' title="Üye Ol/Giriş Yap" > Üye Ol/Giriş Yap
+            <NavDropdown className='UyeOlGirisYap' title="Üye Ol/Giriş Yap" > Üye Ol/Giriş Yap
               
             </NavDropdown>
             <img

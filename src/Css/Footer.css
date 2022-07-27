@@ -6,11 +6,11 @@
     background-color: var(--dark-grey);
 }
 
-.seturlogofooter {
+.seturfootericon {
     width: 114px;
     height: 37px;
     object-fit: contain;
-    background-color: #fff;
+   
 }
 
 .socialmedia {
@@ -40,3 +40,17 @@
     margin: 4px 0 4px 20px;
     object-fit: contain;
 }
+.Oteller {
+    width: 74px;
+    height: 24px;
+    margin: 0 30px 20px 0;
+    color: rgb(255, 255, 255);
+    font-family: SourceSansPro;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #fff;
+  }

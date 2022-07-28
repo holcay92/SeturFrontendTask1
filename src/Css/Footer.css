@@ -10,6 +10,7 @@
     width: 114px;
     height: 37px;
     object-fit: contain;
+    margin-bottom: 20px;
    
 }
 
@@ -53,4 +54,63 @@
     line-height: 1;
     letter-spacing: normal;
     color: #fff;
+  }
+  .footerSubtitleColor{
+    color: white;
+  }
+  .rightarrowicon {
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 5.9px;
+    object-fit: contain;
+  }
+  .whatsappCard{
+    
+        width: 250px;
+        height: 62px;
+        margin: 0 20px 23px 863px;
+        padding: 12px 25px;
+        border-radius: 2px;
+        background-color: darkgray;   
+  }
+
+  .whatsappicon {
+    width: 30px;
+    height: 30px;
+    margin: 4px 11px 4px 0;
+    object-fit: contain;
+  }
+
+  .Whatsapp {
+    width: 59px;
+    height: 18px;
+    margin: -10px 0 0 11px;
+    font-family: SourceSansPro;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5cc85c;
+  }
+  .WhatsappNumber {
+    width: 103px;
+    height: 20px;
+    
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5cc85c;
+  }
+  .whatsappcardbody{
+    background-image: url("../components/images/footerImages/whatsapp.svg");
+    background-repeat: no-repeat;
+    background-position-x: left ;
+    background-position-y: center;
+   
   }

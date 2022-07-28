@@ -55,7 +55,7 @@
     color: var(--dark-grey);
     
   }
-  .Otel>a::after {
+.Otel>a::after {
     color: #ffff;
 }
 .Tur>a::after {

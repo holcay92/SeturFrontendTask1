@@ -7,6 +7,8 @@ import NavBar from './components/NavBar'
 import UpBanner from './components/UpBanner'
 import GroupExample from './components/GroupExample'
 import Footer from './components/Footer'
+import UpFooter from './components/UpFooter'
+
 
 
 
@@ -21,7 +23,7 @@ function App() {
     <GroupExample></GroupExample>
       
       
-     
+   <UpFooter></UpFooter>
      <Footer></Footer>
     </div>
     

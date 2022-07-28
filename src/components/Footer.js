@@ -54,13 +54,13 @@ function Footer() {
             </section>
 
             <section className=''>
-                <CardGroup>
+                <CardGroup className=''>
                     <Card className='whatsappCard'>
                     <Card.Body className='whatsappCardBody' >
                         <div className='Whatsapp' >
                             <h3 className='Whatsapp'>WhatsApp
-                                <p className='whatsappNumber'>
-                                    0579 804 67 00 </p></h3>
+                                <p className='whatsappNumber'> <a  className='whatsappNumber' href="tel:0549 804 67 00">
+                                0549 804 67 00 </a> </p></h3>
                         </div>
                     </Card.Body>
                 </Card>
@@ -68,20 +68,18 @@ function Footer() {
                     <Card.Body className='callCenterCardBody' >
                         <div className='callCenter' >
                             <h3 className='callCenter'>Çağrı Merkezi
-                                <p className='callCenterNumber'>
-                                    444 28 22 </p></h3>
+                                <p><a  className='callCenterNumber' href="tel:444 28 22">
+                                    444 28 22 </a></p>
+                                    </h3>
+                                    
                         </div>
                     </Card.Body>
                 </Card>
                 </CardGroup>
-                    
-               
-                
-                
 
-                <div className='container text-center text-md-start mt-5'>
+               <div className='container text-center text-md-start mt-5'>
                     <div className='row mt-3'>
-                        <div className='col-md-3 col-lg-4 col-xl-3 mx-auto mb-4'>
+                        <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>
                                 <img className='seturfootericon' src={seturfootericon} alt='' />
                             </h6>
@@ -118,7 +116,7 @@ function Footer() {
                         </div>
 
                         <div className='col-md-2 col-lg-2 col-xl-2 mx-auto mb-4'>
-                            <h6 className='Oteller'>Oteller</h6>
+                            <h6 className='oteller'>Oteller</h6>
                             <p>
                                 <a href='www.setur.com.tr' className='footerSubtitleColor'>
                                     Belek Otelleri
@@ -152,7 +150,7 @@ function Footer() {
                         </div>
 
                         <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
-                            <h6 className='Oteller'>Otel Temaları</h6>
+                            <h6 className='otelTemaları'>Otel Temaları</h6>
                             <p>
                                 <a href='#!' className='footerSubtitleColor'>
                                     Erken Rezervasyon Otelleri
@@ -185,7 +183,7 @@ function Footer() {
                             </p>
                         </div>
                         <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
-                            <h6 className='Oteller'>Turlar</h6>
+                            <h6 className='oteller'>Turlar</h6>
                             <p>
                                 <a href='#!' className='footerSubtitleColor'>
                                     Erken Rezervasyon Otelleri
@@ -218,7 +216,7 @@ function Footer() {
                             </p>
                         </div>
                         <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
-                            <h6 className='Oteller'>Diğer Hizmetlerimiz</h6>
+                            <h6 className='digerHizmetlerimiz'>Diğer Hizmetlerimiz</h6>
                             <p>
                                 <a href='#!' className='footerSubtitleColor'>
                                     Erken Rezervasyon Otelleri
@@ -254,7 +252,7 @@ function Footer() {
 
 
                         <div className='footerSubtitleColor'>
-                            <h6 className='Oteller'>İletişim</h6>
+                            <h6 className='oteller'>İletişim</h6>
                             <p>
                                 <i className='footerSubtitleColor'></i> Istanbul, 34400, Türkiye
                             </p>

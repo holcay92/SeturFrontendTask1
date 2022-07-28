@@ -9,24 +9,27 @@ import GroupExample from './components/GroupExample'
 import Footer from './components/Footer'
 import UpFooter from './components/UpFooter'
 
+import CommercialBanner from './components/CommercialBanner'
+
 
 
 
 
 function App() {
-  
+
   return (
     <div className="App">
-      <NavBar/>
-     {/**/}
-      <UpBanner/>
-    <GroupExample></GroupExample>
-      
-      
-   <UpFooter></UpFooter>
-     <Footer></Footer>
+      <NavBar />
+      {/**/}
+      <UpBanner />
+      <GroupExample></GroupExample>
+
+     <CommercialBanner/>
+
+      <UpFooter></UpFooter>
+      <Footer></Footer>
     </div>
-    
+
   );
 }
 

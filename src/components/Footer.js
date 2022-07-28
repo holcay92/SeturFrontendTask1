@@ -10,7 +10,7 @@ import rightArrow from './images/footerImages/rightarrowicon.svg';
 function Footer() {
     return (
 
-        <MDBFooter backgroundColor='black' className='Footer' style={{ backgroundColor: 'dimgrey' }} >
+        <MDBFooter  className='Footer' style={{ backgroundColor: 'dimgrey' }} >
            
            
             <section className=''>
@@ -38,7 +38,7 @@ function Footer() {
                 </CardGroup>
 
                 <div className='container text-center text-md-start mt-5'>
-                    <div className='row mt-3'>
+                    <div className='d-flex justify-content-left'>
                         <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>
                                 <img className='seturfootericon' src={seturfootericon} alt='' />

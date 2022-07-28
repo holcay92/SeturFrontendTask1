@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import otelimage from './images/otelImg.png';
+import otelimage from './images/navbarImages/otelImg.png';
 import locationIcon from './images/navbarImages/locationIcon.svg';
 
 function GroupExample() {

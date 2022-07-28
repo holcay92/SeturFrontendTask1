@@ -1,6 +1,7 @@
 import React from 'react'
 import { MDBFooter } from 'mdb-react-ui-kit';
 import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 import facebookIcon from './images/footerImages/facebook.svg';
 import InstagramIcon from './images/footerImages/instagram.svg';
 import TwitterIcon from './images/footerImages/twitter.svg';
@@ -12,10 +13,11 @@ import androiddownload from './images/footerImages/androiddownload.png';
 import rightArrow from './images/footerImages/rightarrowicon.svg';
 
 
+
 function Footer() {
     return (
 
-        <MDBFooter backgroundColor='black' className='Footer' style={{ backgroundColor: 'grey' }} >
+        <MDBFooter backgroundColor='black' className='Footer' style={{ backgroundColor: 'dimgrey' }} >
             <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
 
                 <div className='socialmedia' style={{ backgroundColor: 'white' }} >
@@ -52,25 +54,28 @@ function Footer() {
             </section>
 
             <section className=''>
-                
+                <CardGroup>
                     <Card className='whatsappCard'>
-                    <Card.Body className='whatsappcardbody' >
+                    <Card.Body className='whatsappCardBody' >
                         <div className='Whatsapp' >
                             <h3 className='Whatsapp'>WhatsApp
-                                <p className='WhatsappNumber'>
+                                <p className='whatsappNumber'>
                                     0579 804 67 00 </p></h3>
                         </div>
                     </Card.Body>
                 </Card>
-                <Card className='whatsappCard'>
-                    <Card.Body className='whatsappcardbody' >
-                        <div className='Whatsapp' >
-                            <h3 className='Whatsapp'>WhatsApp
-                                <p className='WhatsappNumber'>
-                                    0579 804 67 00 </p></h3>
+                <Card className='callCenterCard'>
+                    <Card.Body className='callCenterCardBody' >
+                        <div className='callCenter' >
+                            <h3 className='callCenter'>Çağrı Merkezi
+                                <p className='callCenterNumber'>
+                                    444 28 22 </p></h3>
                         </div>
                     </Card.Body>
                 </Card>
+                </CardGroup>
+                    
+               
                 
                 
 

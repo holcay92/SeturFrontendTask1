@@ -4,40 +4,41 @@
     padding: 26px 93px 31px 100px;
     background-color: #292a2c;
 }
-.PhoneCallDiv{
-    display:flex;
-     flex-direction:row;
-     
+
+.PhoneCallDiv {
+    display: flex;
+    flex-direction: row;
+
 }
 
-.whatsAppBack{
+.whatsAppBack {
     width: auto;
     height: auto;
     background-image: url("../components/images/footerImages/whatsapp.svg");
     background-repeat: no-repeat;
-    background-position-x: 15% ;
+    background-position-x: 15%;
     background-position-y: center;
-   
-  margin: 0 20px 23px 863px;
-  padding: 12px 25px;
-  border-radius: 2px;
-  background-color: #575757;
+
+    margin: 0 20px 23px 863px;
+    padding: 12px 25px;
+    border-radius: 2px;
+    background-color: #575757;
 }
-.callCenterBack{
+
+.callCenterBack {
     width: auto;
     height: auto;
     background-image: url("../components/images/footerImages/icon-phone.svg");
     background-repeat: no-repeat;
-    background-position-x: 15% ;
+    background-position-x: 15%;
     background-position-y: center;
-   
-  margin: 0 7px 23px 20px;
-  padding: 12px 26px 12px 20px;
-  border-radius: 2px;
-  background-color: #575757;
+    margin: 0 7px 23px 20px;
+    padding: 12px 26px 12px 20px;
+    border-radius: 2px;
+    background-color: #575757;
 }
 
-.whatsAppText{
+.whatsAppText {
     width: 59px;
     height: 18px;
     margin: 0 44px 0 35px;
@@ -50,7 +51,8 @@
     letter-spacing: normal;
     color: #5cc85c;
 }
-.callCenterText{
+
+.callCenterText {
     width: auto;
     height: 18px;
     margin: 0 0 0 35px;
@@ -63,7 +65,8 @@
     letter-spacing: normal;
     color: #fff;
 }
-.whatsAppNumber{
+
+.whatsAppNumber {
     width: 103px;
     height: 20px;
     margin: 18px 0 0 35px;
@@ -76,7 +79,8 @@
     letter-spacing: normal;
     color: #5cc85c;
 }
-.callCenterNumber{
+
+.callCenterNumber {
     width: 66px;
     height: 20px;
     margin: 18px 13px 0 35px;
@@ -94,7 +98,7 @@
     width: 114px;
     height: 37px;
     object-fit: contain;
-    margin-bottom: 20px;
+    margin-top: -22px;
 
 }
 
@@ -155,6 +159,27 @@
     object-fit: contain;
 }
 
+.seturCompanies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.seturdutyfree{
+    width: 128px;
+  height: 20px;
+  margin: 4px 34px 1px 0;
+  object-fit: contain;
+  background-color: #292a2c;
+}
+.seperator{
+    width: auto;
+    height: 3px;
+    margin: 49px 263px 30px;
+    background-color: white;
+}
+
 .footerEnd {
     width: auto;
     height: auto;
@@ -169,6 +194,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #fff;
+    
 }
 
 .footerCopyright {
@@ -195,4 +221,8 @@
     margin: 23px 9.3px 28px 8px;
     object-fit: contain;
 
+}
+.bottomrighticons{
+    justify-content: center;
+    align-items: center;
 }

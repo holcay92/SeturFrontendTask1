@@ -5,7 +5,15 @@ import rightArrow from './images/footerImages/rightarrowicon.svg';
 import koclogo from './images/footerImages/koc.svg';
 import visalogo from './images/footerImages/visa.png';
 import tursablogo from './images/footerImages/tursab.svg';
-
+//company logos
+import seturDutyFree from './images/footerImages/seturCompanies/seturdutyfree.png'
+import seturday from './images/footerImages/seturCompanies/seturday-logo.png'
+import seturSelect from './images/footerImages/seturCompanies/seturselect.png'
+import seturBiz from './images/footerImages/seturCompanies/seturbiz.png'
+import seturMice from './images/footerImages/seturCompanies/seturmice.png'
+import sedventure from './images/footerImages/seturCompanies/sedadventure.png'
+import seturCruise from './images/footerImages/seturCompanies/seturcruise.png'
+import seturAcademia from './images/footerImages/seturCompanies/seturacademia.png'
 
 function Footer() {
     return (
@@ -14,27 +22,24 @@ function Footer() {
 
 
             <section >
-               <div className="PhoneCallDiv">
-               <div className='whatsAppBack'>
-                            <p className='whatsAppText'><i></i> Whatsapp</p>
-                            <p ><a className='whatsAppNumber' href='0 546 786 68 00'>0546 786 68 00</a> </p>
-                        </div>
+                <div className="PhoneCallDiv">
+                    <div className='whatsAppBack'>
+                        <p className='whatsAppText'><i></i> Whatsapp</p>
+                        <p ><a className='whatsAppNumber' href="tel:0-546-786-68-00">0546 786 68 00</a> </p>
                         
-                            <div className='callCenterBack'>
-                                <p className='callCenterText'><i></i> Çağrı Merkezi</p>
-                                <p ><a className='callCenterNumber' href='444 28 22'>444 28 22</a> </p>
-                            </div>
-               </div>
                        
-                        
-                
+                    </div>
 
-
+                    <div className='callCenterBack'>
+                        <p className='callCenterText'><i></i> Çağrı Merkezi</p>
+                        <p ><a className='callCenterNumber' href='tel:444 28 22'>444 28 22</a> </p>
+                    </div>
+                </div>
 
 
                 <div className='container text-center text-md-start mt-5'>
-                    <div className='d-flex justify-content-left'>
-                        <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
+                    <div className='d-flex justify-content-center'>
+                        <div className='col-md-6 col-lg-2 col-xl-2 mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>
                                 <img className='seturfootericon' src={seturfootericon} alt='' />
                             </h6>
@@ -80,7 +85,7 @@ function Footer() {
                             </p>
                         </div>
 
-                        <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
+                        <div className='col-md-4 col-lg-2 col-xl-2 mx-auto mb-4'>
                             <h6 className='otelTemaları'>Otel Temaları</h6>
                             <p>
                                 <a href='#!' className='footerSubtitleColor'>Erken Rezervasyon Otelleri</a>
@@ -91,7 +96,7 @@ function Footer() {
                             <p>
                                 <a href='#!' className='footerSubtitleColor'>Balayı Otelleri</a>
                             </p>
-                            <p>
+                            <p >
                                 <a href='#!' className='footerSubtitleColor'>Son Dakika Tatil Fırsatları</a>
                             </p>
                             <p>
@@ -166,6 +171,20 @@ function Footer() {
                     </div>
                 </div>
             </section>
+
+            <div className='seturCompanies'>
+                <img className='seturdutyfree' src={seturDutyFree} alt='' />
+                <img className='seturdutyfree' src={seturday} alt='' />
+                <img className='seturdutyfree' src={seturBiz} alt='' />
+                <img className='seturdutyfree' src={seturMice} alt='' />
+                <img className='seturdutyfree' src={sedventure} alt='' />
+                <img className='seturdutyfree' src={seturSelect} alt='' />
+                <img className='seturdutyfree' src={seturCruise} alt='' />
+                <img className='seturdutyfree' src={seturAcademia} alt='' />
+            </div>
+
+            <hr className='seperator'></hr>
+
             <div className='footerEnd'>
                 <p>Belirtilen fiyatlar T.C. ve K.K.T.C. vatandaşları için geçerlidir. Yabancı uyruklu misafirlere uygulanacak fiyatlarımız çağrı merkezimizden öğrenebilirsiniz.</p>
                 <p>Mentioned prices are valid for Turkish and Cyprus citizens only. Please contact our call center for special fares for foreign nationals. </p>
@@ -181,7 +200,7 @@ function Footer() {
                 {"© Copyright 2000-2022  "}
 
             </div>
-            <div className='align-items-end'>
+            <div className='bottomrighticons'>
                 <img className='tursablogo' src={tursablogo} alt=' '></img>
                 <img className='visalogo' src={visalogo} alt=' '></img>
             </div>

@@ -6,7 +6,6 @@ import './Css/FooterUp.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBar from './components/NavBar'
 import CarouselUp from './components/CarouselUp'
-import GroupExample from './components/GroupExample'
 import Footer from './components/Footer'
 import UpFooter from './components/UpFooter'
 

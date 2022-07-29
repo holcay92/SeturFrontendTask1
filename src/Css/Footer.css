@@ -1,13 +1,93 @@
 .Footer {
     width: auto;
-    height: 811px;
-    ;
+    height: auto;
     padding: 26px 93px 31px 100px;
-    background-color: rgb(39, 39, 39);
+    background-color: #292a2c;
+}
+.PhoneCallDiv{
+    display:flex;
+     flex-direction:row;
+     
 }
 
-.mainsection {
-    width: 1440px;
+.whatsAppBack{
+    width: auto;
+    height: auto;
+    background-image: url("../components/images/footerImages/whatsapp.svg");
+    background-repeat: no-repeat;
+    background-position-x: 15% ;
+    background-position-y: center;
+   
+  margin: 0 20px 23px 863px;
+  padding: 12px 25px;
+  border-radius: 2px;
+  background-color: #575757;
+}
+.callCenterBack{
+    width: auto;
+    height: auto;
+    background-image: url("../components/images/footerImages/icon-phone.svg");
+    background-repeat: no-repeat;
+    background-position-x: 15% ;
+    background-position-y: center;
+   
+  margin: 0 7px 23px 20px;
+  padding: 12px 26px 12px 20px;
+  border-radius: 2px;
+  background-color: #575757;
+}
+
+.whatsAppText{
+    width: 59px;
+    height: 18px;
+    margin: 0 44px 0 35px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5cc85c;
+}
+.callCenterText{
+    width: auto;
+    height: 18px;
+    margin: 0 0 0 35px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+}
+.whatsAppNumber{
+    width: 103px;
+    height: 20px;
+    margin: 18px 0 0 35px;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5cc85c;
+}
+.callCenterNumber{
+    width: 66px;
+    height: 20px;
+    margin: 18px 13px 0 35px;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
 }
 
 .seturfootericon {
@@ -16,146 +96,6 @@
     object-fit: contain;
     margin-bottom: 20px;
 
-}
-
-.socialmedia {
-    width: auto;
-    height: 90px;
-
-    background-color: rgb(218, 218, 218);
-
-}
-
-.facebookicon {
-    width: 50px;
-    height: 50px;
-    margin: 0 15px 0 0;
-    object-fit: contain;
-}
-
-.appledownload {
-    width: 156px;
-    height: 42px;
-
-    object-fit: contain;
-}
-
-.appleLogoMargin {
-    margin-left: 440px;
-}
-
-.androiddownload {
-    width: 156px;
-    height: 42px;
-
-    
-    object-fit: contain;
-}
-
-.androidLogoMargin {
-    margin-left: 33px;
-}
-
-
-.CardGroup {
-    width: 30px;
-}
-
-.whatsappCard {
-    width: 0px;
-    height: 62px;
-    margin: 0 20px 23px 863px;
-    padding: 12px 25px;
-    border-radius: 2px;
-    background-color: darkgray;
-}
-
-.callCenterCard {
-    width: 250px;
-    height: 62px;
-    margin: 0 20px 23px 863px;
-    padding: 12px 25px;
-    border-radius: 2px;
-    background-color: darkgray;
-}
-
-.Whatsapp {
-    width: 62px;
-    height: 18px;
-    margin: 0px 0 0 11px;
-    font-family: SourceSansPro;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #5cc85c;
-}
-
-.callCenter {
-    width: 85px;
-    height: 18px;
-    margin: 0 0 0 10px;
-    font-family: SourceSansPro;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #fff;
-}
-
-.whatsappNumber {
-    width: 100px;
-    height: 20px;
-    font-family: SourceSansPro;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #5cc85c;
-}
-
-.callCenterNumber {
-    width: 66px;
-    height: 20px;
-    font-family: SourceSansPro;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #fff;
-}
-
-.whatsappCardBody {
-    width: 140px;
-    height: 62px;
-    position: relative;
-    background-image: url("../components/images/footerImages/whatsapp.svg");
-    background-color: dimgrey;
-    background-repeat: no-repeat;
-    background-position-x: left;
-    background-position-y: center;
-
-}
-
-
-.callCenterCardBody {
-
-    background-image: url("../components/images/footerImages/icon-phone.svg");
-    background-repeat: no-repeat;
-    background-position-x: left;
-    background-position-y: center;
-    background-color: dimgrey;
-    background-repeat: no-repeat;
-    background-position-x: left;
-    background-position-y: center;
 }
 
 .oteller {
@@ -213,4 +153,46 @@
     height: 20px;
     margin: 0 0 0 5.9px;
     object-fit: contain;
+}
+
+.footerEnd {
+    width: auto;
+    height: auto;
+    margin: 30px 35px 0;
+    opacity: 0.8;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.footerCopyright {
+    color: white;
+}
+
+.koclogo {
+    width: 99px;
+    height: 30px;
+    margin: 0 20px 0 0;
+    object-fit: contain;
+}
+
+.visalogo {
+    width: 88.7px;
+    height: 31px;
+    margin: 23px 16px 26px 9.3px;
+    object-fit: contain;
+}
+
+.tursablogo {
+    width: 75px;
+    height: 29px;
+    margin: 23px 9.3px 28px 8px;
+    object-fit: contain;
+
 }

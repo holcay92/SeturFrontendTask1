@@ -1,0 +1,36 @@
+.socialmedia {
+    width: auto;
+    height: 190px;
+
+    background-color: rgb(218, 218, 218);
+
+}
+
+.facebookicon {
+    width: 50px;
+    height: 50px;
+    margin: 15px 15px 15px 15px;
+    object-fit: contain;
+}
+
+.appledownload {
+    width: 156px;
+    height: 42px;
+    margin: 15px 15px 15px 15px;
+    object-fit: contain;
+}
+
+.appleLogoMargin {
+    margin-left: 440px;
+}
+
+.androiddownload {
+    width: 156px;
+    height: 42px;
+    margin: 15px 15px 15px 15px;
+    object-fit: contain;
+}
+
+.androidLogoMargin {
+    margin-left: 33px;
+}

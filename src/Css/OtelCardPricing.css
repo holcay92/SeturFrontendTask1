@@ -1,24 +1,135 @@
 .verticalDivider {
     border-right: 1px dashed #333;
 }
-
 .pricing {
     width: auto;
     height: auto;
     margin-left: 60px;
 }
-
+.priceTag{
+    width: 151px;
+    height: 120px;
+    margin: 3px 1px 2px 34px;
+    padding: 0 0 0 35px;
+}
+.onbesIndirim {
+    width: 129px;
+    height: 32px;
+    margin: 0 0 2px 20px;
+    text-align: center;
+    opacity: 0.9;
+    border-radius: 2px;
+    border: solid 0.5px #2fbd14;
+    background-color: #e0f7dc;
+}
+.onbesIndirimText {
+    width: 80px;
+    height: 15px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2fbd14;
+}
+.euroPrice{
+    width: 96px;
+    height: 20px;
+    margin: 2px 0 -5px 55px;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: right;
+    color: var(--dark-grey);
+}
+.trPrice{
+    width: 87px;
+    height: 45px;
+    margin: 0px 3px 8px 30px;
+    font-family: SourceSansPro;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: var(--dark-grey);
+}
+.trFiyatKusurat{
+    width: 16px;
+  height: 15px;
+  margin: 1px 0 0 3px;
+  font-family: SourceSansPro;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--dark-grey);
+}
+.trKur{
+    width: 13px;
+    height: 15px;
+    margin: 16px 0 5px 6px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--dark-grey);
+}
+.denBaslayanFiyat{
+    width: 116px;
+  height: 15px;
+  margin: 5px 0 0;
+  opacity: 0.75;
+  font-family: SourceSansPro;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: var(--dark-grey);
+}
+.ikiYetiskinUcGece{
+    width: 86px;
+  height: 15px;
+  margin: 105px 0 0 30px;
+  opacity: 0.75;
+  font-family: SourceSansPro;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: var(--dark-grey);
+}
 .OteliSecButton {
     width: 155px;
     height: 40px;
     padding: 11px 34px;
     border-radius: 3px;
-    margin-top: 110px;
+    margin-top: 60px;
+    margin-left: 60px;
     border-color: #ffff;
     box-shadow: 0 10px 30px 0 #e2231b;
     background-color: #e2231b;
 }
-
 .OteliSec {
     width: auto;
     height: auto;
@@ -34,7 +145,6 @@
     color: #fff;
 
 }
-
 .worldCardRectangle {
     width: auto;
     height: 47px;
@@ -45,14 +155,12 @@
     border: solid 0.5px #682a7a;
     background-color: #fff;
 }
-
 .worldCardLogo {
     width: auto;
     height: 12px;
     margin: 2px 4px 2px 0;
     object-fit: contain;
 }
-
 .worldCardTextOzel {
     width: auto;
     height: 18px;
@@ -66,11 +174,10 @@
     letter-spacing: normal;
     color: #682a7a;
 }
-
 .worldCardText12Taksit {
     width: 90px;
     height: 18px;
-    margin: 2px 29px 0 0;
+    margin: 2px 59px 0 0;
     font-family: SourceSansPro;
     font-size: 14px;
     font-weight: normal;
@@ -80,35 +187,31 @@
     letter-spacing: normal;
     color: #682a7a;
 }
-
-.ucretsizIptal {
-    width: 91px;
-    height: 22px;
+.ucretsizIptalRectangle {
+    width: auto;
+    height: auto;
     margin: 6px 1px 3px 94px;
     padding: 4px 4px 3px;
     border-radius: 2px;
     background-color: rgba(4, 169, 133, 0.1);
 }
-.onbesIndirim{
-    width: 109px;
-  height: 32px;
-  margin: 0 0 2px 7px;
-  padding: 8px 19px 9px 20px;
-  opacity: 0.9;
-  border-radius: 2px;
-  border: solid 0.5px #2fbd14;
-  background-color: #e0f7dc;
-}
-.onbesIndirimText{
-    width: 70px;
+.ucretsizIptal {
+    width: auto;
     height: 15px;
+    margin: 0 4px 0 0;
     font-family: SourceSansPro;
     font-size: 12px;
-    font-weight: 900;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: center;
-    color: #2fbd14;
+    color: #04a985;
 }
+.infoIcon {
+    width: 14px;
+    height: 14px;
+    margin: 0 0 1px 4px;
+    object-fit: contain;
+}
+

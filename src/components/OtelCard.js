@@ -6,6 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import locationIcon from './images/navbarImages/locationIcon.svg';
 import worldCardLogo from './images/otelCardIcons/world-card-logo.svg';
 import infoIcon from './images/otelCardIcons/icon-info.svg';
+import hopiLogo from './images/otelCardIcons/hopi-logo.svg';
 
 function OtelCard() {
   return (
@@ -13,24 +14,24 @@ function OtelCard() {
       <div className="card mb-3" >
         <div className="row g-0">
           <div className="col-md-4">
-            {/*carousel images section */}
-            
-              <Carousel className='ImageCard' >
-                <Carousel.Item className='Carousel.Item'>
-                  <img className=' w-100' src={a1} alt="First slide" />
-                </Carousel.Item>
-                <Carousel.Item className='Carousel.Item'>
-                  <img className="d-block w-100" src={a2} alt="Second slide" />
-                </Carousel.Item >
-                <Carousel.Item className='Carousel.Item'>
-                  <img className="d-block w-100" src={a3} alt="Third slide" />
-                </Carousel.Item>
+            {/*carousel images section start */}
 
-              </Carousel>
-            
-            {/*carousel images section */}
+            <Carousel className='ImageCard' >
+              <Carousel.Item className='Carousel.Item'>
+                <img className=' w-100' src={a1} alt="First slide" />
+              </Carousel.Item>
+              <Carousel.Item className='Carousel.Item'>
+                <img className="d-block w-100" src={a2} alt="Second slide" />
+              </Carousel.Item >
+              <Carousel.Item className='Carousel.Item'>
+                <img className="d-block w-100" src={a3} alt="Third slide" />
+              </Carousel.Item>
 
-            {/*hotel name and information section */}
+            </Carousel>
+
+            {/*carousel images section end */}
+
+            {/*hotel name and information section start */}
           </div>
           <div className="col-md-4">
             <div className="card-body">
@@ -65,12 +66,16 @@ function OtelCard() {
                     +12</i>
                 </p>
               </div>
+              <div className='hopiRectangle'>              
+                  <img className='hopiLogo' src={hopiLogo} alt='' />
+                  <i className='hopiText'>Hopi'ye özel 1500 paracık hediye!</i>                 
+              </div>
             </div>
           </div>
 
-          {/*hotel name and information section */}
+          {/*hotel name and information section end */}
 
-          {/*price and select button information section */}
+          {/*price and select button information section start */}
           <div className="col-md-4">
             <div className='pricing'>
               <div className="card-body">
@@ -79,21 +84,23 @@ function OtelCard() {
                   <i className='worldCardTextOzel'>'e özel</i>
                   <p className='worldCardText12Taksit'> 12 taksit fırsatı</p>
                 </div>
-                <div>
-                  <i className=''> Ücretsiz iptal</i>
-                  <img className=' ' src={infoIcon} alt='' ></img>
+                <div className='ucretsizIptalRectangle'>
+                  <p className='ucretsizIptal'> Ücretsiz iptal <img className='infoIcon ' src={infoIcon} alt='' ></img></p>
                 </div>
-                <div className='onbesIndirim'>
-                  <i className='onbesIndirimText'> %15 İNDİRİM</i>
-
+                <div className='priceTag'>
+                  <div className='onbesIndirim'><p className='onbesIndirimText'>%15 İNDİRİM</p></div>
+                  <div className='euroPrice'> 132,72 EUR</div>
+                  <div className='trPrice'>1.867</div>
+                  <div className='trFiyatKusurat' > ,98</div>
+                  <div className='trKur'> TL</div>
+                  <p className="denBaslayanFiyat">'den başlayan fiyatlarla</p>
+                  <p className="ikiYetiskinUcGece">2 yetişkin 3 gece</p>
                 </div>
-                <p className="card-text">price info</p>
-                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 <button className="OteliSecButton" > <p className="OteliSec">Oteli Seç</p> </button>
               </div>
             </div>
           </div>
-          {/*price and select button information section */}
+          {/*price and select button information section end */}
         </div>
       </div>
     </div>

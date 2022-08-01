@@ -7,8 +7,8 @@ import phoneIcon from './NavBarIcons/phoneIcon.svg';
 
 function NavBar() {
   return (
-    <div>
-      <Navbar className="col-md-12" bg="light"  >
+    <div >
+      <Navbar className="halil" bg="light"  >
         <div className='navBarhorizontal'>
           <div className='navBarhorizontal'>
             <Navbar.Brand className='Setur-logo' href="https://www.setur.com.tr">

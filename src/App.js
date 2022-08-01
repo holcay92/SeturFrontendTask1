@@ -11,20 +11,20 @@ import UpFooter from './components/UpFooter'
 
 import CommercialBanner from './components/CommercialBanner'
 import OtelCard from './components/OtelCard'
-
-
-
-
+import TestOtelCard from './components/TestOtelCard'
 
 function App() {
 
   return (
     <div className="App">
       <NavBar />
-      {/*<GroupExample/>*/}
+      {/*<GroupExample/>
+      
+      */}
       <CarouselUp />
       <OtelCard />
       <CommercialBanner />
+      <TestOtelCard/>
       <UpFooter />
       <Footer />
     </div>

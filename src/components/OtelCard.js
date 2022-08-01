@@ -7,6 +7,8 @@ import locationIcon from './images/navbarImages/locationIcon.svg';
 import worldCardLogo from './images/otelCardIcons/world-card-logo.svg';
 import infoIcon from './images/otelCardIcons/icon-info.svg';
 import hopiLogo from './images/otelCardIcons/hopi-logo.svg';
+import infoIconGrey from './images/otelCardIcons/icon-info-grey.svg';
+
 
 function OtelCard() {
   return (
@@ -66,10 +68,12 @@ function OtelCard() {
                     +12</i>
                 </p>
               </div>
-              <div className='hopiRectangle'>              
-                  <img className='hopiLogo' src={hopiLogo} alt='' />
-                  <i className='hopiText'>Hopi'ye özel 1500 paracık hediye!</i>                 
+              <div className='hopiRectangle'>
+                <img className='hopiLogo' src={hopiLogo} alt='' />
+                <i className='hopiText'>Hopi'ye özel 1500 paracık hediye!</i>
+                
               </div>
+
             </div>
           </div>
 
@@ -88,13 +92,24 @@ function OtelCard() {
                   <p className='ucretsizIptal'> Ücretsiz iptal <img className='infoIcon ' src={infoIcon} alt='' ></img></p>
                 </div>
                 <div className='priceTag'>
-                  <div className='onbesIndirim'><p className='onbesIndirimText'>%15 İNDİRİM</p></div>
+                  <div className='onbesIndirim'><i className='onbesIndirimText'>%15 İNDİRİM</i></div>
                   <div className='euroPrice'> 132,72 EUR</div>
-                  <div className='trPrice'>1.867</div>
-                  <div className='trFiyatKusurat' > ,98</div>
-                  <div className='trKur'> TL</div>
+
+                  <div className='rowC' >
+                    <i className='trPrice'>1.867 </i>
+                    <div><p className='trFiyatKusurat' > ,98</p>
+                      <p className='trKur' > TL</p>
+                    </div>
+                  </div>
+
+
                   <p className="denBaslayanFiyat">'den başlayan fiyatlarla</p>
                   <p className="ikiYetiskinUcGece">2 yetişkin 3 gece</p>
+                  <div className='ucretDetaylariRectangle'>
+                  <img className='infoIconGrey' src={infoIconGrey} alt='' />
+                  <i className='ucretDetaylari' > Ücret Detayları</i>
+                  </div>
+                 
                 </div>
                 <button className="OteliSecButton" > <p className="OteliSec">Oteli Seç</p> </button>
               </div>

@@ -34,15 +34,15 @@ function NavBar() {
                 <img src={personicon} className="iconperson" alt="some value" />
               </Nav>
             </Navbar.Collapse>
-            <p className='navBarhorizontalInBlack'>
+            <div className='navBarhorizontalInBlack'>
               <img className='phoneIcon' src={phoneIcon} alt='' />
               <i className='phoneNumber'>444 28 22</i>
               <i className='yetkiliAcenteler'>Yetkili Acentalar</i>
-              <p className='seturServisTuristikAS'>
+              <div className='seturServisTuristikAS'>
                 <i>Setur Servis Turistik A.Ş.</i>
                 <p>Belge No: 728</p>
-              </p>
-            </p>
+              </div>
+            </div>
 
           </div>
 

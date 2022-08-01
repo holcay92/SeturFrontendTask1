@@ -17,21 +17,24 @@
 }
 
 .OtelImg {
-  width: 282px;
-  height: 275px;
+  width: auto;
+  height: auto;
 
 }
-.cardBodyLocationAndGuestRate{
+
+.cardBodyLocationAndGuestRate {
   display: flex;
   flex-direction: end;
   width: auto;
   height: auto;
 }
-.mukemmelMisafir{
+
+.mukemmelMisafir {
   text-align: right;
   margin-left: 95px;
 }
-.mukemmel{
+
+.mukemmel {
   width: auto;
   height: 15px;
   margin: 0 0 2px 23px;
@@ -46,7 +49,8 @@
   color: #000;
 
 }
-.misafirYorumu{
+
+.misafirYorumu {
   width: 81px;
   height: 13px;
   margin: 2px 0 0;
@@ -61,14 +65,15 @@
   color: #000;
 }
 
-.yellowBack{
+.yellowBack {
   width: 22px;
   height: 30px;
   margin: 0 0 0 5px;
   border-radius: 2px;
   background-color: #f7b500;
 }
-.textInYellow{
+
+.textInYellow {
   width: 22px;
   height: 30px;
   margin: 0 0 0 5px;
@@ -212,7 +217,8 @@
   background-color: #f7f7f7;
 
 }
-.extrafeaturestext{
+
+.extrafeaturestext {
   width: 22px;
   height: 18px;
   font-family: SourceSansPro;
@@ -226,10 +232,7 @@
   color: #1b75e2;
 }
 
-.pricing{
-  margin-left: 50px;
-}
-.SeturOneriyor{
+.SeturOneriyor {
   width: 135px;
   height: 30px;
   margin: 92px 22px 0 6px;
@@ -237,7 +240,8 @@
   border-radius: 4px;
   background-color: #fff;
 }
-.SeturOneriyorText{
+
+.SeturOneriyorText {
   width: auto;
   height: 18px;
   margin: 1px 0 1px 5px;
@@ -250,9 +254,11 @@
   letter-spacing: normal;
   color: #000;
 }
-.checkMark{
+
+.checkMark {
   width: 20px;
   height: 20px;
   margin: 0 5px 0 0;
   object-fit: contain;
 }
+

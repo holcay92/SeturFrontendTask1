@@ -17,13 +17,13 @@ function TestOtelCard() {
               <Carousel className='ImageCard' >
                 <Carousel.Item className='Carousel.Item'>
                   <img className=' w-100' src={a1} alt="First slide" />
-                  <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-                    <h4 class="card-title">Setur Software Department</h4>
-                    <h6 class="card-subtitle mb-2">Ümraniye-İstanbul</h6>
-                    <p class="card-text">Setur Ar-ge </p>
-                    <div class="link d-flex">
-                      <a href="www.setur.com.tr" class="card-link text-warning">More Info</a>
-                      <a href="www.setur.com.tr" class="card-link text-warning">Save as Favourite</a>
+                  <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
+                    <h4 className="card-title">Setur Software Department</h4>
+                    <h6 className="card-subtitle mb-2">Ümraniye-İstanbul</h6>
+                    <p className="card-text">Setur Ar-ge </p>
+                    <div className="link d-flex">
+                      <a href="www.setur.com.tr" className="card-link text-warning">More Info</a>
+                      <a href="www.setur.com.tr" className="card-link text-warning">Save as Favourite</a>
                     </div>
                     <p className='SeturOneriyor'>
                       <img className='checkMark' src={checkMark} alt='' ></img>
@@ -34,13 +34,13 @@ function TestOtelCard() {
                 </Carousel.Item>
                 <Carousel.Item className='Carousel.Item'>
                   <img className="d-block w-100" src={a2} alt="Second slide" />
-                  <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-                    <h4 class="card-title">Setur Software Department</h4>
-                    <h6 class="card-subtitle mb-2">Ümraniye-İstanbul</h6>
-                    <p class="card-text">Setur Ar-ge </p>
-                    <div class="link d-flex">
-                      <a href="www.setur.com.tr" class="card-link text-warning">More Info</a>
-                      <a href="www.setur.com.tr" class="card-link text-warning">Save as Favourite</a>
+                  <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
+                    <h4 className="card-title">Setur Software Department</h4>
+                    <h6 className="card-subtitle mb-2">Ümraniye-İstanbul</h6>
+                    <p className="card-text">Setur Ar-ge </p>
+                    <div className="link d-flex">
+                      <a href="www.setur.com.tr" className="card-link text-warning">More Info</a>
+                      <a href="www.setur.com.tr" className="card-link text-warning">Save as Favourite</a>
                     </div>
                     <p className='SeturOneriyor'>
                       <img className='checkMark' src={checkMark} alt='' ></img>
@@ -50,13 +50,13 @@ function TestOtelCard() {
                 </Carousel.Item >
                 <Carousel.Item className='Carousel.Item'>
                   <img className="d-block w-100" src={a3} alt="Third slide" />
-                  <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-                    <h4 class="card-title">Setur Software Department</h4>
-                    <h6 class="card-subtitle mb-2">Ümraniye-İstanbul</h6>
-                    <p class="card-text">Setur Ar-ge </p>
-                    <div class="link d-flex">
-                      <a href="www.setur.com.tr" class="card-link text-warning">More Info</a>
-                      <a href="www.setur.com.tr" class="card-link text-warning">Save as Favourite</a>
+                  <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
+                    <h4 className="card-title">Setur Software Department</h4>
+                    <h6 className="card-subtitle mb-2">Ümraniye-İstanbul</h6>
+                    <p className="card-text">Setur Ar-ge </p>
+                    <div className="link d-flex">
+                      <a href="www.setur.com.tr" className="card-link text-warning">More Info</a>
+                      <a href="www.setur.com.tr" className="card-link text-warning">Save as Favourite</a>
                     </div>
                     <p className='SeturOneriyor'>
                       <img className='checkMark' src={checkMark} alt='' ></img>

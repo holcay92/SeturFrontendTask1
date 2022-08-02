@@ -124,7 +124,7 @@
 .ikiYetiskinUcGece {
     width: 86px;
     height: 15px;
-    margin: 2px 0 0 65px;
+    margin: 3px 0 0 65px;
     opacity: 0.75;
     font-family: SourceSansPro;
     font-size: 12px;
@@ -142,7 +142,7 @@
     height: 40px;
     padding: 11px 34px;
     border-radius: 3px;
-    margin-top: 60px;
+    margin-top:30px;
     margin-left: 60px;
     border-color: #ffff;
     box-shadow: 0 10px 30px 0 #e2231b;
@@ -152,7 +152,6 @@
 .OteliSec {
     width: auto;
     height: auto;
-    margin-bottom: 0 0 20px 0;
     font-family: SourceSansPro;
     font-size: 14px;
     font-weight: bold;
@@ -243,14 +242,15 @@
 
 .ucretDetaylariRectangle{
     width: auto;
-    margin-left: 60px;
+   margin-right: -50px;
+   margin-top: 4px;
     display:flex; flex-direction:row;
     text-align: right;
 }
 .infoIconGrey{
     width: 12px;
     height: 12px;
-    margin: 0 -0px 1px 0;
+    margin: 0 -0px 1px 65px;
     object-fit: contain;
 }
 .ucretDetaylari{

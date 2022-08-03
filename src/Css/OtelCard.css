@@ -23,10 +23,32 @@
 }
 
 .cardBodyLocationAndGuestRate {
+  margin-top: 10px;
   display: flex;
   flex-direction: end;
   width: auto;
   height: auto;
+}
+.LocationIcon {
+  width: 16px;
+  height: 16px;
+  margin: 2px 4px 0 10px;
+  object-fit: contain;
+}
+
+.OtelLokasyon {
+  width: auto;
+  height: 18px;
+  margin: 0 140px 0 4px;
+  opacity: 0.6;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
 }
 
 .mukemmelMisafir {
@@ -53,7 +75,7 @@
 .misafirYorumu {
   width: 81px;
   height: 13px;
-  margin: 2px 0 0;
+  margin: 2px 0 0 ;
   font-family: SourceSansPro;
   font-size: 10px;
   font-weight: normal;
@@ -88,12 +110,6 @@
   color: #fff;
 }
 
-.LocationIcon {
-  width: auto;
-  height: 16px;
-  margin: 2px 4px 0 0;
-  object-fit: contain;
-}
 
 .OtelAd {
  
@@ -110,24 +126,10 @@
   color: var(--dark-grey);
 }
 
-.OtelLokasyon {
-  width: auto;
-  height: 18px;
-  margin: 0 0 0 4px;
-  opacity: 0.6;
-  font-family: SourceSansPro;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #000;
 
-}
 
 .UltraHerSeyDahil {
-  width: 120px;
+  width: auto;
   height: 18px;
   margin: 5px 75px 15px 20px;
   font-family: SourceSansPro;
@@ -145,18 +147,29 @@
   height: 6px;
   margin: 15px 82px 15px 20px;
   border-radius: 5px;
-  background-color: var(--coral);
+  background-color: #fa5851;
+}
+
+.balayiYetiskinCocuk{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content:wrap;
 }
 
 .havuzSpaPlaj {
-  width: 400px;
-  margin-left: -60px;
-  margin-top: 40px;
+  width: 108px;
+  height: 36px;
+  margin: 39px 10px 16px 20px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #f7f7f7;
   display: flex;
   flex-direction: row;
 }
 
 .acikHavuzRectangle {
+  
   width: 108px;
   height: 36px;
   padding: 8px;
@@ -172,7 +185,7 @@
 .acıkHavuz {
   width: 64px;
   height: 18px;
-  margin: 1px 0 1px 22px;
+  margin: 1px 0 1px 18px;
   font-family: SourceSansPro;
   font-size: 14px;
   font-weight: normal;
@@ -186,7 +199,7 @@
 .spaRectangle {
   width: 67px;
   height: 36px;
-  margin-left: 15px;
+  margin: 39px 10px 16px 7px;
   padding: 8px;
   border-radius: 4px;
   background-color: #f7f7f7;
@@ -199,7 +212,7 @@
 .plajRectangle {
   width: 74px;
   height: 36px;
-  margin-left: 15px;
+  margin: 39px 10px 16px;
   padding: 8px;
   border-radius: 4px;
   background-color: #f7f7f7;
@@ -212,7 +225,7 @@
 .extrafeatures {
   width: 38px;
   height: 36px;
-  margin-left: 15px;
+  margin: 39px 47px 16px 0;
   padding: 9px 8px;
   border-radius: 4px;
   background-color: #f7f7f7;
@@ -264,13 +277,14 @@
 }
 
 .hopiDiv {
-  width: auto;
+  width: 238px;
   height: 36px;
-  margin: 14px -20px 20px -60px;
+  margin: 14px 10px 20px 20px;
   padding: 8px;
   border-radius: 2px;
   border: solid 1px #dedede;
   background-color: #fff;
+
 }
 
 .hopiText {
@@ -295,10 +309,9 @@
 }
 
 .hopiEkstra {
-  width: auto;
+  width: 31px;
   height: 36px;
-  margin-top: 14px;
-  margin-left: -20px;
+  margin: 14px 0 20px 10px;
   padding: 9px 8px;
   border-radius: 2px;
   border: solid 1px #dedede;
@@ -317,7 +330,7 @@
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: var(--clear-blue)
+  color: var(--clear-blue);
 }
 
 .hopiRectangle {

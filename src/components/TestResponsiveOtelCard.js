@@ -16,6 +16,14 @@ function TestResponsiveOtelCard() {
         <div>
             <div className="container mt-5 mb-5">
                 <div className="d-flex justify-content-center row">
+                <div className="col-md-3">
+        filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
+        filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
+        filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
+        filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
+       
+
+                </div>
                     <div className="col-md-9">
                         <div className="row p-1 bg-white border rounded">
                             <div className="col-md-3">
@@ -83,11 +91,15 @@ function TestResponsiveOtelCard() {
                                     <p className='yellowBack'> <i className='textInYellow'>6.0</i></p>
                                 </div>
                                 <h5 className="OtelAd">Concorde Luxury Resort Casino Convention & SPA</h5>
-                                <p className="UltraHerSeyDahil">Ultra Her Şey Dahil</p>
+                                <div className="UltraHerSeyDahil">Ultra Her Şey Dahil</div>
                                 <hr className='bidik'></hr>
-                                <p className="UltraHerSeyDahil"><small className="text-muted">· Balayı Oteli </small>
+                                {/* features division start */}
+                                <div className="balayiYetiskinCocuk"><small className="text-muted">· Balayı Oteli </small>
                                     <small className="text-muted">· Yetişkin Oteli </small>
-                                    <small className="text-muted">· Çocuk Dostu </small></p>
+                                    <small className="text-muted">· Çocuk Dostu </small>
+                                </div>
+                                {/* features division end */}
+                                {/* extra features division start */}
                                 <div className='havuzSpaPlaj'>
                                     <p className='acikHavuzRectangle'>
                                         <i className='acıkHavuz'>Açık Havuz</i>
@@ -103,29 +115,56 @@ function TestResponsiveOtelCard() {
                                             +12</i>
                                     </p>
                                 </div>
-                                <div className='hopiRectangle'>
-                                    <div className='hopiDiv'>
-                                        <img className='hopiLogo' src={hopiLogo} alt='' />
-                                        <i className='hopiText'>Hopi'ye özel 1500 paracık hediye!</i>
-                                    </div>
-                                    <p className='hopiEkstra'>
-                                        <i className='hopiEkstraSayi'>+2</i></p>
-                                </div>
+                                {/* extra features division end */}
+                                {/* hopi division start */}
                                 <div className="d-flex flex-row">
-
+                                    <div className='hopiRectangle'>
+                                        <div className='hopiDiv'>
+                                            <img className='hopiLogo' src={hopiLogo} alt='' />
+                                            <i className='hopiText'>Hopi'ye özel 1500 paracık hediye!</i>
+                                        </div>
+                                        <p className='hopiEkstra'>
+                                            <i className='hopiEkstraSayi'>+2</i></p>
+                                    </div>
                                 </div>
-                               
+                                {/* hopi division end */}
                             </div>
                             <div className="align-items-center align-content-center col-md-3 border-left mt-1">
-                                <div className="d-flex flex-row align-items-center">
-                                    <h4 className="mr-1">$13.99</h4><span className="strike-text">$20.99</span>
+                                <div className='worldCardRectangle'>
+                                    <img className='worldCardLogo' src={worldCardLogo} alt='' />
+                                    <i className='worldCardTextOzel'>'e özel</i>
+                                    <p className='worldCardText12Taksit'> 12 taksit fırsatı</p>
                                 </div>
-                                <h6 className="text-success">Free shipping</h6>
-                                <div className="d-flex flex-column mt-4"><button className="btn btn-primary btn-sm" type="button">Details</button><button className="btn btn-outline-primary btn-sm mt-2" type="button">Add to wishlist</button></div>
+                                <div className='ucretsizIptalRectangle'>
+                                    <p className='ucretsizIptal'> Ücretsiz iptal <img className='infoIcon ' src={infoIcon} alt='' /></p>
+                                </div>
+                                <div className='priceTag'>
+                                    <div className='onbesIndirim'><i className='onbesIndirimText'>%15 İNDİRİM</i></div>
+                                    <div className='euroPrice'> 132,72 EUR</div>
+
+                                    <div className='rowC' >
+                                        <i className='trPrice'>1.867 </i>
+                                        <div><p className='trFiyatKusurat' > ,98</p>
+                                            <p className='trKur' > TL</p>
+                                        </div>
+                                    </div>
+
+                                    <p className="denBaslayanFiyat">'den başlayan fiyatlarla</p>
+                                    <p className="ikiYetiskinUcGece">2 yetişkin 3 gece</p>
+                                    <div className='ucretDetaylariRectangle'>
+                                        <img className='infoIconGrey' src={infoIconGrey} alt='' />
+                                        <i className='ucretDetaylari' > Ücret Detayları</i>
+                                    </div>
+
+                                </div>
+
+                                <button className="OteliSecButton" > <p className="OteliSec">Oteli Seç</p> </button>
                             </div>
                         </div>
 
 
+
+                        {/* example hotel card */}
                         <div className="row p-2 bg-white border rounded mt-2">
                             <div className="col-md-3 mt-1"><img className="img-fluid img-responsive rounded product-image" src={a1} /></div>
                             <div className="col-md-6 mt-1">
@@ -145,6 +184,7 @@ function TestResponsiveOtelCard() {
                                 <div className="d-flex flex-column mt-4"><button className="btn btn-primary btn-sm" type="button">Details</button><button className="btn btn-outline-primary btn-sm mt-2" type="button">Add to wishlist</button></div>
                             </div>
                         </div>
+                        {/* example hotel card */}
                     </div>
                 </div>
             </div>

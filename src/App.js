@@ -27,12 +27,12 @@ function App() {
       
       <IptalGuvenceBanner/>
       
-
+<OtelCard />
 
       */}
 
       <CarouselUp />
-      <OtelCard />
+      
       <CommercialBanner />
       <TestResponsiveOtelCard />
      

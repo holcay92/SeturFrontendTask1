@@ -14,7 +14,7 @@ function OtelCard() {
   return (
     <div className='OtelCard'>
       <div className="card mb-3" >
-        <div className="row g-0">
+        <div className="rowC">
           <div className="col-md-4">
             {/*carousel images section start */}
 
@@ -69,10 +69,13 @@ function OtelCard() {
                 </p>
               </div>
               <div className='hopiRectangle'>
-                <img className='hopiLogo' src={hopiLogo} alt='' />
-                <i className='hopiText'>Hopi'ye özel 1500 paracık hediye!</i>
-                
+                <div className='hopiDiv'>
+                  <img className='hopiLogo' src={hopiLogo} alt='' />
+                  <i className='hopiText'>Hopi'ye özel 1500 paracık hediye!</i>
+                </div>
+                <div className='hopiEkstra'>+12</div>
               </div>
+
 
             </div>
           </div>
@@ -106,10 +109,10 @@ function OtelCard() {
                   <p className="denBaslayanFiyat">'den başlayan fiyatlarla</p>
                   <p className="ikiYetiskinUcGece">2 yetişkin 3 gece</p>
                   <div className='ucretDetaylariRectangle'>
-                  <img className='infoIconGrey' src={infoIconGrey} alt='' />
-                  <i className='ucretDetaylari' > Ücret Detayları</i>
+                    <img className='infoIconGrey' src={infoIconGrey} alt='' />
+                    <i className='ucretDetaylari' > Ücret Detayları</i>
                   </div>
-                 
+
                 </div>
                 <button className="OteliSecButton" > <p className="OteliSec">Oteli Seç</p> </button>
               </div>

@@ -73,7 +73,8 @@ function OtelCard() {
                   <img className='hopiLogo' src={hopiLogo} alt='' />
                   <i className='hopiText'>Hopi'ye özel 1500 paracık hediye!</i>
                 </div>
-                <div className='hopiEkstra'>+12</div>
+                <p className='hopiEkstra'>
+                  <i className='hopiEkstraSayi'>+2</i></p>
               </div>
 
 
@@ -92,7 +93,7 @@ function OtelCard() {
                   <p className='worldCardText12Taksit'> 12 taksit fırsatı</p>
                 </div>
                 <div className='ucretsizIptalRectangle'>
-                  <p className='ucretsizIptal'> Ücretsiz iptal <img className='infoIcon ' src={infoIcon} alt='' ></img></p>
+                  <p className='ucretsizIptal'> Ücretsiz iptal <img className='infoIcon ' src={infoIcon} alt='' /></p>
                 </div>
                 <div className='priceTag'>
                   <div className='onbesIndirim'><i className='onbesIndirimText'>%15 İNDİRİM</i></div>

@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import locationIcon from './images/navbarImages/locationIcon.svg';
 import checkMark from './images/otelCardIcons/checkmark.svg';
 
-function TestOtelCard() {
+function ResponsiveOtelCard() {
   return (
     <div className='OtelCard'>
       <div className="card mb-3" >
@@ -132,4 +132,4 @@ function TestOtelCard() {
   )
 }
 
-export default TestOtelCard
+export default ResponsiveOtelCard

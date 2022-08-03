@@ -11,8 +11,9 @@ import Footer from './components/Footer'
 import UpFooter from './components/UpFooter'
 import CommercialBanner from './components/CommercialBanner'
 import OtelCard from './components/OtelCard'
-import TestOtelCard from './components/TestOtelCard'
+import ResponsiveOtelCard from './components/ResponsiveOtelCard'
 import IptalGuvenceBanner from './components/IptalGuvenceBanner'
+import TestResponsiveOtelCard from './components/TestResponsiveOtelCard'
 
 function App() {
 
@@ -20,13 +21,15 @@ function App() {
     <div className="App">
       <NavBar />
       {/*<GroupExample/>
-      
+      <IptalGuvenceBanner/>
+      <ResponsiveOtelCard/>
       */}
       <CarouselUp />
       <OtelCard />
       <CommercialBanner />
-      <IptalGuvenceBanner/>
-      <TestOtelCard/>
+      <TestResponsiveOtelCard></TestResponsiveOtelCard>
+      
+      
       <UpFooter />
       <Footer />
     </div>

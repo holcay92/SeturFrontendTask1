@@ -261,16 +261,18 @@
   margin: 0 5px 0 0;
   object-fit: contain;
 }
-.hopiDiv{
+
+.hopiDiv {
   width: auto;
   height: 36px;
-  margin: 14px 10px 20px -60px;
+  margin: 14px -20px 20px -60px;
   padding: 8px;
   border-radius: 2px;
   border: solid 1px #dedede;
   background-color: #fff;
 }
-.hopiText{
+
+.hopiText {
   width: 194px;
   height: 18px;
   margin: 1px 0 1px 8px;
@@ -283,36 +285,42 @@
   letter-spacing: normal;
   color: var(--dark-grey);
 }
-.hopiLogo{
+
+.hopiLogo {
   width: 20px;
   height: 20px;
   margin: 0 8px 0 0;
   object-fit: contain;
 }
-.hopiEkstra{
+
+.hopiEkstra {
   width: auto;
   height: 36px;
-  margin: 14px 0 20px 10px;
+  margin-top: 14px;
+  margin-left: -20px;
   padding: 9px 8px;
   border-radius: 2px;
   border: solid 1px #dedede;
   background-color: #fff;
 
 }
-.hopiEkstraSayi{
-  width: auto;
+
+.hopiEkstraSayi {
+  width: 15px;
   height: 18px;
-  margin: 1px 0 1px 8px;
   font-family: SourceSansPro;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: var(--dark-grey);
+  text-align: center;
+  color: var(--clear-blue)
 }
-.hopiRectangle{
+
+.hopiRectangle {
+  width: 230px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

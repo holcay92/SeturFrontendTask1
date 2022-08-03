@@ -11,27 +11,36 @@ import Footer from './components/Footer'
 import UpFooter from './components/UpFooter'
 import CommercialBanner from './components/CommercialBanner'
 import OtelCard from './components/OtelCard'
-import ResponsiveOtelCard from './components/ResponsiveOtelCard'
+
 import IptalGuvenceBanner from './components/IptalGuvenceBanner'
+
 import TestResponsiveOtelCard from './components/TestResponsiveOtelCard'
+
+
 
 function App() {
 
   return (
     <div className="App">
       <NavBar />
-      {/*<GroupExample/>
+      {/*<TestResponsiveNavbar/>
+      
       <IptalGuvenceBanner/>
-      <ResponsiveOtelCard/>
+      
+
+
       */}
+
       <CarouselUp />
       <OtelCard />
       <CommercialBanner />
-      <TestResponsiveOtelCard></TestResponsiveOtelCard>
-      
-      
+      <TestResponsiveOtelCard />
+     
+
       <UpFooter />
       <Footer />
+
+
     </div>
 
   );

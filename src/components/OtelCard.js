@@ -8,7 +8,7 @@ import worldCardLogo from './images/otelCardIcons/world-card-logo.svg';
 import infoIcon from './images/otelCardIcons/icon-info.svg';
 import hopiLogo from './images/otelCardIcons/hopi-logo.svg';
 import infoIconGrey from './images/otelCardIcons/icon-info-grey.svg';
-
+import checkMark from './images/otelCardIcons/checkmark.svg';
 
 function OtelCard() {
   return (
@@ -19,17 +19,56 @@ function OtelCard() {
             {/*carousel images section start */}
 
             <Carousel className='ImageCard' >
-              <Carousel.Item className='Carousel.Item'>
-                <img className=' w-100' src={a1} alt="First slide" />
-              </Carousel.Item>
-              <Carousel.Item className='Carousel.Item'>
-                <img className="d-block w-100" src={a2} alt="Second slide" />
-              </Carousel.Item >
-              <Carousel.Item className='Carousel.Item'>
-                <img className="d-block w-100" src={a3} alt="Third slide" />
-              </Carousel.Item>
+                                    <Carousel.Item className='Carousel.Item'>
+                                        <img className=' w-100' src={a1} alt="First slide" />
+                                        <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
+                                            <h4 className="card-title">Setur Software Department</h4>
+                                            <h6 className="card-subtitle mb-2">Ümraniye-İstanbul</h6>
+                                            <p className="card-text">Setur Ar-ge </p>
+                                            <div className="link d-flex">
+                                                <a href="www.setur.com.tr" className="card-link text-warning">More Info</a>
+                                                <a href="www.setur.com.tr" className="card-link text-warning">Save as Favourite</a>
+                                            </div>
+                                            <p className='SeturOneriyor'>
+                                                <img className='checkMark' src={checkMark} alt='' ></img>
+                                                <i className='SeturOneriyorText'> Setur Öneriyor </i>
+                                            </p>
 
-            </Carousel>
+                                        </div>
+                                    </Carousel.Item>
+                                    <Carousel.Item className='Carousel.Item'>
+                                        <img className="d-block w-100" src={a2} alt="Second slide" />
+                                        <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
+                                            <h4 className="card-title">Setur Software Department</h4>
+                                            <h6 className="card-subtitle mb-2">Ümraniye-İstanbul</h6>
+                                            <p className="card-text">Setur Ar-ge </p>
+                                            <div className="link d-flex">
+                                                <a href="www.setur.com.tr" className="card-link text-warning">More Info</a>
+                                                <a href="www.setur.com.tr" className="card-link text-warning">Save as Favourite</a>
+                                            </div>
+                                            <p className='SeturOneriyor'>
+                                                <img className='checkMark' src={checkMark} alt='' ></img>
+                                                <i className='SeturOneriyorText'> Setur Öneriyor </i>
+                                            </p>
+                                        </div>
+                                    </Carousel.Item >
+                                    <Carousel.Item className='Carousel.Item'>
+                                        <img className="d-block w-100" src={a3} alt="Third slide" />
+                                        <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
+                                            <h4 className="card-title">Setur Software Department</h4>
+                                            <h6 className="card-subtitle mb-2">Ümraniye-İstanbul</h6>
+                                            <p className="card-text">Setur Ar-ge </p>
+                                            <div className="link d-flex">
+                                                <a href="www.setur.com.tr" className="card-link text-warning">More Info</a>
+                                                <a href="www.setur.com.tr" className="card-link text-warning">Save as Favourite</a>
+                                            </div>
+                                            <p className='SeturOneriyor'>
+                                                <img className='checkMark' src={checkMark} alt='' ></img>
+                                                <i className='SeturOneriyorText'> Setur Öneriyor </i>
+                                            </p>
+                                        </div>
+                                    </Carousel.Item>
+                                </Carousel>
 
             {/*carousel images section end */}
 

@@ -16,14 +16,28 @@ function TestResponsiveOtelCard() {
         <div>
             <div className="container mt-5 mb-5">
                 <div className="d-flex justify-content-center row">
-                <div className="col-md-3">
-        filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
-        filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
-        filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
-        filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
-       
+                    <div className="col-md-3">
+                        <div className="container mb-5">
+                            <div className="row-md-4">
+                                filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
+                                filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
 
-                </div>
+                            </div>
+                        </div>
+                        <div className="container mb-5">
+                            <div className="row-md-4">
+                                filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
+                                filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
+
+                            </div>
+                        </div>
+                        <div className="container mb-5">
+                            <div className="row-md-4">
+                                filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
+                                filter sectionfilter sectionfilter sectionfilter sectionvfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
+                            </div>
+                        </div>
+                    </div>
                     <div className="col-md-9">
                         <div className="row p-1 bg-white border rounded">
                             <div className="col-md-3">

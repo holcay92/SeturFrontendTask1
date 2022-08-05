@@ -11,6 +11,8 @@
 
 .cardBodyLocationAndGuestRate {
   margin-top: 10px;
+  width: auto;
+  height: auto;
   display: flex;
   flex-direction: end;
   width: auto;
@@ -25,7 +27,7 @@
 }
 
 .OtelLokasyon {
-  width: 91px;
+  width: auto;
   height: 18px;
   margin: 0 0 0 4px;
   opacity: 0.6;
@@ -38,8 +40,9 @@
   letter-spacing: normal;
   color: #000;
 }
-
-
+.mukemmelMisafir{
+  margin-left: 200px;
+}
 
 .mukemmel {
   width: 58px;

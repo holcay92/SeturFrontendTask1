@@ -9,7 +9,7 @@ import worldCardLogo from './images/otelCardIcons/world-card-logo.svg';
 import infoIcon from './images/otelCardIcons/icon-info.svg';
 import hopiLogo from './images/otelCardIcons/hopi-logo.svg';
 import infoIconGrey from './images/otelCardIcons/icon-info-grey.svg';
-import NewCard from './NewCard';
+
 import TestCard from './TestCard';
 
 
@@ -39,8 +39,8 @@ function TestResponsiveOtelCard() {
                         </div>
 
                         {/*OTEL CARD*/}
-                        <div className="col-md-9 col-sm-12 col-xs-12">
-                            <div className="col-sm-12 col-xs-12 row p-1 bg-white border rounded">
+                        <div className="col-md-9">
+                            <div className="col-md-12 row">
                                 <div className="col-md-3">
                                     <Carousel className='ImageCard' >
                                         <Carousel.Item className='Carousel.Item'>
@@ -155,8 +155,13 @@ function TestResponsiveOtelCard() {
                                     <h4 className="ml-1">
                                         <div className='worldCardRectangle'>
                                             <img className='worldCardLogo' src={worldCardLogo} alt='' />
-                                            <i className='worldCardTextOzel'>'e özel</i>
-                                            <p className='worldCardText12Taksit'> 12 taksit fırsatı</p>
+                                            <span className="worldCardTextOzel">
+                                                ‘e özel
+                                            </span>
+                                            <br></br>
+                                            <span className="worldCardText12Taksit">
+                                                12 taksit fırsatı!
+                                            </span>
                                         </div>
                                     </h4>
 
@@ -219,7 +224,7 @@ function TestResponsiveOtelCard() {
                             </div>
                             {/* example hotel card */}
 
-                         
+
                             <TestCard />
                         </div>
                     </div>

@@ -12,8 +12,8 @@
    
   }
   .Carousel.Item {
-    width: 960px;
-    height: 278px; 
+    width: auto;
+    height: auto; 
     display: flex;
     border-radius: 2px;
     background-color: #8f8f8f; 

@@ -12,7 +12,7 @@ import infoIconGrey from './images/otelCardIcons/icon-info-grey.svg';
 
 function TestCard() {
     return (
-        <div className="col-md-12 col-sm-12 col-xs-12">
+        <div className="col-md-12">
             <div className="e-card-horizontal">
                 <div className="row bg-white border rounded ">
 
@@ -22,10 +22,7 @@ function TestCard() {
                             <Carousel.Item className='Carousel.Item'>
                                 <img className=' w-100' src={a1} alt="First slide" />
                                 <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
-
                                     <h4 className="card-title">Setur Software Department</h4>
-
-
                                     <p className='SeturOneriyor'>
                                         <img className='checkMark' src={checkMark} alt='' ></img>
                                         <i className='SeturOneriyorText'> Setur Öneriyor </i>
@@ -73,7 +70,7 @@ function TestCard() {
                                 <p className='yellowBack'> <i className='textInYellow'>6.0</i></p>
                             </div>
                             <h5 >
-                                <i className='OtelAd'>Concorde Luxury Resort Casino Convention & SPA</i>
+                                <span className='OtelAd'>Concorde Luxury Resort Casino Convention & SPA</span>
                             </h5>
                             <div className="UltraHerSeyDahil">Ultra Her Şey Dahil</div>
                             <hr className='bidik'></hr>
@@ -120,11 +117,38 @@ function TestCard() {
 
                         </div>
                     </div>
-                    <div className="align-items-center align-content-center col-md-3 border-left mt-1">
-                        <div className="d-flex flex-row align-items-center">
-                            <h4 className="mr-1">1867,98 TL</h4><span className="strike-text">132,72 EUR</span>
+                    <div className="col-md-3 ">
+                        <div className='worldCardRectangle'>
+                            <p className="worldCardTextOzel">  <img className='worldCardLogo' src={worldCardLogo} alt='' />‘e özel</p>
+                            <p className="worldCardText12Taksit">12 taksit fırsatı!</p>
                         </div>
-                        <h6 className="text-success">'den başlayan fiyatlarla</h6>
+                        <div className='ucretsizIptalRectangle'>
+                            <p className='ucretsizIptal'> Ücretsiz iptal <img className='infoIcon ' src={infoIcon} alt='' /></p>
+                        </div>
+                        <div className='priceTag'>
+                            <div className='onbesIndirim'><i className='onbesIndirimText'>%15 İNDİRİM</i></div>
+                            <div className='euroPrice'> 132,72 EUR</div>
+
+                            <div className='rowHorizontal' >
+                                <i className='trPrice'>1.867 </i>
+                                <div><p className='trFiyatKusurat' > ,98</p>
+                                    <p className='trKur' > TL</p>
+                                </div>
+                            </div>
+
+                            <p className="denBaslayanFiyat">'den başlayan fiyatlarla</p>
+                            <p className="ikiYetiskinUcGece">2 yetişkin 3 gece</p>
+                            <div className='ucretDetaylariRectangle'>
+                                <img className='infoIconGrey' src={infoIconGrey} alt='' />
+                                <i className='ucretDetaylari' > Ücret Detayları</i>
+                            </div>
+
+                        </div>
+
+                        <div className="d-flex flex-row align-items-center">
+                            <h4 className="mr-1"></h4><span className="strike-text"></span>
+                        </div>
+                        <h6 className="text-success"></h6>
                         <div className="d-flex flex-row mt-5">
                             <button className="OteliSecButton" > <p className="OteliSec">Oteli Seç</p> </button>
                         </div>

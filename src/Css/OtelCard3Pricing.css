@@ -15,6 +15,52 @@
     padding: 0 0 0 35px;
 }
 
+.worldCardRectangle {
+    width: auto;
+    height: 47px;
+    margin: 20px 1px 6px 20px;
+    padding: 8px 21px 5px 25px;
+    border-radius: 2px;
+    border: solid 0.5px #682a7a;
+    background-color: #fff;
+    align-items: top;
+}
+
+.worldCardLogo {
+    width: 75px;
+    height: 12px;
+    margin: 2px 4px 2px 0;
+    object-fit: contain;
+    background-color: #ffffff;
+}
+
+.worldCardTextOzel {
+    width: auto;
+    height: auto;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #682a7a;
+}
+
+.worldCardText12Taksit {
+    width: 90px;
+    height: 18px;
+    margin-top: -10px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #682a7a;
+}
+
 .onbesIndirim {
     width: 129px;
     height: 32px;
@@ -100,113 +146,10 @@
 }
 
 .rowHorizontal {
+    margin-top: 10px;
     width: auto;
     display: flex;
     flex-direction: row;
-}
-
-.denBaslayanFiyat {
-    width: 116px;
-    height: 15px;
-    margin: -10px 0 0px 40px;
-    opacity: 0.75;
-    font-family: SourceSansPro;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal; 
-    color: var(--dark-grey);
-}
-
-.ikiYetiskinUcGece {
-    width: 86px;
-    height: 15px;
-    margin: 3px 0 0 65px;
-    opacity: 0.75;
-    font-family: SourceSansPro;
-    font-size: 12px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: right;
-    color: var(--dark-grey);
-}
-
-.OteliSecButton {
-    width: 155px;
-    height: 40px;
-    padding: 11px 34px;
-    border-radius: 3px;
-    margin-top:30px;
-    margin-left: 60px;
-    border-color: #ffff;
-    box-shadow: 0 10px 30px 0 #e2231b;
-    background-color: #e2231b;
-}
-
-.OteliSec {
-    width: auto;
-    height: auto;
-    font-family: SourceSansPro;
-    font-size: 14px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-
-}
-
-.worldCardRectangle {
-    width: 165px;
-  height: 47px;
-  margin: 20px 1px 6px 20px;
-  padding: 8px 21px 5px 25px;
-  border-radius: 2px;
-  border: solid 0.5px #682a7a;
-  background-color: #fff;
-}
-
-.worldCardLogo {
-    width: 75px;
-  height: 12px;
-  margin: 2px 4px 2px 0;
-  object-fit: contain;
-  background-color: #682a7a;
-}
-
-.worldCardTextOzel {
-    width: 40px;
-    height: 18px;
-    margin: 0 0 16px 4px;
-    font-family: SourceSansPro;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #682a7a;
-}
-
-.worldCardText12Taksit {
-    width: 90px;
-    height: 18px;
-    margin: 2px 29px 0 0;
-    font-family: SourceSansPro;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #682a7a;
 }
 
 .ucretsizIptalRectangle {
@@ -240,22 +183,11 @@
     object-fit: contain;
 }
 
-.ucretDetaylariRectangle{
-    width: auto;
-   margin-right: -50px;
-   margin-top: 4px;
-    display:flex; flex-direction:row;
-    text-align: right;
-}
-.infoIconGrey{
-    width: 12px;
-    height: 12px;
-    margin: 0 0 1px 65px;
-    object-fit: contain;
-}
-.ucretDetaylari{
-    width: auto;
-    height: 15px;   
+.denBaslayanFiyat {
+    width: 116px;
+    height: 15px;
+    margin: -10px 0 0px 40px;
+    opacity: 0.75;
     font-family: SourceSansPro;
     font-size: 12px;
     font-weight: normal;
@@ -264,5 +196,74 @@
     line-height: normal;
     letter-spacing: normal;
     color: var(--dark-grey);
-  
+}
+
+.ikiYetiskinUcGece {
+    width: 86px;
+    height: 15px;
+    margin: 3px 0 0 65px;
+    opacity: 0.75;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: var(--dark-grey);
+}
+
+.ucretDetaylariRectangle {
+    width: auto;
+    margin-right: -50px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
+.infoIconGrey {
+    width: 12px;
+    height: 12px;
+    margin: 0 0 1px 65px;
+    object-fit: contain;
+}
+
+.ucretDetaylari {
+    width: auto;
+    height: 15px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--dark-grey);
+
+}
+
+.OteliSecButton {
+    width: 165px;
+    height: 40px;
+    margin: -20px 1px 20px 20px;
+    padding: 11px 55px;
+    border-radius: 2px;
+    box-shadow: 0 10px 30px 0 var(--orangey-red-50);
+    background-color: #e2231b;
+}
+
+.OteliSec {
+    width: 60px;
+    height: auto;
+
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
 }

@@ -8,20 +8,6 @@
   border: solid 1px #dedede;
   background-color: #fff;
 }
-
-.ImageCard {
-  width: 252px;
-  height: 305px;
-  image-orientation: from-image;
-
-}
-
-.OtelImg {
-  width: auto;
-  height: auto;
-
-}
-
 .cardBodyLocationAndGuestRate {
   margin-top: 10px;
   display: flex;
@@ -244,36 +230,6 @@
   letter-spacing: normal;
   text-align: center;
   color: #1b75e2;
-}
-
-.SeturOneriyor {
-  width: 135px;
-  height: 30px;
-  margin: 92px 22px 0 6px;
-  padding: 5px 8px 5px 5px;
-  border-radius: 4px;
-  background-color: #fff;
-}
-
-.SeturOneriyorText {
-  width: auto;
-  height: 18px;
-  margin: 1px 0 1px 5px;
-  font-family: SourceSansPro;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #000;
-}
-
-.checkMark {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px 0 0;
-  object-fit: contain;
 }
 
 .hopiDiv {

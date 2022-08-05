@@ -70,7 +70,7 @@
   text-align: right;
   color: #fff;
 }
-.col-md-12{
+.navBarBackground{
   background-image: url("../components/NavBarIcons/topBlackRectangle.svg"),url("../components/NavBarIcons/topBlackShape.svg") ;
   background-repeat: no-repeat;
   background-position-x: right ;

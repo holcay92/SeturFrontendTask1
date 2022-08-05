@@ -1,0 +1,72 @@
+.FilterRectangle {
+    width: 260px;
+    height: 278px;
+    margin: 21px 20px 19px 100px;
+    padding: 14px 20px 20px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.tumTurkiyeOtelleri {
+    width: 102px;
+    height: 15px;
+    margin: 0 10px 0 0;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3a3a3a;
+}
+
+.iconChevronRight {
+    width: 8px;
+    height: 8px;
+    margin: 4px 0 3px 10px;
+    object-fit: contain;
+}
+
+.AntalyaOtelleri {
+    width: 220px;
+    height: 25px;
+    margin: 10px 0 13px;
+    font-family: SourceSansPro;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var
+}
+
+.horizontalDivider {
+    width: 220px;
+    height: 1px;
+    margin: 13px 0 20px;
+    background-color: var(--light-blue-grey);
+}
+
+.diğerBolgeleriGoster {
+    width: 145px;
+    height: 20px;
+    margin: 0 10px 0 0;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3a3a3a;
+}
+
+.iconChevronDown {
+    width: 12px;
+    height: 12px;
+    margin: 5px 0 3px 10px;
+    object-fit: contain;
+    transform: rotate(-270deg);
+}

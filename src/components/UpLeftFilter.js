@@ -1,33 +1,43 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
 import iconRight from './images/commercialImages/icon-chevron-right.svg';
+import iconDown from './images/commercialImages/icon-chevron-down.svg';
+
+
 
 function UpLeftFilter() {
   return (
     <div className='FilterRectangle'>
       <div>
-        <i className='tumTurkiyeOtelleri'>Tüm Türkiye Otelleri <img  className='iconChevronRight ' src={iconRight} alt=''/></i>
+        <i className='tumTurkiyeOtelleri'>Tüm Türkiye Otelleri</i>
+        <img className='iconChevronRight ' src={iconRight} alt='' />
         <p className='AntalyaOtelleri'>Antalya Otelleri (145)</p>
       </div>
       <Form>
-        {['checkbox', 'radio'].map((type) => (
-          <div key={`default-${type}`} className="mb-3">
-            <Form.Check
-              type={type}
-              id={`default-${type}`}
-              label={`default ${type}`}
-            />
+        <Form.Check
+          id={`box-1-`}
+          label={`Kemer (23)`}
+        />
+        <Form.Check
+          id={`box-2-`}
+          label={`Finike (12) `}
+        />
+        <Form.Check
+          id={`box-3-}`}
+          label={`Alanya (8)`}
+        />
+        <Form.Check
+          id={`box-4-`}
+          label={`Manavgat (8) `}  /*${type}*/
+        />
 
-            <Form.Check
-              disabled
-              type={type}
-              label={`disabled ${type}`}
-              id={`disabled-default-${type}`}
-            />
-          </div>
-        ))}
-      </Form>
-    </div>
+
+      </Form >
+      <div >
+        <i className='diğerBolgeleriGoster'>Diğer Bölgeleri Göster</i>
+        <img className='iconChevronDown ' src={iconDown} alt='' />
+      </div>
+    </div >
   )
 }
 

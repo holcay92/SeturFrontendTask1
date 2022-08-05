@@ -8,6 +8,7 @@
   border: solid 1px #dedede;
   background-color: #fff;
 }
+
 .cardBodyLocationAndGuestRate {
   margin-top: 10px;
   display: flex;
@@ -15,6 +16,7 @@
   width: auto;
   height: auto;
 }
+
 .LocationIcon {
   width: 16px;
   height: 16px;
@@ -23,9 +25,9 @@
 }
 
 .OtelLokasyon {
-  width: auto;
+  width: 91px;
   height: 18px;
-  margin: 0 140px 0 4px;
+  margin: 0 0 0 4px;
   opacity: 0.6;
   font-family: SourceSansPro;
   font-size: 14px;
@@ -37,10 +39,7 @@
   color: #000;
 }
 
-.mukemmelMisafir {
-  text-align: right;
-  margin-left: 95px;
-}
+
 
 .mukemmel {
   width: 58px;
@@ -61,7 +60,7 @@
 .misafirYorumu {
   width: 81px;
   height: 13px;
-  margin: 2px 0 0 ;
+  margin: 2px 0 0;
   font-family: SourceSansPro;
   font-size: 10px;
   font-weight: normal;
@@ -98,8 +97,8 @@
 
 
 .OtelAd {
- 
-  width: 462px;
+
+  width: auto;
   height: 23px;
   margin: 4px 20px 5px;
   font-family: SourceSansPro;
@@ -136,11 +135,11 @@
   background-color: #fa5851;
 }
 
-.balayiYetiskinCocuk{
+.balayiYetiskinCocuk {
   margin-left: 20px;
   display: flex;
   flex-direction: row;
-  justify-content:wrap;
+  justify-content: wrap;
 }
 
 .havuzSpaPlaj {
@@ -155,21 +154,21 @@
 }
 
 .acikHavuzRectangle {
-  
-  width: 108px;
+
+  width: auto;
   height: 36px;
   padding: 8px;
   border-radius: 4px;
   background-color: #f7f7f7;
   background-image: url("../components/images/otelCardIcons/poolIcon.svg");
   background-repeat: no-repeat;
-  background-position-x: 10%;
+  background-position-x: 5%;
   background-position-y: center;
 
 }
 
 .acıkHavuz {
-  width: 64px;
+  width: auto;
   height: 18px;
   margin: 1px 0 1px 18px;
   font-family: SourceSansPro;
@@ -183,9 +182,9 @@
 }
 
 .spaRectangle {
-  width: 67px;
+  width: auto;
   height: 36px;
-  margin: 39px 10px 16px 7px;
+  margin-left: 10px;
   padding: 8px;
   border-radius: 4px;
   background-color: #f7f7f7;
@@ -193,12 +192,14 @@
   background-repeat: no-repeat;
   background-position-x: 10%;
   background-position-y: center;
+
+
 }
 
 .plajRectangle {
-  width: 74px;
+  width: auto;
   height: 36px;
-  margin: 39px 10px 16px;
+  margin-left: 10px;
   padding: 8px;
   border-radius: 4px;
   background-color: #f7f7f7;
@@ -211,7 +212,7 @@
 .extrafeatures {
   width: 38px;
   height: 36px;
-  margin: 39px 47px 16px 0;
+  margin-left: 10px;
   padding: 9px 8px;
   border-radius: 4px;
   background-color: #f7f7f7;
@@ -233,20 +234,25 @@
 }
 
 .hopiDiv {
-  width: 238px;
+  width: auto;
   height: 36px;
-  margin: 14px 10px 20px 20px;
+
   padding: 8px;
   border-radius: 2px;
   border: solid 1px #dedede;
   background-color: #fff;
 
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
 .hopiText {
-  width: 194px;
+  width: auto;
   height: 18px;
-  margin: 1px 0 1px 8px;
+  margin-left: 5px;
   font-family: SourceSansPro;
   font-size: 14px;
   font-weight: normal;
@@ -260,26 +266,27 @@
 .hopiLogo {
   width: 20px;
   height: 20px;
-  margin: 0 8px 0 0;
+
   object-fit: contain;
 }
 
 .hopiEkstra {
   width: 31px;
   height: 36px;
-  margin: 14px 0 20px 10px;
-  padding: 9px 8px;
+  margin-left: 10px;
   border-radius: 2px;
   border: solid 1px #dedede;
   background-color: #fff;
+  text-align: center;
 
 }
 
 .hopiEkstraSayi {
-  width: 15px;
-  height: 18px;
+  width: auto;
+  height: auto;
   font-family: SourceSansPro;
   font-size: 14px;
+  margin-top: 10px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -290,10 +297,25 @@
 }
 
 .hopiRectangle {
-  width: 230px;
+  width: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
+}
 
+.testCardMarginLeft {
+  margin-left: 15px;
+}
+
+.oteliInceleButton {
+  width: 155px;
+  height: 40px;
+  padding: 11px 34px;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-left: 60px;
+  border-color: #ffff;
+  box-shadow: 0 10px 30px 0 #e2231b;
+  background-color: #e2231b;
 }

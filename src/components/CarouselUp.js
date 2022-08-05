@@ -10,7 +10,7 @@ import UpLeftFilter from './UpLeftFilter';
 
 function CarouselUp() {
   return (
-    <div >
+    <div className='' >
 
       <div className="d-flex justify-content-center row">
         <div className="col-md-12 col-sm-12 row">

@@ -11,7 +11,6 @@ import NavBar from './components/NavBar'
 import CarouselUp from './components/CarouselUp'
 import Footer from './components/Footer'
 import UpFooter from './components/UpFooter'
-import CommercialBanner from './components/CommercialBanner'
 import IptalGuvenceBanner from './components/IptalGuvenceBanner'
 import TestResponsiveOtelCard from './components/TestResponsiveOtelCard'
 import TestCard from './components/TestCard'
@@ -19,27 +18,24 @@ import UpLeftFilter from './components/UpLeftFilter'
 
 
 
+
 function App() {
 
   return (
     <div className="App">
-      <NavBar />
-      {/*<TestResponsiveNavbar/>
-      
-      <IptalGuvenceBanner/>
- 
-      */}
-      <TestCard />
+
+      {/*
+     
+*/}
+
+      <NavBar />  
+    
       <CarouselUp />
-
-      <CommercialBanner />
-      <TestResponsiveOtelCard />
-
-
+      <TestResponsiveOtelCard />  
+      
+      <IptalGuvenceBanner />
       <UpFooter />
       <Footer />
-
-
     </div>
 
   );

@@ -14,7 +14,7 @@ function OtelCard() {
   return (
     <div className='OtelCard'>
       <div className="card mb-3" >
-        <div className="rowC">
+        <div className="rowHorizontal">
           <div className="col-md-4">
             {/*carousel images section start */}
 
@@ -139,7 +139,7 @@ function OtelCard() {
                   <div className='onbesIndirim'><i className='onbesIndirimText'>%15 İNDİRİM</i></div>
                   <div className='euroPrice'> 132,72 EUR</div>
 
-                  <div className='rowC' >
+                  <div className='rowHorizontal' >
                     <i className='trPrice'>1.867 </i>
                     <div><p className='trFiyatKusurat' > ,98</p>
                       <p className='trKur' > TL</p>

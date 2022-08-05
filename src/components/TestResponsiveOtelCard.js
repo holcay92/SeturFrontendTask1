@@ -9,27 +9,26 @@ import worldCardLogo from './images/otelCardIcons/world-card-logo.svg';
 import infoIcon from './images/otelCardIcons/icon-info.svg';
 import hopiLogo from './images/otelCardIcons/hopi-logo.svg';
 import infoIconGrey from './images/otelCardIcons/icon-info-grey.svg';
+import NewCard from './NewCard';
+import TestCard from './TestCard';
 
 
 function TestResponsiveOtelCard() {
     return (
-
         <div >
-        
             <div className="container mt-5 mb-5">
                 <div className="d-flex justify-content-center row">
                     <div className="col-md-12 col-sm-12 row">
+                        {/*FILTER SECTION*/}
                         <div className="col-md-3">
                             <div className="container mb-5">
                                 <div className="row-md-4">
                                     sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
-
                                 </div>
                             </div>
                             <div className="container mb-5">
                                 <div className="row-md-4">
                                     sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter sectionfilter section
-
                                 </div>
                             </div>
                             <div className="container mb-5">
@@ -38,6 +37,8 @@ function TestResponsiveOtelCard() {
                                 </div>
                             </div>
                         </div>
+
+                        {/*OTEL CARD*/}
                         <div className="col-md-9 col-sm-12 col-xs-12">
                             <div className="col-sm-12 col-xs-12 row p-1 bg-white border rounded">
                                 <div className="col-md-3">
@@ -94,57 +95,61 @@ function TestResponsiveOtelCard() {
                                     </Carousel>
                                 </div>
                                 <div className="col-md-6 mt-1">
-                                    <h5>
-                                        <div className='cardBodyLocationAndGuestRate'>
-                                            <div className='OtelLokasyon'> <img className='LocationIcon' src={locationIcon} alt="info" />Kemer, Antalya</div>
-                                            <div>
-                                                <div className='mukemmelMisafir'>
-                                                    <p className='mukemmel'>Mükemmel</p>
-                                                    <p className='misafirYorumu'>183 misafir yorumu</p>
+                                    <div className='testCardMarginLeft'>
+                                        <h5>
+                                            <div className='cardBodyLocationAndGuestRate'>
+                                                <div className='OtelLokasyon'> <img className='LocationIcon' src={locationIcon} alt="info" />Kemer, Antalya</div>
+                                                <div>
+                                                    <div className='mukemmelMisafir'>
+                                                        <p className='mukemmel'>Mükemmel</p>
+                                                        <p className='misafirYorumu'>183 misafir yorumu</p>
+                                                    </div>
                                                 </div>
+                                                <p className='yellowBack'> <i className='textInYellow'>6.0</i></p>
                                             </div>
-                                            <p className='yellowBack'> <i className='textInYellow'>6.0</i></p>
-                                        </div>
-                                    </h5>
+                                        </h5>
 
-                                    <h5 > <i className='OtelAd'>Concorde Luxury Resort Casino Convention & SPA</i></h5>
-                                    <div className="UltraHerSeyDahil">Ultra Her Şey Dahil</div>
-                                    <hr className='bidik'></hr>
-                                    {/* features division start */}
-                                    <div className="balayiYetiskinCocuk"><small className="text-muted">· Balayı Oteli </small>
-                                        <small className="text-muted">· Yetişkin Oteli </small>
-                                        <small className="text-muted">· Çocuk Dostu </small>
-                                    </div>
-                                    {/* features division end */}
-                                    {/* extra features division start */}
-                                    <div className='havuzSpaPlaj'>
-                                        <p className='acikHavuzRectangle'>
-                                            <i className='acıkHavuz'>Açık Havuz</i>
-                                        </p>
-                                        <p className='spaRectangle'>
-                                            <i className='acıkHavuz'>Spa</i>
-                                        </p>
-                                        <p className='plajRectangle'>
-                                            <i className='acıkHavuz'>Plajlı</i>
-                                        </p>
-                                        <p className='extrafeatures'>
-                                            <i className='extrafeaturestext'>
-                                                +12</i>
-                                        </p>
-                                    </div>
-                                    {/* extra features division end */}
-                                    {/* hopi division start */}
-                                    <div className="d-flex flex-row">
-                                        <div className='hopiRectangle'>
-                                            <div className='hopiDiv'>
-                                                <img className='hopiLogo' src={hopiLogo} alt='' />
-                                                <i className='hopiText'>Hopi'ye özel 1500 paracık hediye!</i>
-                                            </div>
-                                            <p className='hopiEkstra'>
-                                                <i className='hopiEkstraSayi'>+2</i></p>
+                                        <h5 >
+                                            <i className='OtelAd'>Concorde Luxury Resort Casino Convention & SPA</i>
+                                        </h5>
+                                        <div className="UltraHerSeyDahil">Ultra Her Şey Dahil</div>
+                                        <hr className='bidik'></hr>
+                                        {/* features division start */}
+                                        <div className="balayiYetiskinCocuk"><small className="text-muted">· Balayı Oteli </small>
+                                            <small className="text-muted">· Yetişkin Oteli </small>
+                                            <small className="text-muted">· Çocuk Dostu </small>
                                         </div>
+                                        {/* features division end */}
+                                        {/* extra features division start */}
+                                        <div className='havuzSpaPlaj'>
+                                            <p className='acikHavuzRectangle'>
+                                                <i className='acıkHavuz'>Açık Havuz</i>
+                                            </p>
+                                            <p className='spaRectangle'>
+                                                <i className='acıkHavuz'>Spa</i>
+                                            </p>
+                                            <p className='plajRectangle'>
+                                                <i className='acıkHavuz'>Plajlı</i>
+                                            </p>
+                                            <p className='extrafeatures'>
+                                                <i className='extrafeaturestext'>
+                                                    +12</i>
+                                            </p>
+                                        </div>
+                                        {/* extra features division end */}
+                                        {/* hopi division start */}
+                                        <div className="d-flex flex-row">
+                                            <div className='hopiRectangle'>
+                                                <div className='hopiDiv'>
+                                                    <img className='hopiLogo' src={hopiLogo} alt='' />
+                                                    <i className='hopiText'>Hopi'ye özel 1500 paracık hediye!</i>
+                                                </div>
+                                                <p className='hopiEkstra'>
+                                                    <i className='hopiEkstraSayi'>+2</i></p>
+                                            </div>
+                                        </div>
+                                        {/* hopi division end */}
                                     </div>
-                                    {/* hopi division end */}
                                 </div>
                                 <div className="align-items-center align-content-center col-md-3 border-left mt-2">
                                     <h4 className="ml-1">
@@ -162,7 +167,7 @@ function TestResponsiveOtelCard() {
                                         <div className='onbesIndirim'><i className='onbesIndirimText'>%15 İNDİRİM</i></div>
                                         <div className='euroPrice'> 132,72 EUR</div>
 
-                                        <div className='rowC' >
+                                        <div className='Horizontal' >
                                             <i className='trPrice'>1.867 </i>
                                             <div><p className='trFiyatKusurat' > ,98</p>
                                                 <p className='trKur' > TL</p>
@@ -213,6 +218,9 @@ function TestResponsiveOtelCard() {
                                 </div>
                             </div>
                             {/* example hotel card */}
+
+                         
+                            <TestCard />
                         </div>
                     </div>
                 </div>

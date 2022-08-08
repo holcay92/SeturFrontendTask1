@@ -125,7 +125,7 @@ function TestCard() {
                         <div className='ucretsizIptalRectangle'>
                             <p className='ucretsizIptal'> Ücretsiz iptal <img className='infoIcon ' src={infoIcon} alt='' /></p>
                         </div>
-                        <div className='priceTag'>
+                       
                             <div className='onbesIndirim'><i className='onbesIndirimText'>%15 İNDİRİM</i></div>
                             <div className='euroPrice'> 132,72 EUR</div>
 
@@ -143,7 +143,7 @@ function TestCard() {
                                 <i className='ucretDetaylari' > Ücret Detayları</i>
                             </div>
 
-                        </div>
+                      
 
                         <div className="d-flex flex-row align-items-center">
                             <h4 className="mr-1"></h4><span className="strike-text"></span>

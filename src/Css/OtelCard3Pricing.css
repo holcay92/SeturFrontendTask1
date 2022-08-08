@@ -60,6 +60,44 @@
     letter-spacing: normal;
     color: #682a7a;
 }
+.rowHorizontal {
+    margin-top: 10px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.ucretsizIptalRectangle {
+    width: auto;
+    height: auto;
+    margin: 6px 1px 3px 94px;
+    padding: 4px 4px 3px;
+    border-radius: 2px;
+    background-color: rgba(4, 169, 133, 0.1);
+    align-items: center;
+
+}
+
+.ucretsizIptal {
+    width: auto;
+    height: auto;
+    margin: 0 4px 0 0;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #04a985;
+}
+
+.infoIcon {
+    width: auto;
+    height: auto;
+    margin: 0 0 1px 4px;
+    object-fit: contain;
+}
 
 .onbesIndirim {
     width: 129px;
@@ -145,43 +183,7 @@
     color: var(--dark-grey);
 }
 
-.rowHorizontal {
-    margin-top: 10px;
-    width: auto;
-    display: flex;
-    flex-direction: row;
-}
 
-.ucretsizIptalRectangle {
-    width: auto;
-    height: auto;
-    margin: 6px 1px 3px 120px;
-    padding: 4px 4px 3px;
-    border-radius: 2px;
-    background-color: rgba(4, 169, 133, 0.1);
-
-}
-
-.ucretsizIptal {
-    width: auto;
-    height: 15px;
-    margin: 0 4px 0 0;
-    font-family: SourceSansPro;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #04a985;
-}
-
-.infoIcon {
-    width: 14px;
-    height: 14px;
-    margin: 0 0 1px 4px;
-    object-fit: contain;
-}
 
 .denBaslayanFiyat {
     width: 116px;

@@ -269,3 +269,8 @@
     letter-spacing: normal;
     color: #fff;
 }
+.btn btn-primary btn-sm {
+   
+    box-shadow: 0 10px 30px 0 var(--orangey-red-50);
+    background-color: #e2231b;
+}

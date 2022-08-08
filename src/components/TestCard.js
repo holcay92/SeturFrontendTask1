@@ -149,9 +149,11 @@ function TestCard() {
                             <h4 className="mr-1"></h4><span className="strike-text"></span>
                         </div>
                         <h6 className="text-success"></h6>
-                        <div className="d-flex flex-row mt-5">
-                            <button className="OteliSecButton" > <p className="OteliSec">Oteli Seç</p> </button>
+                        <div className="d-flex flex-column mt-4">
+                            <button className="OteliSecButton" type="button"  > <p className="OteliSec">Oteli Seç</p> </button>                       
                         </div>
+                        <div className="d-flex flex-column mt-4"><button className="btn btn-primary btn-sm" type="button">Oteli incele</button><button className="btn btn-outline-primary btn-sm mt-2" type="button">Sepete Ekle</button></div>
+                            
                     </div>
                 </div>
                 {/* example hotel card */}

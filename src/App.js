@@ -15,6 +15,7 @@ import IptalGuvenceBanner from './components/IptalGuvenceBanner'
 import TestResponsiveOtelCard from './components/TestResponsiveOtelCard'
 import TestCard from './components/TestCard'
 import UpLeftFilter from './components/UpLeftFilter'
+import MobileNavBar from './components/MobileNavBar'
 
 
 
@@ -25,10 +26,10 @@ function App() {
     <div className="App">
 
       {/*
-     
+      
 */}
-
-      <NavBar />  
+      <MobileNavBar/>
+       <NavBar />
     
       <CarouselUp />
       <TestResponsiveOtelCard />  

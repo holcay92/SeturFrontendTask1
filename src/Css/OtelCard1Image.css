@@ -1,9 +1,17 @@
+
+@media(min-width: 1200px) {
+  .HotelCard {
+    orientation: vertical;
+  }
+}
+.HotelCard{
+  orientation: landscape;
+}
 .ImageCard {
     width: 252px;
     height: 305px;
     image-orientation: from-image;
     
-  
   }
   
   .OtelImg {

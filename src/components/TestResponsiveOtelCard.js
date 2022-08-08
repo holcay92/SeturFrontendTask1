@@ -8,12 +8,13 @@ import UpFilter2 from './UpFilter2';
 function TestResponsiveOtelCard() {
     return (
 
-        <div className="container mt-5 mb-5">
+        <div className="HotelCard">
             <div className="d-flex justify-content-center row">
                 <div className="col-md-12 col-sm-12 row">
                     {/*FILTER SECTION*/}
-                    <UpFilter2 />
-
+                    <div className='col-md-3'>
+                        <UpFilter2 />
+                    </div>
                     {/*OTEL CARD*/}
                     <div className="col-md-9">
 

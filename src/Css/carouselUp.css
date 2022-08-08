@@ -1,31 +1,28 @@
 .Carousel {
-    width: 960px;
-    height: 278px;
-  
-   display: none;
-    border-radius: 2px;
-    background-color: #8f8f8f; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   
+  width: 960px;
+  height: 278px;
+  display: none;
+  border-radius: 2px;
+  background-color: #8f8f8f;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (min-width: 1200px) {
+  .Carousel {
+    display:revert
   }
-  .Carousel.Item {
-    width: auto;
-    height: auto; 
-    display: flex;
-    border-radius: 2px;
-    background-color: #8f8f8f; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   
-  }
-  @media (min-width: 1200px) {
-    .Carousel {
-      display:revert
-    }
-    
-  }
+}
+.Carousel.Item {
+  width: auto;
+  height: auto;
+  display: flex;
+  border-radius: 2px;
+  background-color: #8f8f8f;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}

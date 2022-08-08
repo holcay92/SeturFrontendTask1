@@ -18,22 +18,21 @@ import UpLeftFilter from './components/UpLeftFilter'
 import MobileNavBar from './components/MobileNavBar'
 
 
-
-
 function App() {
 
   return (
     <div className="App">
 
       {/*
-      
+      <MobileNavBar />
+ 
 */}
-      <MobileNavBar/>
        <NavBar />
     
       <CarouselUp />
-      <TestResponsiveOtelCard />  
-      
+
+      <TestResponsiveOtelCard />
+
       <IptalGuvenceBanner />
       <UpFooter />
       <Footer />

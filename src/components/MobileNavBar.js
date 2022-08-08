@@ -6,28 +6,25 @@ import seturlogo from './NavBarIcons/setur-logo.svg';
 import personicon from './NavBarIcons/icon-person.svg';
 import phoneIcon from './NavBarIcons/phoneIcon.svg';
 
-function MobileNavBar() {
+import { Nav, NavLink } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
+const MobileNavBar = () => {
     return (
-        <div className='MobileNavBar'>
-           
-            <Navbar bg="light" variant="ligth">
-                <Container>
-                    <Navbar.Brand href="#home">
-                        <img
-                            alt=""
-                            src={seturlogo}
-                            className="Setur-logo"
-                        />{' '}
-                        SeturMobileNavBar
-                    </Navbar.Brand>
-                </Container>
-            </Navbar>
-        </div>
-
-
+        <Navbar collapseOnSelect expand="sm" bg="light" variant="light">
+            <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
+            <Navbar.Collapse id="navbarScroll">
+                <Nav>
+                    <NavLink >Otel</NavLink>
+                    <NavLink  >Tur</NavLink>
+                    <NavLink >Gemi</NavLink>
+                    <NavLink >Uçak</NavLink>
+                    <NavLink  >Özel Çözümler</NavLink>
+                    <NavLink  >Kampanyalar</NavLink>
+                </Nav>
+            </Navbar.Collapse>     
+        </Navbar>
     );
-
-
 }
-
-export default MobileNavBar
+ 
+export default MobileNavBar;

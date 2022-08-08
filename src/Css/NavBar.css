@@ -1,16 +1,33 @@
 .DesktopNavBar {
-  background-image: url("../components/NavBarIcons/topBlackRectangle.svg"), url("../components/NavBarIcons/topBlackShape.svg");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: top;
   display: none;
 }
-
-.MobileNavBar {
-  display: flex;
+.topBlackRectangle{
+  width: 1440px;
+  height: 5px;
+  margin: -40px 0 0;
+  object-fit: contain;
+  background-color: var(--dark-grey);
+}
+.topBlackShape{
+  width: 435px;
+  height: 35px;
+  margin: -66.5px 0 0 1005px;
+  padding: 6px 6px 7px 103px;
+  object-fit: contain;
+  background-color: var(--dark-grey);
 }
 
-@media(min-width:1200px) {
+
+.MobileNavBar {
+  flex-direction: row;
+  display: flex;
+  justify-content: last baseline;
+}
+
+@media(min-width:900px) {
   .DesktopNavBar {
     display: revert;
   }
@@ -18,10 +35,23 @@
     display: none;
   }
 }
-
+.iconperson {
+  width: 24px;
+  height: 24px;
+  margin: 0 20px 0 148px;
+  object-fit: contain;
+}
+.iconhamburger {
+  width: 24px;
+  height: 24px;
+  margin: 0 0 0 20px;
+  object-fit: contain;
+}
 
 
 .navBarhorizontal {
+  width: auto;
+  margin-top: -30px;
   display: flex;
   flex-direction: row;
 }
@@ -88,23 +118,6 @@
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: top;
-}
-
-img.topBlackRectangle {
-  width: 1875;
-  height: 5px;
-  margin-top: -25px;
-  object-fit: contain;
-  background-color: var(--dark-grey);
-}
-
-img.topBlackShape {
-  width: 435;
-  height: 35px;
-  margin: 0 0 0 1005px;
-  margin-top: -44px;
-  object-fit: contain;
-  background-color: var(--dark-grey);
 }
 
 .Setur-logo {

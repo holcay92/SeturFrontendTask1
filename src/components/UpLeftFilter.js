@@ -8,7 +8,7 @@ import iconDown from './images/commercialImages/icon-chevron-down.svg';
 function UpLeftFilter() {
   return (
     <div className='FilterRectangle'>
-      <div>
+      <div >
         <i className='tumTurkiyeOtelleri'>Tüm Türkiye Otelleri</i>
         <img className='iconChevronRight ' src={iconRight} alt='' />
         <p className='AntalyaOtelleri'>Antalya Otelleri (145)</p>
@@ -30,8 +30,6 @@ function UpLeftFilter() {
           id={`box-4-`}
           label={`Manavgat (8) `}  /*${type}*/
         />
-
-
       </Form >
       <div >
         <i className='diğerBolgeleriGoster'>Diğer Bölgeleri Göster</i>

@@ -8,8 +8,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
 }
-@media (min-width: 900px) {
+@media (min-width: 1100px) {
   .Carousel {
     display:revert
   }
@@ -24,5 +25,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
 
+}
+.carousel-indicators{
+  display:none;
 }

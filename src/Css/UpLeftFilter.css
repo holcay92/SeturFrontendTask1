@@ -5,10 +5,23 @@
     padding: 14px 20px 20px;
     border-radius: 2px;
     background-color: #fff;
-    display:none;
+    display: none;
 }
 
+.FilterRectangleMobile {
+    width: 320px;
+    height: 136px;
+    margin: 64px 0 15px;
+    padding: 0 0 17px;
+    border-radius: 2px;
+    background-color: #fff;
+}
 
+@media(min-width:1100px) {
+    .FilterRectangle {
+      display: revert;
+    }
+}
 .tumTurkiyeOtelleri {
     width: 102px;
     height: 15px;

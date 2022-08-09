@@ -1,19 +1,20 @@
-
 .DesktopNavBar {
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: top;
+  width: auto;
+  height:auto;
   display: none;
-  
+  background-color: #e9e9e9;
+
 }
-.topBlackRectangle{
+
+.topBlackRectangle {
   width: auto;
   height: 5px;
   margin: -40px 0 0;
   object-fit: contain;
   background-color: var(--dark-grey);
 }
-.topBlackShape{
+
+.topBlackShape {
   width: 500px;
   height: 35px;
   margin: -66.5px 0 0 1005px;
@@ -24,25 +25,36 @@
 
 
 .MobileNavBar {
-  flex-direction: row;
+ 
+  background-color: #e7e7e7;
+}
+.hamburgerDiv{
+
   display: flex;
-  justify-content: last baseline;
+  flex-direction: row;
 }
 
-@media(min-width:1200px) {
+@media(min-width:1100px) {
   .DesktopNavBar {
     display: revert;
   }
+
   .MobileNavBar {
     display: none;
   }
+
+  .Setur-logo {
+    margin-left: 0px;
+  }
 }
+
 .iconperson {
   width: 24px;
   height: 24px;
   margin: 0 0 0 10px;
   object-fit: contain;
 }
+
 .iconhamburger {
   width: 24px;
   height: 24px;
@@ -57,10 +69,12 @@
   display: flex;
   flex-direction: row;
 }
-.navbarItems{
+
+.navbarItems {
   width: auto;
   background-color: light;
 }
+
 .navBarhorizontalInBlack {
   display: flex;
   flex-direction: row;
@@ -77,10 +91,10 @@
 
 .phoneNumber {
   width: 66px;
-  height: 20px;
+  height: auto;
   font-family: SourceSansPro;
   margin-top: 5px;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -91,9 +105,9 @@
 
 .yetkiliAcenteler {
   width: 68px;
-  height: 18px;
+  height: auto;
   margin-top: 5px;
-  margin-left: -22px;
+  margin-left: -15px;
   font-family: SourceSansPro;
   font-size: 10px;
   font-weight: normal;
@@ -110,7 +124,7 @@
   height: 21px;
   margin: 3px 0 0 0px;
   font-family: SourceSansPro;
-  font-size: 8px;
+  font-size: 7px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -120,23 +134,12 @@
   color: #fff;
 }
 
-.navBarBackground {
-  background-image: url("../components/NavBarIcons/topBlackRectangle.svg"), url("../components/NavBarIcons/topBlackShape.svg");
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: top;
-}
-
 .Setur-logo {
   margin-left: 100px;
   width: 112px;
   height: 36px;
   object-fit: contain;
   background-color: var(--tomato);
-}
-
-.Otel::after {
-  display: none;
 }
 
 .Otel {
@@ -164,27 +167,27 @@
 }
 
 .Gemi>a::after {
-  color:transparent;
+  color: transparent;
 }
 
 .Ucak>a::after {
-  color:transparent;
+  color: transparent;
 }
 
 .Vize>a::after {
-  color:transparent;
+  color: transparent;
 }
 
 .OzelCozumler>a::after {
-  color:transparent;
+  color: transparent;
 }
 
 .Kampanyalar>a::after {
-  color:transparent;
+  color: transparent;
 }
 
 .UyeOlGirisYap>a::after {
-  color:transparent;
+  color: transparent;
 }
 
 .Tur {
@@ -282,7 +285,6 @@
 .UyeOlGirisYap {
   width: 116px;
   height: 20px;
-
   margin: 0px 10px 0px 50px;
   font-family: SourceSansPro;
   font-size: 15.4px;
@@ -293,13 +295,4 @@
   letter-spacing: normal;
   text-align: right;
   color: var(--dark-grey);
-}
-
-img {
-  display: inline !important;
-  width: 20%;
-  vertical-align: top;
-  height: auto;
-  top: 0;
-  left: 0;
 }

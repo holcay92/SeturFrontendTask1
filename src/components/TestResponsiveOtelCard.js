@@ -1,13 +1,13 @@
 import React from 'react'
 import a1 from './images/navbarImages/otelImg.png';
-import TestCard from './TestCard';
+import HotelCard from './HotelCard';
 import FilterUp2 from './FilterUp2';
 import { Container } from 'react-bootstrap';
 
 function TestResponsiveOtelCard() {
     return (
         <Container className='container mt-5 mb-5'>
-            <div className="HotelCard">
+          
                 <div className="d-flex justify-content-center row">
                     <div className="col-md-12 col-sm-12 row">
                         {/*FILTER SECTION*/}
@@ -18,7 +18,7 @@ function TestResponsiveOtelCard() {
                         <div className="col-md-9">
 
                             {/* example hotel card */}
-                            <div className="row p-7 bg-white">
+                            <div className="row p-2 bg-white">
                                 <div className="col-md-3">
                                     <img className="img-fluid img-responsive " src={a1} /></div>
                                 <div className="col-md-6 mt-1">
@@ -27,12 +27,12 @@ function TestResponsiveOtelCard() {
                                         <div className="ratings mr-2">
                                             <i className="fa fa-star">We are Setur!!</i>
                                         </div>
-                                        <span> __Setur</span>
+                                        <span> .....Setur</span>
                                     </div>
                                     <div className="mt-1 mb-1 spec-1">
                                         <span>Halil Olcay..</span>
                                         <span className="dot"> Internship Program </span>
-                                        <span> For Students </span>
+                                        <span> at IT Department </span>
                                         <span className="dot"></span>
                                         <span> in Summer<br /></span>
                                     </div>
@@ -48,11 +48,11 @@ function TestResponsiveOtelCard() {
                             </div>
                             {/* example hotel card */}
 
-                            <TestCard />
+                            {<HotelCard />}
                         </div>
                     </div>
                 </div>
-            </div>
+           
         </Container>
     )
 }

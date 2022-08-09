@@ -64,10 +64,10 @@
     background-color: var(--light-blue-grey);
 }
 
-.digerBolgeleriGoster {
-    width: 145px;
+.diğerBolgeleriGoster {
+    width: 170px;
     height: 20px;
-    margin: 0 10px 0 0;
+    margin: 20px 10px 0 0;
     font-family: SourceSansPro;
     font-size: 16px;
     font-weight: normal;
@@ -81,7 +81,7 @@
 .iconChevronDown {
     width: 12px;
     height: 12px;
-    margin: 5px 0 3px 10px;
+    margin: 5px 0 3px 5px;
     object-fit: contain;
     transform: rotate(-270deg);
 }

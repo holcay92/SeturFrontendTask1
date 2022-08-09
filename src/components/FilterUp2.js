@@ -22,7 +22,7 @@ function FilterUp2() {
           </div >
 
         </div>
-        <div className="container mb-5">
+        <div className="container mb-4">
           <div className="row-md-5">
             <div className='OtelAdıAramaRectangle'>
               <p className="OtelAdıText">Otel Adı</p>
@@ -31,9 +31,9 @@ function FilterUp2() {
             </div>
             <div className='KonaklamaFiyatıRectangle'>
               <p className="KonaklamaFiyatıText">
-                Konaklama Fiyatı <img className='IconUp' src={iconUp} alt='' />
+                Konaklama Fiyatı<img className='IconUp' src={iconUp} alt='' />
               </p>
-              <div className='horizontal'>
+              <div className='d-flex'>
                 <textarea className='MinFiyatRectangle' rows="1" cols="50" placeholder="Min Fiyat"></textarea>
                 <textarea className='MaxFiyatRectangle' rows="1" cols="50" placeholder="Max Fiyat"></textarea>
               </div>
@@ -41,23 +41,25 @@ function FilterUp2() {
           </div>
         </div>
 
-        <div className="row-md-4">
-          <div className='FilterRectangle'>
-            <div>
-              <i className='tumTurkiyeOtelleri'>Tüm Türkiye Otelleri</i>
-              <img className='iconChevronRight ' src={iconRight} alt='' />
-              <p className='AntalyaOtelleri'>Antalya Otelleri (145)</p>
-            </div>
+        <div className="row-md-5">
+          <div className='OtelOzellikleriRectangle'>
+            <p className="OtelOzellikleriText">
+              Otel Özellikleri <img className='IconDown' src={iconUp} alt='' />
+            </p>
+           
             <Form>
-              <Form.Check id={`box-1-`} label={`Kemer (23)`} />
-              <Form.Check id={`box-2-`} label={`Finike (12) `} />
-              <Form.Check id={`box-3-`} label={`Alanya (8)`} />
+              <Form.Check id={`box-1-`} label={`Ücretsiz Otopark (23)`} />
+              <Form.Check id={`box-2-`} label={`Ücretsiz İnternet (12) `} />
+              <Form.Check id={`box-3-`} label={`Tenis Kortu (8)`} />
+              <Form.Check id={`box-1-`} label={`Açık Havuz  (23)`} />
+              <Form.Check id={`box-2-`} label={`Spa Merkezi (12) `} />
+              <Form.Check id={`box-3-`} label={`Plajlı (8)`} />
+              <Form.Check id={`box-1-`} label={`Ücretsiz Otopark (23)`} />
+              <Form.Check id={`box-2-`} label={`Ücretsiz İnternet (12) `} />
+              
               <Form.Check id={`box-4-`} label={`Manavgat (8) `} />  {/*${type}*/}
             </Form >
-            <div >
-              <i className='diğerBolgeleriGoster'>Diğer Bölgeleri Göster</i>
-              <img className='iconChevronDown ' src={iconDown} alt='' />
-            </div>
+            
           </div >
         </div>
       </div>

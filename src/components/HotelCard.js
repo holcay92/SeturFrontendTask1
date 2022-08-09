@@ -12,9 +12,10 @@ import infoIconGrey from './images/otelCardIcons/icon-info-grey.svg';
 import { Button, Container } from 'react-bootstrap';
 
 
-function TestCard() {
+function HotelCard() {
     return (
-        <Container>
+        
+        <Container className='HotelCard'>
             <div className="col-md-12">
                 <div className="e-card-horizontal">
                     <div className="row bg-white border rounded ">
@@ -163,4 +164,4 @@ function TestCard() {
     )
 }
 
-export default TestCard
+export default HotelCard

@@ -1,0 +1,20 @@
+.HotelCard{
+    display:none
+}
+
+@media(min-width:1100px){
+    .HotelCard{
+        display:revert
+    }
+    .HotelCardMobile{
+        display:none
+    }
+}
+@media(max-width:1100px){
+    .HotelCardMobile{
+        display:revert
+    }
+    .HotelCard{
+        display:none
+    }
+}

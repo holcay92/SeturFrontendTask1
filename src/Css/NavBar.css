@@ -1,18 +1,20 @@
+
 .DesktopNavBar {
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: top;
   display: none;
+  
 }
 .topBlackRectangle{
-  width: 1440px;
+  width: auto;
   height: 5px;
   margin: -40px 0 0;
   object-fit: contain;
   background-color: var(--dark-grey);
 }
 .topBlackShape{
-  width: 435px;
+  width: 500px;
   height: 35px;
   margin: -66.5px 0 0 1005px;
   padding: 6px 6px 7px 103px;
@@ -27,7 +29,7 @@
   justify-content: last baseline;
 }
 
-@media(min-width:900px) {
+@media(min-width:1200px) {
   .DesktopNavBar {
     display: revert;
   }
@@ -38,7 +40,7 @@
 .iconperson {
   width: 24px;
   height: 24px;
-  margin: 0 20px 0 148px;
+  margin: 0 0 0 10px;
   object-fit: contain;
 }
 .iconhamburger {
@@ -51,21 +53,25 @@
 
 .navBarhorizontal {
   width: auto;
-  margin-top: -30px;
+  margin-top: -35px;
   display: flex;
   flex-direction: row;
 }
-
+.navbarItems{
+  width: auto;
+  background-color: light;
+}
 .navBarhorizontalInBlack {
   display: flex;
   flex-direction: row;
-  margin-left: 390px;
+  margin-left: -280px;
+  margin-top: -50px;
 }
 
 .phoneIcon {
-  width: 20px;
-  height: 20px;
-  margin: 1px 10px 0 0;
+  width: 15px;
+  height: 15px;
+  margin: 3px 2px 0 -10px;
   object-fit: contain;
 }
 
@@ -73,22 +79,23 @@
   width: 66px;
   height: 20px;
   font-family: SourceSansPro;
-  font-size: 16px;
+  margin-top: 5px;
+  font-size: 10px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: #fff;
+  color: #ffff;
 }
 
 .yetkiliAcenteler {
-  width: auto;
+  width: 68px;
   height: 18px;
-  margin-left: 20px;
-  margin-top: 2px;
+  margin-top: 5px;
+  margin-left: -22px;
   font-family: SourceSansPro;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -101,7 +108,7 @@
 .seturServisTuristikAS {
   width: 87px;
   height: 21px;
-  margin: 1px 0 0 20px;
+  margin: 3px 0 0 0px;
   font-family: SourceSansPro;
   font-size: 8px;
   font-weight: 600;
@@ -149,35 +156,35 @@
 }
 
 .Otel>a::after {
-  color: #ffff;
+  color: transparent;
 }
 
 .Tur>a::after {
-  color: #ffff;
+  color: transparent;
 }
 
 .Gemi>a::after {
-  color: #ffff;
+  color:transparent;
 }
 
 .Ucak>a::after {
-  color: #ffff;
+  color:transparent;
 }
 
 .Vize>a::after {
-  color: #ffff;
+  color:transparent;
 }
 
 .OzelCozumler>a::after {
-  color: #ffff;
+  color:transparent;
 }
 
 .Kampanyalar>a::after {
-  color: #ffff;
+  color:transparent;
 }
 
 .UyeOlGirisYap>a::after {
-  color: #ffff;
+  color:transparent;
 }
 
 .Tur {

@@ -1,3 +1,4 @@
+import './index.css';
 import './Css/NavBar.css'
 import './Css/carouselUp.css'
 import './Css/OtelCard1Image.css'

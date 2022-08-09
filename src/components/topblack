@@ -1,3 +1,13 @@
 {/*  background-image: url("../components/NavBarIcons/topBlackRectangle.svg"), url("../components/NavBarIcons/topBlackShape.svg");
  */}
 
+
+ <div className='navBarhorizontalInBlack'>           
+ <img className='phoneIcon' src={phoneIcon} alt='' />
+ <i className='phoneNumber'>444 28 22</i>
+ <i className='yetkiliAcenteler'>Yetkili Acentalar</i>
+ <div className='seturServisTuristikAS'>
+   <i>Setur Servis Turistik A.Ş.</i>
+   <p>Belge No: 728</p>
+ </div>
+</div>

@@ -10,27 +10,21 @@ import topBlackShape from './NavBarIcons/topBlackShape.svg';
 import Container from 'react-bootstrap/Container';
 function NavBar() {
   return (
-    <div>
+    <div className='container mb-5'>
       {/*DESKTOP NAVBAR */}
       <div className="DesktopNavBar">
-        <Navbar className="DesktopNavBar" bg="light"  >
-          <div className='vertical'>
+        <Navbar fluid='true' >
+          <div>
             <img src={topBlackRectangle} className='topBlackRectangle' alt='' />
-            <img src={topBlackShape} className='topBlackShape' alt=''></img>
-            <div className='navBarhorizontalInBlack'>
-              <img className='phoneIcon' src={phoneIcon} alt='' />
-              <i className='phoneNumber'>444 28 22</i>
-              <i className='yetkiliAcenteler'>Yetkili Acentalar</i>
-              <div className='seturServisTuristikAS'>
-                <i>Setur Servis Turistik A.Ş.</i>
-                <p>Belge No: 728</p>
-              </div>
-            </div>
+            <img src={topBlackShape} className='topBlackShape' alt='' />
+
+
+
             <div className='navBarhorizontal'>
-              <Navbar.Brand className='Setur-logo' href="https://www.setur.com.tr">
+              <Navbar.Brand href="https://www.setur.com.tr">
                 <img src={seturlogo} className="Setur-logo" alt="some value" /></Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="navbarScroll">
+
+              <Navbar.Collapse className='navbarItems'>
                 <Nav >
                   <NavDropdown data-toggle="dropdown" className='Otel' title="Otel">Otel</NavDropdown>
                   <NavDropdown className='Tur' title="Tur">Tur</NavDropdown>
@@ -46,11 +40,23 @@ function NavBar() {
                   </NavDropdown>
                   <NavDropdown className='Kampanyalar' title="Kampanyalar">Link</NavDropdown>
                   <NavDropdown className='UyeOlGirisYap' title="Üye Ol/Giriş Yap" > Üye Ol/Giriş Yap
+                    <img src={personicon} className="iconperson" alt="some value" ></img>
+
                   </NavDropdown>
-                  <img src={personicon} className="iconperson" alt="some value" />
+                  <img src={personicon} className="iconperson" alt="some value" ></img>
                 </Nav>
               </Navbar.Collapse>
 
+            </div>
+          </div>
+          
+          <div className='navBarhorizontalInBlack'>
+            <img className='phoneIcon' src={phoneIcon} alt='' />
+            <i className='phoneNumber'>444 28 22</i>
+            <i className='yetkiliAcenteler'>Yetkili Acentalar</i>
+            <div className='seturServisTuristikAS'>
+              <i>Setur Servis Turistik A.Ş.</i>
+              <p>Belge No: 728</p>
             </div>
           </div>
 

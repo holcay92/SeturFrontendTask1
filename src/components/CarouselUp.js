@@ -5,7 +5,8 @@ import a1 from './UpBannerImages/a1.jpg';
 import a2 from './UpBannerImages/a2.png';
 import a3 from './UpBannerImages/a3.jpg';
 import Form from 'react-bootstrap/Form';
-import UpLeftFilter from './UpLeftFilter';
+import FilterUpLeft from './FilterUpLeft';
+import { Container } from 'react-bootstrap';
 
 
 function CarouselUp() {
@@ -14,7 +15,7 @@ function CarouselUp() {
       <div className="d-flex justify-content-center row">
         <div className="col-md-12 col-sm-12 row">
           <div className="col-md-3">
-           <UpLeftFilter/>
+           <FilterUpLeft/>
           </div>
           <div className="col-md-9">
             <Carousel className='Carousel' >

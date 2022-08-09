@@ -12,7 +12,7 @@
 }
 @media (min-width: 1100px) {
   .Carousel {
-    display:revert
+    display:flex
   }
 }
 .Carousel.Item {

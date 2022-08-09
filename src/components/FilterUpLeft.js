@@ -5,7 +5,7 @@ import iconDown from './images/commercialImages/icon-chevron-down.svg';
 
 
 
-function UpLeftFilter() {
+function FilterUpLeft() {
   return (
     <div className='FilterRectangle'>
       <div >
@@ -35,8 +35,9 @@ function UpLeftFilter() {
         <i className='diğerBolgeleriGoster'>Diğer Bölgeleri Göster</i>
         <img className='iconChevronDown ' src={iconDown} alt='' />
       </div>
+      
     </div >
   )
 }
 
-export default UpLeftFilter
+export default FilterUpLeft

@@ -1,26 +1,26 @@
 import React from 'react'
 import a1 from './images/navbarImages/otelImg.png';
-
 import TestCard from './TestCard';
-import UpFilter2 from './UpFilter2';
-
+import FilterUp2 from './FilterUp2';
+import { Container } from 'react-bootstrap';
 
 function TestResponsiveOtelCard() {
     return (
-        <div className='container mt-5 mb-5'>
+        <Container className='container mt-5 mb-5'>
             <div className="HotelCard">
                 <div className="d-flex justify-content-center row">
                     <div className="col-md-12 col-sm-12 row">
                         {/*FILTER SECTION*/}
-                        <div className='col-md-3'>
-                            <UpFilter2 />
+                        <div className='col-md-3 '>
+                            <FilterUp2 className='UpFilter2' />
                         </div>
                         {/*OTEL CARD*/}
                         <div className="col-md-9">
 
                             {/* example hotel card */}
-                            <div className="row p-2 bg-white border rounded mt-2">
-                                <div className="col-md-3 mt-1"><img className="img-fluid img-responsive rounded product-image" src={a1} /></div>
+                            <div className="row p-7 bg-white">
+                                <div className="col-md-3">
+                                    <img className="img-fluid img-responsive " src={a1} /></div>
                                 <div className="col-md-6 mt-1">
                                     <h5>Concorde Luxury Resort Casino Convention & SPA</h5>
                                     <div className="d-flex flex-row">
@@ -48,13 +48,12 @@ function TestResponsiveOtelCard() {
                             </div>
                             {/* example hotel card */}
 
-
                             <TestCard />
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </Container>
     )
 }
 

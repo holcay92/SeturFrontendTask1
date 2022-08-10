@@ -1,4 +1,4 @@
-.Mask{
+.MaskMobile {
     width: 320px;
     height: 625px;
     margin: 1px 0 20px;
@@ -7,7 +7,8 @@
     border: solid 1px #dedede;
     background-color: #fff;
 }
-.imgHotel{
+
+.imgHotelMobile {
     width: 320px;
     height: 165px;
     margin: 0 0 12px;
@@ -16,13 +17,55 @@
     border-radius: 2px;
     border: solid 1px #dedede;
 }
-.iconLocation{
+
+.seturOneriyorRectangleMobile {
+    width: 99px;
+    height: 24px;
+    margin: 93px 5px 0 5px;
+    padding: 4px 6px 4px 4px;
+    border-radius: 3.2px;
+    background-color: #fff;
+}
+
+.seturOneriyorTextMobile {
+    width: 169px;
+    height: 14px;
+    margin: 1px 0 1px 4px;
+    font-family: SourceSansPro;
+    font-size: 11.2px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+}
+
+.iconCheckMarkMobile {
     width: 16px;
     height: 16px;
-    margin: 2px 4px 0 0;
+    margin: 0 4px 0 0;
     object-fit: contain;
 }
-.hotelLocation{
+
+.cardDetailMobile {
+    margin-left: 17px;
+}
+
+.hotelLocationGuestRateMobile {
+    margin-top: 0;
+    display: flex;
+    direction: row;
+}
+
+.iconLocationMobile {
+    width: 16px;
+    height: 16px;
+    margin: 1px 4px 0 0;
+    object-fit: contain;
+}
+
+.hotelLocationMobile {
     width: 91px;
     height: 18px;
     margin: 0 0 0 4px;
@@ -35,7 +78,8 @@
     letter-spacing: normal;
     color: #000;
 }
-.mukemmelText{
+
+.mukemmelTextMobile {
     width: 58px;
     height: 15px;
     margin: 0 0 2px 23px;
@@ -49,7 +93,8 @@
     text-align: right;
     color: #000;
 }
-.guestCommentText{
+
+.guestCommentTextMobile {
     width: 81px;
     height: 13px;
     margin: 2px 0 0;
@@ -63,10 +108,27 @@
     text-align: right;
     color: #000;
 }
-.greenRectangle{
+.mukemmelAndCommentMobile{
+    margin-top: -5px;
+}
+
+.GuestRateMobile {
+    margin-left: 70px;
+    display: flex;
+    direction: row;
+}
+
+.greenRectangleMobile {
     width: 22px;
     height: 30px;
     margin: 0 0 0 5px;
+    border-radius: 2px;
+    background-color: #2fbd14;
+}
+.greenRectangleTextMobile{
+    width: 22px;
+    height: 30px;
+    margin: 0 0 0 3px;
     font-family: SourceSansPro;
     font-size: 12px;
     font-weight: 600;
@@ -77,10 +139,11 @@
     text-align: center;
     color: #fff;
 }
-.hotelName{
+
+.hotelNameMobile {
     width: 260px;
     height: 40px;
-    margin: 10px 0 5px 2px;
+    margin: 5px 0 5px 2px;
     font-family: SourceSansPro;
     font-size: 16px;
     font-weight: bold;
@@ -90,66 +153,74 @@
     letter-spacing: normal;
     color: #292a2c;
 }
-.ultraHerSeyDahil{
+
+.ultraHerSeyDahilMobile {
     width: 120px;
-  height: 18px;
-  margin: 5px 140px 15px 2px;
-  font-family: SourceSansPro;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.5px;
-  color: #292a2c;
+    height: 18px;
+    margin: 5px 140px 15px 2px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #292a2c;
 }
-.bidikMobile{
+
+.bidikMobile {
     width: 19px;
-  height: 3px;
-  margin: 15px 241px 0 2px;
-  border-radius: 2.6px;
-  background-color: #fa5851;
+    height: 3px;
+    margin: 15px 241px 0 2px;
+    border-radius: 2.6px;
+    background-color: #fa5851;
 }
-.ucretsizIptalRectangleMobile{
+
+.ucretsizIptalRectangleMobile {
     width: 91px;
     height: 22px;
-    margin: 10px 83px 7px 15px;
+    margin: 13px 83px 7px 15px;
     padding: 3px 4px 4px;
     border-radius: 2px;
     background-color: rgba(4, 169, 133, 0.1);
 }
-.ucretsizIptalTextMobile{
- width: 65px;
-  height: 15px;
-  margin: 0 4px 0 0;
-  font-family: SourceSansPro;
-  font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #04a985;
+
+.ucretsizIptalTextMobile {
+    width: 83px;
+    height: 15px;
+    margin: 1px 4px 0 0;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #04a985;
 }
-.iconInfoMobile{
+
+.iconInfoMobile {
     width: 14px;
     height: 14px;
-    margin: 1px 0 0 4px;
+    margin: -3px 0 0 4px;
     object-fit: contain;
 }
-.yuzdeOnbesRectangleMobile{
+
+.yuzdeOnbesRectangleMobile {
     width: 109px;
     height: 30px;
     margin: 7px 65px 8px 15px;
     padding: 7px 19px 8px 20px;
     opacity: 0.9;
     border-radius: 2px;
-    border: solid 0.5px #2fbd14;
+    border:dashed  1px #2fbd14;
     background-color: #e0f7dc;
 }
-.yuzdeOnbesTextMobile{
-    width: 70px;
+
+.yuzdeOnbesTextMobile {
+    width: 90px;
     height: 15px;
+    margin-left: -12px;
     font-family: SourceSansPro;
     font-size: 12px;
     font-weight: 900;
@@ -160,26 +231,29 @@
     text-align: center;
     color: #2fbd14;
 }
-.worldCardRectangleMobile{
+
+.worldCardRectangleMobile {
     width: 136px;
     height: 47px;
-    margin: 8px 38px 20px 15px;
+    margin: 8px 38px 10px 15px;
     padding: 8px 7px 5px 10px;
     border-radius: 2px;
-    border: solid 0.5px #682a7a;
+    border: dashed 0.75px #682a7a;
     background-color: #fff;
 }
-.worldCardLogoMobile{
+
+.worldCardLogoMobile {
     width: 75px;
     height: 12px;
     margin: 2px 4px 2px 0;
     object-fit: contain;
-    background-color: #682a7a;
+    background-color: #ffffff;
 }
-.eOzelTextMobile{
-    width: 40px;
+
+.eOzelTextMobile {
+    width: 120px;
     height: 18px;
-    margin: 0 0 16px 4px;
+    margin: 0 0 16px 0px;
     font-family: SourceSansPro;
     font-size: 14px;
     font-weight: normal;
@@ -189,7 +263,8 @@
     letter-spacing: normal;
     color: #682a7a;
 }
-.onIkıTaksitMobile{
+
+.onIkıTaksitMobile {
     width: 90px;
     height: 18px;
     margin: 2px 29px 0 0;
@@ -202,7 +277,8 @@
     letter-spacing: normal;
     color: #682a7a;
 }
-.fiyatTlMobile{
+
+.fiyatTlMobile {
     width: 90px;
     height: 46px;
     margin: 8px 3px 17px 7px;
@@ -216,7 +292,8 @@
     text-align: right;
     color: #292a2c;
 }
-.fiyatKusuratMobile{
+
+.fiyatKusuratMobile {
     width: 16px;
     height: 15px;
     margin: 2px 0 0 3px;
@@ -229,7 +306,8 @@
     letter-spacing: normal;
     color: #292a2c;
 }
-.tlTextMobile{
+
+.tlTextMobile {
     width: 13px;
     height: 15px;
     margin: 17px 0 5px 6px;
@@ -242,7 +320,8 @@
     letter-spacing: normal;
     color: #292a2c;
 }
-.denBaslayanTextMobile{
+
+.denBaslayanTextMobile {
     width: 116px;
     height: 15px;
     margin: 5px 0 4px;
@@ -257,7 +336,8 @@
     text-align: right;
     color: #292a2c;
 }
-.kacKisiKacGeceMobile{
+
+.kacKisiKacGeceMobile {
     width: 63px;
     height: 15px;
     margin: 4px 0 0 53px;
@@ -272,7 +352,8 @@
     text-align: right;
     color: #292a2c;
 }
-.ucretDetaylarıMobile{
+
+.ucretDetaylarıMobile {
     width: 76px;
     height: 15px;
     margin: 0 0 0 5px;
@@ -285,16 +366,18 @@
     letter-spacing: normal;
     color: #292a2c;
 }
-.iconInfoUcretDetaylarıMobile{
+
+.iconInfoUcretDetaylarıMobile {
     width: 12px;
     height: 12px;
     margin: 2px 5px 1px 0;
     object-fit: contain;
 }
-.yetiskinOteliTextMobile{
+
+.yetiskinOteliTextMobile {
     width: 82px;
     height: 18px;
-    margin: 0 28px 0 0;
+    margin: 0 10px 0 15px;
     font-family: SourceSansPro;
     font-size: 14px;
     font-weight: normal;
@@ -304,10 +387,11 @@
     letter-spacing: normal;
     color: #525252;
 }
-.balayıOtelTextMobile{
+
+.balayıOtelTextMobile {
     width: 73px;
     height: 18px;
-    margin: 0 28px;
+    margin: 0 10px;
     font-family: SourceSansPro;
     font-size: 14px;
     font-weight: normal;
@@ -317,10 +401,11 @@
     letter-spacing: normal;
     color: #525252;
 }
-.cocukDostuTextMobile{
+
+.cocukDostuTextMobile {
     width: 80px;
     height: 18px;
-    margin: 0 0 0 28px;
+    margin: 0 0 0 20px;
     font-family: SourceSansPro;
     font-size: 14px;
     font-weight: normal;
@@ -330,7 +415,19 @@
     letter-spacing: normal;
     color: #525252;
 }
-.acikHavuzRectangleMobile{
+
+.OzellikRectangle {
+    width: auto;
+    height: auto;
+    border-color: transparent;
+    display: flex;
+    direction: row;
+    margin-left: 10 px;
+    margin-top: -1px;
+
+}
+
+.acikHavuzRectangleMobile {
     width: 108px;
     height: 36px;
     margin: 0 10px 0 0;
@@ -338,7 +435,29 @@
     border-radius: 4px;
     background-color: #f7f7f7;
 }
-.spaRectangleMobile{
+
+.iconPoolMobile {
+    width: 20px;
+    height: 20px;
+    margin: 0 8px 0 -10px;
+    object-fit: contain;
+}
+
+.acikHavuzTextMobile {
+    width: 100px;
+    height: 18px;
+    margin: 1px 0 1px 8px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+}
+
+.spaRectangleMobile {
     width: 67px;
     height: 36px;
     margin: 0 10px;
@@ -346,15 +465,52 @@
     border-radius: 4px;
     background-color: #f7f7f7;
 }
-.plajRectangleMobile{
-    width: 74px;
-  height: 36px;
-  margin: 0 10px;
-  padding: 8px 8px 8px 8px;
-  border-radius: 4px;
-  background-color: #f7f7f7;
+
+.spaTextMobile {
+    width: 73px;
+    height: 18px;
+    margin: 1px 0 1px 8px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
 }
-.hopiRectangleMobile{
+
+.iconSpaMobile {
+    width: 20px;
+    height: 20px;
+    margin: 0 8px 0 -5px;
+    object-fit: contain;
+}
+
+.plajRectangleMobile {
+    width: 74px;
+    height: 36px;
+    margin: 0 10px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+}
+
+.plajTextMobile {
+    width: 70px;
+    height: 18px;
+    margin: 1px 0 1px 8px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+}
+
+.hopiRectangleMobile {
     width: 238px;
     height: 36px;
     margin: 20px 10px 12px 15px;
@@ -363,7 +519,34 @@
     border: solid 1px #dedede;
     background-color: #fff;
 }
-.hopiRectangle2Mobile{
+
+.hopiLogoMobile {
+    width: 20px;
+    height: 19px;
+    margin: 0 4px 0 0;
+    object-fit: contain;
+}
+
+.hopiTextMobile {
+    width: 254px;
+    height: 18px;
+    margin: 1px 0 0 px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #292a2c;
+}
+
+.hopiBigRectangleMobile {
+    display: flex;
+    margin-top: -15px;
+}
+
+.hopiRectangle2Mobile {
     width: 31px;
     height: 36px;
     margin: 20px 26px 12px 10px;
@@ -372,30 +555,45 @@
     border: solid 1px #dedede;
     background-color: #fff;
 }
-.oteliSecButton{
+
+.hopiArtı2TextMobile {
+    width: 15px;
+    height: 18px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1b75e2;
+}
+
+.oteliSecButton {
     width: 290px;
-  height: 40px;
-  margin: 12px 15px 0;
-  padding: 11px 117px 11px 118px;
-  border-radius: 2px;
-  box-shadow: 0 10px 30px 0 rgba(255, 65, 57, 0.5);
-  background-color: #e2231b;
+    height: 40px;
+    margin: 0px 15px 0;
+    padding: 11px 117px 11px 118px;
+    border-radius: 2px;
+    box-shadow: 0 10px 30px 0 rgba(255, 65, 57, 0.5);
+    background-color: #e2231b;
 }
 
 
 
 
-.indirimsizTutar{
+.indirimsizTutar {
     width: 66px;
-  height: 15px;
-  margin: 0 0 2px 50px;
-  font-family: SourceSansPro;
-  font-size: 12px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.6px;
-  text-align: right;
-  color: #b6b5b5;
+    height: 15px;
+    margin: 0 0 2px 50px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: right;
+    color: #b6b5b5;
 }

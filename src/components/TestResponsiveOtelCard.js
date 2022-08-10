@@ -49,6 +49,9 @@ function TestResponsiveOtelCard() {
                             {/* example hotel card */}
 
                             {<HotelCard />}
+                            {<HotelCard />}
+                            {<HotelCard />}
+                            {<HotelCard />}
                         </div>
                     </div>
                 </div>

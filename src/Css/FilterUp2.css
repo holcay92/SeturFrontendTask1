@@ -21,9 +21,9 @@
 }
 
 .SadeceMusaitTesisleriGosterText {
-    width: 173.4px;
+    width: 200.4px;
     height: 18px;
-    margin: 5px 7.6px 1px 10px;
+    margin: 5px 7.6px 1px -5px;
     font-family: SourceSansPro;
     font-size: 14px;
     font-weight: normal;
@@ -44,9 +44,9 @@
 }
 
 .UcretsizIptalText {
-    width: 77.8px;
+    width: 110px;
     height: 18px;
-    margin: -20px 7.2px 1px 35px;
+    margin: -20px 7.2px 1px 20px;
     font-family: SourceSansPro;
     font-size: 14px;
     font-weight: normal;
@@ -54,7 +54,7 @@
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: var(--brownish-grey);
+    color: #636363;
 }
 
 .OtelAdıAramaRectangle {
@@ -144,7 +144,7 @@
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: var(--greyish-brown);
+    color: #636363;
 }
 
 .IconDown {
@@ -342,13 +342,13 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: var(--brownish-grey);
+  color: #636363;
 }
 
 .CocukRectangle {
     width: 260px;
     height: 60px;
-    margin: 20px 20px 20px 100px;
+    margin: 70px 20px 20px -20px;
     padding: 20px;
     border-radius: 2px;
     background-color: #fff;
@@ -367,10 +367,88 @@
     letter-spacing: normal;
     color: #3a3a3a;
 }
+.OtelKonaklamaTipiRectangle {
+    width: 260px;
+    height: 60px;
+    margin: 20px 20px 20px -20px;
+    padding: 20px;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+.OtelKonaklamaTipi{
+    width: auto;
+    height: 20px;
+    margin: 0 61px 0 0;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3a3a3a;
+}
+.OtelTipiRectangle {
+    width: 260px;
+    height: 60px;
+    margin: 18px 20px 20px -20px;
+    padding: 20px;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+.OtelTipi {
+    width: auto;
+    height: 20px;
+    margin: 0 144px 0 0;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3a3a3a;
+  }
+  .OtelTemalarRectangle {
+    width: 260px;
+    height: 60px;
+    margin: 20px 20px 187px -20px;
+    padding: 20px;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+  .OtelTemalar {
+    width: 95px;
+    height: 20px;
+    margin: 0 109px 0 0;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3a3a3a;
+  }
 
 .IconUp {
     width: 16px;
     height: 16px;
     margin: -40px 0 2px 200px;
     object-fit: contain;
+}
+.iconUpDigerOtelOzellikleriText{
+    width: 16px;
+    height: 16px;
+    margin: -40px 0 2px 200px;
+    object-fit: contain;
+    
+}
+.iconDownCocukText{
+    width: 16px;
+  height: 16px;
+  margin: -35px 0 2px 200px;
+  object-fit: contain;
+  rotate: 180deg;
+
 }

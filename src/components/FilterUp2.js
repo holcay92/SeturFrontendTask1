@@ -16,8 +16,8 @@ import iconDown from './images/FilterIcons/icon-up.svg';
 function FilterUp2() {
   return (
     <Container className='UpFilter2'>
-      < div className="col-md-12" >
-        <div className="row-md-3">
+      < div className="col-xl-12" >
+        <div className="row-md-2">
 
           <div className='RectangleSadeceMusaitTesisler'>
             <Form.Check id={`box-1-`} label={``} />
@@ -31,7 +31,7 @@ function FilterUp2() {
 
         </div>
         <div className="container mb-4">
-          <div className="row-md-5">
+          <div className="row-md-4">
             <div className='OtelAdıAramaRectangle'>
               <p className="OtelAdıText">Otel Adı</p>
               <div className='OtelAdıAramaField'>
@@ -49,7 +49,7 @@ function FilterUp2() {
           </div>
         </div>
 
-        <div className="row-md-5">
+        <div className="row-md-6">
           <div className='OtelOzellikleriRectangle'>
             <p className="OtelOzellikleriText">
               Otel Özellikleri <img className='IconUp' src={iconUp} alt='' />
@@ -84,13 +84,13 @@ function FilterUp2() {
             </div>
             <p className="DigerOtelOzellikleriText">
               Diğer Otel Özellikleri
-              <img className='iconChevronDown' src={iconDown} alt='' />
+              <img className='iconUpDigerOtelOzellikleriText' src={iconDown} alt='' />
             </p>
 
 
 
             <Form>
-             
+
               <Form.Check id={`box-1-`} label={`Ücretsiz Otopark (23)`} />
               <Form.Check id={`box-2-`} label={`Ücretsiz İnternet (12) `} />
               <Form.Check id={`box-3-`} label={`Tenis Kortu (8)`} />
@@ -102,6 +102,27 @@ function FilterUp2() {
 
               <Form.Check id={`box-4-`} label={`Manavgat (8) `} />  {/*${type}*/}
             </Form >
+
+            <div className='CocukRectangle'>
+              <p className="CocukText">
+                Çocuk  <img className='iconDownCocukText' src={iconDown} alt='' />
+              </p>
+            </div>
+            <div className='OtelKonaklamaTipiRectangle'>
+              <p className="OtelKonaklamaTipi">
+                Otel Konaklama Tipi  <img className='iconDownCocukText' src={iconDown} alt='' />
+              </p>
+            </div>
+            <div className='OtelTipiRectangle'>
+              <p className="OtelTipi">
+                Otel Tipi  <img className='iconDownCocukText' src={iconDown} alt='' />
+              </p>
+            </div>
+            <div className='OtelTemalarRectangle'>
+              <p className="OtelTemalar">
+                Otel Temaları  <img className='iconDownCocukText' src={iconDown} alt='' />
+              </p>
+            </div>
 
           </div >
         </div>

@@ -32,14 +32,14 @@ function App() {
       {/*
       <MobileNavBar />
  <IptalGuvenceBanner />
-      
+       
 */}
        <NavBar />
     
       <CarouselUp />
       <TestResponsiveOtelCard />
       <HotelCardMobile/>
-      <UpFooter />
+     <UpFooter />
       <Footer />
     </div>
     </div>

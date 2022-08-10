@@ -1,5 +1,6 @@
 .HotelCard{
-    display:none
+    display:none;
+    padding: 10px;
 }
 
 @media(min-width:1200px){

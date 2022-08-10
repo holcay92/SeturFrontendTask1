@@ -3,6 +3,9 @@
     height: auto;
     padding: 26px 93px 31px 100px;
     background-color: #292a2c;
+    display: flex;
+  flex-direction: column;
+  margin-top: auto;
 }
 
 .PhoneCallDiv {
@@ -18,7 +21,6 @@
     background-repeat: no-repeat;
     background-position-x: 15%;
     background-position-y: center;
-
     margin: 0 20px 23px 863px;
     padding: 12px 25px;
     border-radius: 2px;

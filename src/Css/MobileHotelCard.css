@@ -1,0 +1,401 @@
+.Mask{
+    width: 320px;
+    height: 625px;
+    margin: 1px 0 20px;
+    padding: 0 0 14px;
+    border-radius: 2px;
+    border: solid 1px #dedede;
+    background-color: #fff;
+}
+.imgHotel{
+    width: 320px;
+    height: 165px;
+    margin: 0 0 12px;
+    padding: 5px;
+    object-fit: contain;
+    border-radius: 2px;
+    border: solid 1px #dedede;
+}
+.iconLocation{
+    width: 16px;
+    height: 16px;
+    margin: 2px 4px 0 0;
+    object-fit: contain;
+}
+.hotelLocation{
+    width: 91px;
+    height: 18px;
+    margin: 0 0 0 4px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+}
+.mukemmelText{
+    width: 58px;
+    height: 15px;
+    margin: 0 0 2px 23px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000;
+}
+.guestCommentText{
+    width: 81px;
+    height: 13px;
+    margin: 2px 0 0;
+    font-family: SourceSansPro;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000;
+}
+.greenRectangle{
+    width: 22px;
+    height: 30px;
+    margin: 0 0 0 5px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+.hotelName{
+    width: 260px;
+    height: 40px;
+    margin: 10px 0 5px 2px;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #292a2c;
+}
+.ultraHerSeyDahil{
+    width: 120px;
+  height: 18px;
+  margin: 5px 140px 15px 2px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #292a2c;
+}
+.bidikMobile{
+    width: 19px;
+  height: 3px;
+  margin: 15px 241px 0 2px;
+  border-radius: 2.6px;
+  background-color: #fa5851;
+}
+.ucretsizIptalRectangleMobile{
+    width: 91px;
+    height: 22px;
+    margin: 10px 83px 7px 15px;
+    padding: 3px 4px 4px;
+    border-radius: 2px;
+    background-color: rgba(4, 169, 133, 0.1);
+}
+.ucretsizIptalTextMobile{
+ width: 65px;
+  height: 15px;
+  margin: 0 4px 0 0;
+  font-family: SourceSansPro;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #04a985;
+}
+.iconInfoMobile{
+    width: 14px;
+    height: 14px;
+    margin: 1px 0 0 4px;
+    object-fit: contain;
+}
+.yuzdeOnbesRectangleMobile{
+    width: 109px;
+    height: 30px;
+    margin: 7px 65px 8px 15px;
+    padding: 7px 19px 8px 20px;
+    opacity: 0.9;
+    border-radius: 2px;
+    border: solid 0.5px #2fbd14;
+    background-color: #e0f7dc;
+}
+.yuzdeOnbesTextMobile{
+    width: 70px;
+    height: 15px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2fbd14;
+}
+.worldCardRectangleMobile{
+    width: 136px;
+    height: 47px;
+    margin: 8px 38px 20px 15px;
+    padding: 8px 7px 5px 10px;
+    border-radius: 2px;
+    border: solid 0.5px #682a7a;
+    background-color: #fff;
+}
+.worldCardLogoMobile{
+    width: 75px;
+    height: 12px;
+    margin: 2px 4px 2px 0;
+    object-fit: contain;
+    background-color: #682a7a;
+}
+.eOzelTextMobile{
+    width: 40px;
+    height: 18px;
+    margin: 0 0 16px 4px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #682a7a;
+}
+.onIkıTaksitMobile{
+    width: 90px;
+    height: 18px;
+    margin: 2px 29px 0 0;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #682a7a;
+}
+.fiyatTlMobile{
+    width: 90px;
+    height: 46px;
+    margin: 8px 3px 17px 7px;
+    font-family: SourceSansPro;
+    font-size: 37px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #292a2c;
+}
+.fiyatKusuratMobile{
+    width: 16px;
+    height: 15px;
+    margin: 2px 0 0 3px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #292a2c;
+}
+.tlTextMobile{
+    width: 13px;
+    height: 15px;
+    margin: 17px 0 5px 6px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #292a2c;
+}
+.denBaslayanTextMobile{
+    width: 116px;
+    height: 15px;
+    margin: 5px 0 4px;
+    opacity: 0.75;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #292a2c;
+}
+.kacKisiKacGeceMobile{
+    width: 63px;
+    height: 15px;
+    margin: 4px 0 0 53px;
+    opacity: 0.75;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #292a2c;
+}
+.ucretDetaylarıMobile{
+    width: 76px;
+    height: 15px;
+    margin: 0 0 0 5px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #292a2c;
+}
+.iconInfoUcretDetaylarıMobile{
+    width: 12px;
+    height: 12px;
+    margin: 2px 5px 1px 0;
+    object-fit: contain;
+}
+.yetiskinOteliTextMobile{
+    width: 82px;
+    height: 18px;
+    margin: 0 28px 0 0;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+}
+.balayıOtelTextMobile{
+    width: 73px;
+    height: 18px;
+    margin: 0 28px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+}
+.cocukDostuTextMobile{
+    width: 80px;
+    height: 18px;
+    margin: 0 0 0 28px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+}
+.acikHavuzRectangleMobile{
+    width: 108px;
+    height: 36px;
+    margin: 0 10px 0 0;
+    padding: 8px 8px 8px 8px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+}
+.spaRectangleMobile{
+    width: 67px;
+    height: 36px;
+    margin: 0 10px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+}
+.plajRectangleMobile{
+    width: 74px;
+  height: 36px;
+  margin: 0 10px;
+  padding: 8px 8px 8px 8px;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+}
+.hopiRectangleMobile{
+    width: 238px;
+    height: 36px;
+    margin: 20px 10px 12px 15px;
+    padding: 8px 8px 9px;
+    border-radius: 2px;
+    border: solid 1px #dedede;
+    background-color: #fff;
+}
+.hopiRectangle2Mobile{
+    width: 31px;
+    height: 36px;
+    margin: 20px 26px 12px 10px;
+    padding: 9px 8px;
+    border-radius: 2px;
+    border: solid 1px #dedede;
+    background-color: #fff;
+}
+.oteliSecButton{
+    width: 290px;
+  height: 40px;
+  margin: 12px 15px 0;
+  padding: 11px 117px 11px 118px;
+  border-radius: 2px;
+  box-shadow: 0 10px 30px 0 rgba(255, 65, 57, 0.5);
+  background-color: #e2231b;
+}
+
+
+
+
+.indirimsizTutar{
+    width: 66px;
+  height: 15px;
+  margin: 0 0 2px 50px;
+  font-family: SourceSansPro;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: right;
+  color: #b6b5b5;
+}

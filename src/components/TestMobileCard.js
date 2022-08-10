@@ -1,7 +1,4 @@
 import React from 'react'
-import a1 from './images/navbarImages/otelImg.png';
-import a2 from './images/navbarImages/otelImg.png';
-import a3 from './images/navbarImages/otelImg.png';
 import Carousel from 'react-bootstrap/Carousel';
 import checkMark from './images/otelCardIcons/checkmark.svg';
 import hotelImgMobile from './images/otelCardIcons/hotel-img.webp';
@@ -58,8 +55,7 @@ function TestMobileCard() {
                     </Carousel.Item>
                 </Carousel>
 
-                <div className="cardDetailMobile">
-
+                <div className="cardDetailMobileForPadding">
                     <div className='hotelLocationGuestRateMobile'>
                         <div className='locationInfoMobile'>
                             <img className='iconLocationMobile' src={locationIcon} alt="info" />
@@ -79,61 +75,84 @@ function TestMobileCard() {
                     </div>
                     <p className="hotelNameMobile">Concorde Luxury Resort Casino Convention & SPA</p>
                     <span className="ultraHerSeyDahilMobile"> Ultra Her Şey Dahil</span>
-                    <div className="bidikMobile">
+                    <div className="bidikMobile"></div>
+                </div>
+                <div className='hotelCardMiddleSectionMobile'>
+                    <div>
+                        <div className="ucretsizIptalRectangleMobile">
+                            <p className="ucretsizIptalTextMobile">
+                                Ücretsiz iptal
+                                <img src={infoIcon} className='iconInfoMobile' alt="info" />
+                            </p>
+                        </div>
+                        <div className="yuzdeOnbesRectangleMobile">
+                            <p className="yuzdeOnbesTextMobile">%15 İNDİRİM</p>
+                        </div>
+                        <div className="worldCardRectangleMobile">
+                            <div className="eOzelTextMobile">
+                                <img className='worldCardLogoMobile' src={worldCardLogo} alt="info" />
+                                ‘e özel
+                                <p className="onIkıTaksitMobile">12 taksit fırsatı!</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div>
+                        <span className="indirimsizTutarMobile"><del>2.200,99 TL</del></span>
+                        <div className='d-flex'>
+                            <div>
+                                <p className="hotelPriceMobile">1.867</p>
+                            </div>
+                            <div>
+                                <p className="hotelPriceFractionMobile">,98</p>
+                                <p className='tlTextMobile'> TL</p>
+                            </div>
+                        </div>
+
+                        <p className="denBaslayanFiyatlarlaTextMobile">‘den başlayan fiyatlarla</p>
+                        <p className="kacKisiKacGeceMobile">2 kişi 3 gece</p>
+                        <span className="ucretDetaylarıMobile">
+                            <img src={infoIconGrey} className='iconInfoUcretDetaylarıMobile' alt="info" />
+                            <u>Ücret Detayları</u>
+                        </span>
                     </div>
-                    </div>
-                    <div className="ucretsizIptalRectangleMobile">
-                        <p className="ucretsizIptalTextMobile">
-                            Ücretsiz iptal
-                            <img src={infoIcon} className='iconInfoMobile' alt="info" />
+                </div>
+
+                <span className="yetiskinOteliTextMobile">· Yetişkin Oteli</span>
+                <span className="balayıOtelTextMobile">· Balayı Oteli</span>
+                <span className="cocukDostuTextMobile">· Çocuk Dostu</span>
+
+                <div className='OzellikRectangle'>
+                    <div className="acikHavuzRectangleMobile">
+                        <p className="acikHavuzTextMobile">
+                            <img src={iconPool} className='iconPoolMobile' alt="info" />
+                            Açık Havuz
                         </p>
                     </div>
-                    <div className="yuzdeOnbesRectangleMobile">
-                        <p className="yuzdeOnbesTextMobile">%15 İNDİRİM</p>
+                    <div className="spaRectangleMobile">
+                        <p className="spaTextMobile">
+                            <img src={iconSpa} className='iconSpaMobile' alt="info" />
+                            Spa
+                        </p>
                     </div>
-                    <div className="worldCardRectangleMobile">
-                        <div className="eOzelTextMobile">
-                            <img className='worldCardLogoMobile' src={worldCardLogo} alt="info" />
-                            ‘e özel
-                            <p className="onIkıTaksitMobile">12 taksit fırsatı!</p>
-                        </div>
+                    <div className="plajRectangleMobile">
+                        <p className="plajTextMobile">
+                            <img src={iconSpa} className='iconSpaMobile' alt="info" />
+                            Plajlı
+                        </p>
                     </div>
-                    <span className="yetiskinOteliTextMobile">· Yetişkin Oteli</span>
-                    <span className="balayıOtelTextMobile">· Balayı Oteli</span>
-                    <span className="cocukDostuTextMobile">· Çocuk Dostu</span>
+                </div>
+                <div className='hopiBigRectangleMobile'>
+                    <div className="hopiRectangleMobile">
+                        <p className="hopiTextMobile"><img className='hopiLogoMobile' src={hopiLogo} alt="info" /> Hopi’ye özel 1500 paracık hediye!</p>
+                    </div>
+                    <div className="hopiRectangle2Mobile"><p className='hopiArtı2TextMobile'>+2</p>
+                    </div>
+                </div>
+                <div>
+                    <Button className="oteliSecButton" variant="danger" size="lg">Oteli Seç</Button>
+                </div>
 
-                    <div className='OzellikRectangle'>
-                        <div className="acikHavuzRectangleMobile">
-                            <p className="acikHavuzTextMobile">
-                                <img src={iconPool} className='iconPoolMobile' alt="info" />
-                                Açık Havuz
-                            </p>
-                        </div>
-                        <div className="spaRectangleMobile">
-                            <p className="spaTextMobile">
-                                <img src={iconSpa} className='iconSpaMobile' alt="info" />
-                                Spa
-                            </p>
-                        </div>
-                        <div className="plajRectangleMobile">
-                            <p className="plajTextMobile">
-                                <img src={iconSpa} className='iconSpaMobile' alt="info" />
-                                Plajlı
-                            </p>
-                        </div>
-                    </div>
-                    <div className='hopiBigRectangleMobile'>
-                        <div className="hopiRectangleMobile">
-                            <p className="hopiTextMobile"><img className='hopiLogoMobile' src={hopiLogo} alt="info" /> Hopi’ye özel 1500 paracık hediye!</p>
-                        </div>
-                        <div className="hopiRectangle2Mobile"><p className='hopiArtı2TextMobile'>+2</p>
-                        </div>
-                    </div>
-                    <div>
-                        <Button className="oteliSecButton" variant="danger" size="lg">Oteli Seç</Button>
-                    </div>
-               
             </div>
 
         </div>

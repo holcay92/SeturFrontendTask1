@@ -48,7 +48,7 @@
     object-fit: contain;
 }
 
-.cardDetailMobile {
+.cardDetailMobileForPadding {
     margin-left: 17px;
 }
 
@@ -277,103 +277,6 @@
     letter-spacing: normal;
     color: #682a7a;
 }
-
-.fiyatTlMobile {
-    width: 90px;
-    height: 46px;
-    margin: 8px 3px 17px 7px;
-    font-family: SourceSansPro;
-    font-size: 37px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: right;
-    color: #292a2c;
-}
-
-.fiyatKusuratMobile {
-    width: 16px;
-    height: 15px;
-    margin: 2px 0 0 3px;
-    font-family: SourceSansPro;
-    font-size: 12px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #292a2c;
-}
-
-.tlTextMobile {
-    width: 13px;
-    height: 15px;
-    margin: 17px 0 5px 6px;
-    font-family: SourceSansPro;
-    font-size: 12px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #292a2c;
-}
-
-.denBaslayanTextMobile {
-    width: 116px;
-    height: 15px;
-    margin: 5px 0 4px;
-    opacity: 0.75;
-    font-family: SourceSansPro;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: right;
-    color: #292a2c;
-}
-
-.kacKisiKacGeceMobile {
-    width: 63px;
-    height: 15px;
-    margin: 4px 0 0 53px;
-    opacity: 0.75;
-    font-family: SourceSansPro;
-    font-size: 12px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: right;
-    color: #292a2c;
-}
-
-.ucretDetaylarıMobile {
-    width: 76px;
-    height: 15px;
-    margin: 0 0 0 5px;
-    font-family: SourceSansPro;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #292a2c;
-}
-
-.iconInfoUcretDetaylarıMobile {
-    width: 12px;
-    height: 12px;
-    margin: 2px 5px 1px 0;
-    object-fit: contain;
-}
-
 .yetiskinOteliTextMobile {
     width: 82px;
     height: 18px;
@@ -581,9 +484,12 @@
 }
 
 
+.hotelCardMiddleSectionMobile{
+    display: flex;
+    direction: column;
+}
 
-
-.indirimsizTutar {
+.indirimsizTutarMobile {
     width: 66px;
     height: 15px;
     margin: 0 0 2px 50px;
@@ -596,4 +502,100 @@
     letter-spacing: 0.6px;
     text-align: right;
     color: #b6b5b5;
+}
+.hotelPriceMobile {
+    width: 90px;
+    height: 46px;
+    margin: 0px 3px 17px 7px;
+    font-family: SourceSansPro;
+    font-size: 37px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #292a2c;
+}
+
+.hotelPriceFractionMobile {
+    width: 16px;
+    height: 15px;
+    margin: 7px 0 0 3px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #292a2c;
+}
+
+.tlTextMobile {
+    width: 13px;
+    height: 15px;
+    margin: -0px 0 5px 4px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #292a2c;
+}
+
+.denBaslayanFiyatlarlaTextMobile {
+    width: 116px;
+    height: 15px;
+    margin: -20px 0  4px;
+    opacity: 0.75;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #292a2c;
+}
+
+.kacKisiKacGeceMobile {
+    width: 63px;
+    height: 15px;
+    margin: 4px 0 0 53px;
+    opacity: 0.75;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #292a2c;
+}
+
+.ucretDetaylarıMobile {
+    width: 76px;
+    height: 15px;
+    margin: 0 0 0 25px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    text-underline-offset: 0.5px;
+    letter-spacing: normal;
+    color: #292a2c;
+}
+
+.iconInfoUcretDetaylarıMobile {
+    width: 12px;
+    height: 12px;
+    margin: -1px 5px 1px 0;
+    object-fit: contain;
 }

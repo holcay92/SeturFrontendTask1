@@ -32,7 +32,8 @@ function FilterUpLeft() {
         />
       </Form >
       <div >
-        <p className='diğerBolgeleriGoster'>Diğer Bölgeleri Göster <img className='iconChevronDown' src={iconDown} alt='' /></p>
+        <p className='diğerBolgeleriGoster'>Diğer Bölgeleri Göster 
+        <img className='iconChevronDown' src={iconDown} alt='' /></p>
         
       </div>
       

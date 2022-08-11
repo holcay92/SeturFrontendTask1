@@ -1,6 +1,6 @@
 .DesktopNavBar {
   width: auto;
-  height:auto;
+  height: auto;
   display: none;
   background-color: #e9e9e9;
 
@@ -25,16 +25,18 @@
 
 
 .MobileNavBar {
- 
-  background-color: #e7e7e7;
+  background-color: #ffffff;
+  width: 320px;
+  border-bottom: solid 1.5px #e9e9e9;
 }
-.hamburgerDiv{
 
+.hamburgerDiv {
+  margin-top: 5px;
   display: flex;
   flex-direction: row;
 }
 
-@media(min-width:1100px) {
+@media(min-width:1200px) {
   .DesktopNavBar {
     display: revert;
   }
@@ -43,8 +45,13 @@
     display: none;
   }
 
-  .Setur-logo {
-    margin-left: 0px;
+  .seturLogoDesktop {
+    display: revert;
+  }
+
+  .seturLogoMobile {
+    display: revert;
+
   }
 }
 
@@ -53,6 +60,7 @@
   height: 24px;
   margin: 0 0 0 10px;
   object-fit: contain;
+
 }
 
 .iconhamburger {
@@ -134,12 +142,22 @@
   color: #fff;
 }
 
-.Setur-logo {
+.seturLogoDesktop {
   margin-left: 100px;
   width: 112px;
   height: 36px;
   object-fit: contain;
   background-color: var(--tomato);
+  display: flex;
+}
+
+.seturLogoMobile {
+  object-fit: contain;
+  background-color: var(--tomato);
+  display: none;
+  margin-left: 15px;
+  width: 76px;
+  height: 24px;
 }
 
 .Otel {

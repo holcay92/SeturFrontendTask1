@@ -222,7 +222,7 @@
 }
 
 .spaText {
-    width: 19px;
+    width: 50px;
     height: 15px;
     margin: 8px 2px 0 8px;
     font-family: SourceSansPro;
@@ -321,7 +321,7 @@
 .DigerOtelOzellikleriText {
     width: auto;
     height: 20px;
-    margin: 0 10px 20px 0;
+    margin: 40px 10px 20px 0;
     font-family: SourceSansPro;
     font-size: 16px;
     font-weight: normal;
@@ -348,7 +348,7 @@
 .CocukRectangle {
     width: 260px;
     height: 60px;
-    margin: 70px 20px 20px -20px;
+    margin: 130px 20px 20px -20px;
     padding: 20px;
     border-radius: 2px;
     background-color: #fff;

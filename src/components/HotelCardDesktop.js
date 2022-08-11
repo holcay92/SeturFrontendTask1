@@ -12,7 +12,7 @@ import infoIconGrey from './images/otelCardIcons/icon-info-grey.svg';
 import { Button, Container } from 'react-bootstrap';
 
 
-function HotelCard() {
+function HotelCardDesktop() {
     return (
         
         <Container className='HotelCard'>
@@ -164,4 +164,4 @@ function HotelCard() {
     )
 }
 
-export default HotelCard
+export default HotelCardDesktop

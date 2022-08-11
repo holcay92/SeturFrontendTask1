@@ -7,6 +7,9 @@ import hamburgericon from './NavBarIcons/icon-hamburger.svg';
 import phoneIcon from './NavBarIcons/phoneIcon.svg';
 import topBlackRectangle from './NavBarIcons/topBlackRectangle.svg';
 import topBlackShape from './NavBarIcons/topBlackShape.svg';
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function NavBar() {
   return (
@@ -19,7 +22,7 @@ function NavBar() {
             <img src={topBlackShape} className='topBlackShape' alt='' />
             <div className='navBarhorizontal'>
               <Navbar.Brand href="https://www.setur.com.tr">
-                <img src={seturlogo} className="Setur-logo" alt="some value" /></Navbar.Brand>
+                <img src={seturlogo} className="seturLogoDesktop" alt="some value" /></Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
               <Navbar.Collapse className='navbarItems'>
@@ -57,22 +60,34 @@ function NavBar() {
         </Navbar>
       </div>
       {/*MOBILE NAVBAR */}
-     
-            <div className='MobileNavBar' >
-              <Navbar >
+
+      <div className='MobileNavBar' >
+        <Navbar className='' >
+          <Container fluid>
+            <Row >
+              <Col>
                 <Navbar.Brand href="#https://www.setur.com.tr">
                   <img alt="" src={seturlogo} className="Setur-logo" />
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                </Navbar.Brand>          </Col>
+              <Col></Col><Col></Col><Col></Col>
+              <Col> <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
                 <div className='hamburgerDiv'>
                   <a href="#https://www.setur.com.tr"> <img src={personicon} className="iconperson" alt="some value" /></a>
                   <a href="#https://www.setur.com.tr"> <img src={hamburgericon} className="iconhamburger" alt="some value" /></a>
-                </div>
-              </Navbar>
-            </div>
-          </div>
-       
+                </div></Col>
+            </Row>
+          </Container>
+
+
+
+
+
+
+        </Navbar>
+      </div>
+    </div>
+
 
   );
 }

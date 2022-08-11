@@ -7,7 +7,7 @@ import YoutubeIcon from './images/footerImages/youtube.svg';
 import appledownload from './images/footerImages/appledownload.png';
 import androiddownload from './images/footerImages/androiddownload.png';
 
-function UpFooter() {
+function FooterUp() {
   return (
     <section >
                 {/*SOCIAL MEDIA SECTION */}
@@ -48,4 +48,4 @@ function UpFooter() {
   )
 }
 
-export default UpFooter
+export default FooterUp

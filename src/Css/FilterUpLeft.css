@@ -8,22 +8,8 @@
     display: none;
 }
 
-.FilterRectangleMobile {
-    width: 320px;
-    height: 136px;
-    margin: 64px 0 15px;
-    padding: 0 0 17px;
-    border-radius: 2px;
-    background-color: #fff;
-}
-
-@media(min-width:1200px) {
-    .FilterRectangle {
-      display: revert;
-    }
-}
 .tumTurkiyeOtelleri {
-    width: 102px;
+    width: 152px;
     height: 15px;
     margin: 0 10px 0 0;
     font-family: SourceSansPro;
@@ -85,3 +71,193 @@
     object-fit: contain;
     transform: rotate(-270deg);
 }
+
+@media(min-width:1200px) {
+    .FilterRectangle {
+        display: revert;
+    }
+}
+
+.UpFilterRectangleMobile {
+    width: auto;
+    height: 136px;   
+    margin: 64px 0 15px;
+    padding: 0 0 17px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.allTurkishhotelsMobile {
+    width: 120px;
+    height: 15px;
+    margin: 14px 6px 0 20px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #636363;
+}
+
+.iconleftMobile {
+    width: 8px;
+    height: 8px;
+    margin: 1px 0 3px 8px;
+    object-fit: contain;
+}
+
+.AntalyaHotelsMobile {
+    width: 166px;
+    height: 23px;
+    margin: 10px 10px 0 20px;
+    font-family: SourceSansPro;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fa5851;
+}
+
+.dateMobile {
+    width: 190px;
+  height: 18px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4b4b4b;
+}
+
+.iconCalendarMobile {
+    width: 14px;
+    height: 14px;
+    margin: 7px 7px 10px 20px;
+    object-fit: contain;
+}
+
+.iconPersonMobile {
+    width: 14px;
+    height: 14px;
+    margin: 4px 7px 8px 20px;
+    object-fit: contain;
+}
+
+.howManyPeopleHowManyRoomsMobile {
+    width: 252px;
+    height: 18px;
+    
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4b4b4b;
+}
+
+.DegistirTextMobile {
+    width: auto;
+    height: 18px;
+    margin-left: -30px;
+    margin-top: 5 px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3a3a3a;
+}
+
+.iconEditMobile {
+    width: 18px;
+    height: 17px;
+    margin-left: 5px;
+    background-color: #ffffff;
+}
+
+.filterAndSortRectangleMobile {
+    width: 290px;
+    height: 44px;
+    margin: 35px 0 15px 15px;
+    padding: 10px 77px;
+    border-radius: 2px;
+    border: solid 1px #dedede;
+    background-color: #fff;
+}
+
+.iconFilterMobile {
+    width: 24px;
+    height: 24px;
+    margin: 0 15px 0 0;
+    object-fit: contain;
+}
+
+.filterAndSortTextMobile {
+    width: 147px;
+    height: 18px;
+    margin: 3px 0 3px 15px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+}
+
+
+.filterUpMobile {
+    display: none
+    
+}
+
+@media(max-width:1200px) {
+    .filterUpMobile {
+        display: flex;
+        width: auto;
+        margin-top: -112px;
+    }
+}
+.iptalIadeRectangleMobile {
+    width: 320px;
+    height: 107px;
+    margin: 15px 0 1px;
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 100px;
+}
+
+.iptalIadeMaskMobile {
+    width: 290px;
+    height: 77px;
+    border-radius: 4px;
+    background-color: #04a985;
+
+}
+
+.yetmisIkıSaateKadarIptalTextMobile {
+    width: auto;
+    height: 46px;
+    margin: 22px 17px 9px 26px;
+    padding: 2px 2px 9px 61px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.94;
+    letter-spacing: normal;
+    color: #fff;
+}
+

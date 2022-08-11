@@ -9,42 +9,51 @@ import './Css/Footer.css'
 import './Css/FooterUp.css'
 import './Css/FilterUpLeft.css'
 import './Css/FilterUp2.css'
-import './Css/HotelCard.css'
-import './Css/MobileHotelCard.css'
+import './Css/HotelCardMediaQueries.css'
+import './Css/HotelCardMobile.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBar from './components/NavBar'
 import CarouselUp from './components/CarouselUp'
 import Footer from './components/Footer'
-import UpFooter from './components/UpFooter'
+import FooterUp from './components/FooterUp'
 import IptalGuvenceBanner from './components/IptalGuvenceBanner'
-import TestResponsiveOtelCard from './components/TestResponsiveOtelCard'
+import DesktopHotelCardAndUpFilterComponents from './components/DesktopHotelCardAndUpFilterComponents.js'
 import HotelCardMobile from './components/HotelCardMobile';
-import TestMobileCard from './components/TestMobileCard';
-
+import FilterUpMobile from './components/FilterUpMobile'
 
 
 function App() {
 
   return (
     <div className="App">
-      <div className='col-md-12'>
+      
+
+        {/*
+      
+ <IptalGuvenceBanner />
+<NavBarMobile />
+
+
+*/}
 
      
 
-      {/*
-      <MobileNavBar />
- <IptalGuvenceBanner />
-       
-*/}
-       <NavBar />
-    
+      <NavBar />
+      <FilterUpMobile />
       <CarouselUp />
-      <TestResponsiveOtelCard />
-      <HotelCardMobile/>
-      <TestMobileCard/>
-     <UpFooter />
+      <DesktopHotelCardAndUpFilterComponents />
+      <HotelCardMobile />
+      <HotelCardMobile />
+      <HotelCardMobile />
+      <HotelCardMobile />
+      <FooterUp />
       <Footer />
-    </div>
+
+
+
+
+
+      
     </div>
   );
 }

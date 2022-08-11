@@ -40,7 +40,8 @@
   letter-spacing: normal;
   color: #000;
 }
-.mukemmelMisafir{
+
+.mukemmelMisafir {
   margin-left: 200px;
 }
 
@@ -144,6 +145,45 @@
   flex-direction: row;
   justify-content: wrap;
 }
+.balayiOteliText{
+  width: auto;
+  height: 18px;
+  margin: 0 20px 0 0;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #525252;
+}
+.yetiskinOteliText{
+  width: auto;
+  height: 18px;
+  margin: 0 20px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #525252;
+}
+.cocukDostuText{
+  width: auto;
+  height: 18px;
+  margin: 0 0 0 20px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #525252;
+}
 
 .havuzSpaPlaj {
   width: 108px;
@@ -169,11 +209,19 @@
   background-position-y: center;
 
 }
+.rowHorizontalAcikHavuzAlignment {
+  margin-top: 40px;
+  margin-left: 20px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+
 
 .acıkHavuz {
   width: auto;
   height: 18px;
-  margin: 1px 0 1px 18px;
+  margin: 1px 0 1px 24px;
   font-family: SourceSansPro;
   font-size: 14px;
   font-weight: normal;
@@ -239,8 +287,8 @@
 .hopiDiv {
   width: auto;
   height: 36px;
-
   padding: 8px;
+  margin-left: 20px;
   border-radius: 2px;
   border: solid 1px #dedede;
   background-color: #fff;
@@ -255,6 +303,8 @@
 .hopiText {
   width: auto;
   height: 18px;
+  margin-top: -5px;
+
   margin-left: 5px;
   font-family: SourceSansPro;
   font-size: 14px;
@@ -269,7 +319,7 @@
 .hopiLogo {
   width: 20px;
   height: 20px;
-
+  margin-top: -10px;
   object-fit: contain;
 }
 
@@ -296,7 +346,7 @@
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: var(--clear-blue);
+  color:#1b75e2;
 }
 
 .hopiRectangle {

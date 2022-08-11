@@ -1,7 +1,6 @@
 .Carousel {
   width: 960px;
   height: 278px;
-  display: none;
   border-radius: 2px;
   background-color: #8f8f8f;
   -webkit-background-size: cover;
@@ -10,8 +9,11 @@
   background-size: cover;
   
 }
+.CarouselBanner{
+  display:none;
+}
 @media (min-width: 1200px) {
-  .Carousel {
+  .CarouselBanner {
     display:flex;
   
   }

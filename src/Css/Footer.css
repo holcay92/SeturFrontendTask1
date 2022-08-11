@@ -4,9 +4,47 @@
     padding: 26px 93px 31px 100px;
     background-color: #292a2c;
     display: flex;
-  flex-direction: column;
-  margin-top: auto;
+    flex-direction: column;
+    margin-top: auto;
 }
+
+/*up footer div start !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.socialmedia {
+    width: auto;
+    height: 190px;
+    background-color: rgb(218, 218, 218);
+}
+
+.facebookicon {
+    width: 50px;
+    height: 50px;
+    margin: 15px 15px 15px 15px;
+    object-fit: contain;
+}
+
+.appledownload {
+    width: 156px;
+    height: 42px;
+    margin: 15px 15px 15px 15px;
+    object-fit: contain;
+}
+
+.appleLogoMargin {
+    margin-left: 440px;
+}
+
+.androiddownload {
+    width: 156px;
+    height: 42px;
+    margin: 15px 15px 15px 15px;
+    object-fit: contain;
+}
+
+.androidLogoMargin {
+    margin-left: 33px;
+}
+
+/*up footer div end!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .PhoneCallDiv {
     display: flex;
@@ -161,21 +199,23 @@
     object-fit: contain;
 }
 
-.seturCompanies{
+.seturCompanies {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-   
+
 }
-.seturdutyfree{
+
+.seturdutyfree {
     width: 128px;
-  height: 20px;
-  margin: 4px 34px 1px 0;
-  object-fit: contain;
-  background-color: #292a2c;
+    height: 20px;
+    margin: 4px 34px 1px 0;
+    object-fit: contain;
+    background-color: #292a2c;
 }
-.seperator{
+
+.seperator {
     width: auto;
     height: 3px;
     margin: 49px 263px 30px;
@@ -196,7 +236,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #fff;
-    
+
 }
 
 .footerCopyright {
@@ -224,7 +264,66 @@
     object-fit: contain;
 
 }
-.bottomrighticons{
+
+.bottomrighticons {
     justify-content: center;
     align-items: center;
+}
+
+
+/* Footer Mobile Test*/
+.footerMobile {
+    background-color: #292a2c;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerUpMobile {
+    width: auto;
+    height: 90px;
+    padding: 20px 100px;
+    background-color: #fff;
+}
+.facebookIconMobile{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px 0 0;
+    object-fit: contain;
+}
+.twitterIconMobile{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    object-fit: contain;
+}
+.pinterestIconMobile{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    object-fit: contain;
+}
+.instagramIconMobile{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    object-fit: contain;
+}
+.youtubeIconMobile{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    object-fit: contain;
+}
+.appleIconMobile{
+    width: 156px;
+    height: 42px;
+    margin: 4px 20px 4px 598px;
+    object-fit: contain;
+}
+.googleIconMobile{
+    width: 156px;
+    height: 42px;
+    margin: 4px 0 4px 20px;
+    object-fit: contain;
 }

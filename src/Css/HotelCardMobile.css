@@ -1,5 +1,8 @@
+
 .MaskMobile {
-    width: 320px;
+    width: auto;
+    justify-content: center;
+   
     height: 625px;
     margin: 1px 0 20px;
     padding: 0 0 14px;
@@ -28,7 +31,7 @@
 }
 
 .seturOneriyorTextMobile {
-    width: 169px;
+    width: 90px;
     height: 14px;
     margin: 1px 0 1px 4px;
     font-family: SourceSansPro;
@@ -44,7 +47,7 @@
 .iconCheckMarkMobile {
     width: 16px;
     height: 16px;
-    margin: 0 4px 0 0;
+    margin: 0 4px 0 -3px;
     object-fit: contain;
 }
 
@@ -479,8 +482,22 @@
     margin: 0px 15px 0;
     padding: 11px 117px 11px 118px;
     border-radius: 2px;
+    border-color: transparent;
     box-shadow: 0 10px 30px 0 rgba(255, 65, 57, 0.5);
     background-color: #e2231b;
+}
+.oteliSecButtonText{
+    width: 55px;
+  height: 18px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
 }
 
 

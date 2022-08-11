@@ -9,15 +9,15 @@
 .topBlackRectangle {
   width: auto;
   height: 5px;
-  margin: -40px 0 0;
+  margin: -41px 0 0;
   object-fit: contain;
   background-color: var(--dark-grey);
 }
 
 .topBlackShape {
-  width: 500px;
-  height: 35px;
-  margin: -66.5px 0 0 1005px;
+  width: 880px;
+  height: 50px;
+  margin: -55.1px 0 0 1175px;
   padding: 6px 6px 7px 103px;
   object-fit: contain;
   background-color: var(--dark-grey);
@@ -28,11 +28,14 @@
   background-color: #ffffff;
   width: 320px;
   border-bottom: solid 1.5px #e9e9e9;
+  display: flex;
+  justify-content: center;
 }
 
 .hamburgerDiv {
   margin-top: 5px;
   display: flex;
+  position: sticky;
   flex-direction: row;
 }
 
@@ -86,7 +89,7 @@
 .navBarhorizontalInBlack {
   display: flex;
   flex-direction: row;
-  margin-left: -280px;
+  margin-left: -380px;
   margin-top: -50px;
 }
 

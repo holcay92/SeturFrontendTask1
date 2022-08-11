@@ -17,7 +17,7 @@
     margin: 20px 1px 6px 20px;
     padding: 8px 21px 5px 25px;
     border-radius: 2px;
-    border: solid 0.5px #682a7a;
+    border: dashed 1.5px #dda2ee;
     background-color: #fff;
     align-items: top;
 }
@@ -56,12 +56,15 @@
     letter-spacing: normal;
     color: #682a7a;
 }
+
 .rowHorizontal {
     margin-top: 10px;
+
     width: auto;
     display: flex;
     flex-direction: row;
 }
+
 
 .ucretsizIptalRectangle {
     width: auto;
@@ -72,6 +75,11 @@
     background-color: rgba(4, 169, 133, 0.1);
     align-items: center;
 
+}
+
+.priceAlign {
+    margin-left: 60px;
+    padding-right: 5px;
 }
 
 .ucretsizIptal {
@@ -102,7 +110,7 @@
     text-align: center;
     opacity: 0.9;
     border-radius: 2px;
-    border: solid 0.5px #2fbd14;
+    border: dashed 0.5px #72ec5a;
     background-color: #e0f7dc;
 }
 
@@ -245,16 +253,18 @@
 .OteliSecButton {
     width: 165px;
     height: 40px;
-    margin: -20px 1px 20px 20px;
+    margin: -10px -90px 20px 45px;
     padding: 11px 55px;
     border-radius: 2px;
-    box-shadow: 0 10px 30px 0 var(--orangey-red-50);
+    border-color: transparent;
+    box-shadow: 0 10px 30px 0 #e2231b;
+    ;
     background-color: #e2231b;
     display: flow-root;
     flex-direction: column;
 }
 
-.OteliSec {
+.OteliSecButtonText {
     width: 60px;
     height: auto;
     font-family: SourceSansPro;

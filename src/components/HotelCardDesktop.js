@@ -14,29 +14,26 @@ import { Button, Container } from 'react-bootstrap';
 
 function HotelCardDesktop() {
     return (
-        
+
         <Container className='HotelCard'>
             <div className="col-md-12">
                 <div className="e-card-horizontal">
                     <div className="row bg-white border rounded ">
-
                         {/* hotel card image */}
                         <div className=" col-md-3 d-flex  ">
                             <Carousel className='ImageCard' >
                                 <Carousel.Item className='Carousel.Item'>
-                                    <img className=' w-100' src={a1} alt="First slide" />
+                                    <img className=' w-200' src={a1} alt="First slide" />
                                     <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
                                         <h4 className="card-title">Setur Software Department</h4>
                                         <p className='SeturOneriyor'>
                                             <img className='checkMark' src={checkMark} alt='' ></img>
                                             <i className='SeturOneriyorText'> Setur Öneriyor </i>
                                         </p>
-
                                     </div>
-
                                 </Carousel.Item>
                                 <Carousel.Item className='Carousel.Item'>
-                                    <img className="d-block w-100" src={a2} alt="Second slide" />
+                                    <img className="d-block w-200" src={a2} alt="Second slide" />
                                     <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
                                         <h4 className="card-title">Setur Software Department</h4>
 
@@ -47,7 +44,7 @@ function HotelCardDesktop() {
                                     </div>
                                 </Carousel.Item >
                                 <Carousel.Item className='Carousel.Item'>
-                                    <img className="d-block w-100" src={a3} alt="Third slide" />
+                                    <img className="d-block w-200" src={a3} alt="Third slide" />
                                     <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
                                         <h4 className="card-title">Setur Software Department</h4>
 
@@ -81,14 +78,15 @@ function HotelCardDesktop() {
                                 <hr className='bidik'></hr>
 
                                 {/* features division start */}
-                                <div className="balayiYetiskinCocuk"><small className="text-muted">· Balayı Oteli </small>
-                                    <small className="text-muted">· Yetişkin Oteli </small>
-                                    <small className="text-muted">· Çocuk Dostu </small>
+                                <div className="balayiYetiskinCocuk">
+                                    <span className="balayiOteliText">· Balayı Oteli </span>
+                                    <span className="yetiskinOteliText">· Yetişkin Oteli </span>
+                                    <span className="cocukDostuText">· Çocuk Dostu </span>
                                 </div>
                                 {/* features division end */}
 
                                 {/* extra features division start */}
-                                <div className='rowHorizontal'>
+                                <div className='rowHorizontalAcikHavuzAlignment'>
                                     <p className='acikHavuzRectangle'>
                                         <i className='acıkHavuz'>Açık Havuz</i>
                                     </p>
@@ -128,24 +126,25 @@ function HotelCardDesktop() {
                                 <p className="worldCardText12Taksit">12 taksit fırsatı!</p>
                             </div>
                             <div className='ucretsizIptalRectangle'>
-                                <p className='ucretsizIptal'> Ücretsiz iptal <img className='infoIcon ' src={infoIcon} alt='' /></p>
-                            </div>
-
-                            <div className='onbesIndirim'><i className='onbesIndirimText'>%15 İNDİRİM</i></div>
-                            <div className='euroPrice'> 132,72 EUR</div>
-
-                            <div className='rowHorizontal' >
-                                <i className='trPrice'>1.867 </i>
-                                <div><p className='trFiyatKusurat' > ,98</p>
-                                    <p className='trKur' > TL</p>
+                                    <p className='ucretsizIptal'> Ücretsiz iptal <img className='infoIcon ' src={infoIcon} alt='' /></p>
                                 </div>
-                            </div>
+                            <div className='priceAlign'>
+                                <div className='onbesIndirim'><i className='onbesIndirimText'>%15 İNDİRİM</i></div>
+                                <div className='euroPrice'> 132,72 EUR</div>
 
-                            <p className="denBaslayanFiyat">'den başlayan fiyatlarla</p>
-                            <p className="ikiYetiskinUcGece">2 yetişkin 3 gece</p>
-                            <div className='ucretDetaylariRectangle'>
-                                <img className='infoIconGrey' src={infoIconGrey} alt='' />
-                                <i className='ucretDetaylari' > Ücret Detayları</i>
+                                <div className='rowHorizontal' >
+                                    <i className='trPrice'>1.867 </i>
+                                    <div><p className='trFiyatKusurat' > ,98</p>
+                                        <p className='trKur' > TL</p>
+                                    </div>
+                                </div>
+
+                                <p className="denBaslayanFiyat">'den başlayan fiyatlarla</p>
+                                <p className="ikiYetiskinUcGece">2 yetişkin 3 gece</p>
+                                <div className='ucretDetaylariRectangle'>
+                                    <img className='infoIconGrey' src={infoIconGrey} alt='' />
+                                    <i className='ucretDetaylari' > <u>Ücret Detayları</u></i>
+                                </div>
                             </div>
                             <div className="d-flex flex-row align-items-center">
                                 <h4 className="mr-1"></h4><span className="strike-text"></span>
@@ -153,7 +152,8 @@ function HotelCardDesktop() {
                             <h6 className="text-success"></h6>
 
                             <div className="d-grid">
-                                <Button className="" variant="danger" size="lg">Oteli Seç</Button>
+                                <button className="OteliSecButton" variant="danger" size="lg">
+                                    <p className='OteliSecButtonText'>Oteli Seç</p></button>
                             </div>
                         </div>
                     </div>

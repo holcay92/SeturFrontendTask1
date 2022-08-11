@@ -150,7 +150,9 @@ function HotelCardMobile() {
                     </div>
                 </div>
                 <div>
-                    <Button className="oteliSecButton" variant="danger" size="lg">Oteli Seç</Button>
+                    <button className="oteliSecButton"  >
+                        <p className='oteliSecButtonText'>Oteli Seç</p>
+                    </button>
                 </div>
 
             </div>

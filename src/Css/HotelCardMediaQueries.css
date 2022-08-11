@@ -1,29 +1,27 @@
-.HotelCard{
+.DesktopHotelCardAndUpFilterComponents{
     display:none;
     padding: 10px;
 }
+.HotelCardMobile{
+    width: auto;
+    justify-content: center;
+    display: flex;
+}
+
 
 @media(min-width:1200px){
-    .HotelCard{
+    .DesktopHotelCardAndUpFilterComponents{
         display:revert
     }
     .HotelCardMobile{
         display:none
     }
 }
-@media(max-width:1200px){
+@media(max-width:1199px){
+    .DesktopHotelCardAndUpFilterComponents{
+        display:none;
+    }
     .HotelCardMobile{
-        display:revert
-    }
-    .HotelCard{
-        display:none
-    }
-}
-.TestResponsiveCard{
-    display:none;
-}
-@media(min-width:1200px){
-    .TestResponsiveCard{
-        display:flex
+        display:revert;
     }
 }

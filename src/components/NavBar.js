@@ -13,7 +13,7 @@ import Col from "react-bootstrap/Col";
 
 function NavBar() {
   return (
-    <div className='container mb-5'>
+    <div className=''>
       {/*DESKTOP NAVBAR */}
       <div className="DesktopNavBar">
         <Navbar >
@@ -71,7 +71,7 @@ function NavBar() {
                 </Navbar.Brand>          </Col>
               <Col></Col><Col></Col><Col></Col>
               <Col> <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-
+<div></div>
                 <div className='hamburgerDiv'>
                   <a href="#https://www.setur.com.tr"> <img src={personicon} className="iconperson" alt="some value" /></a>
                   <a href="#https://www.setur.com.tr"> <img src={hamburgericon} className="iconhamburger" alt="some value" /></a>

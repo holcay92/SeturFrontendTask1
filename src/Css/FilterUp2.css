@@ -90,6 +90,23 @@
     background-color: #f7f7f7;
 }
 
+.OtelAdıAramaFieldText {
+
+    width: 116px;
+    height: 20px;
+    margin: 9px 0 0;
+    opacity: 0.5;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--greyish-brown);
+}
+
+
 .KonaklamaFiyatıRectangle {
     width: 260px;
     height: 148px;
@@ -156,7 +173,7 @@
 
 .OtelOzellikleriRectangle {
     width: 260px;
-    height: 600px;
+    height: 510px;
     margin: 5px 20px 20px 10px;
     padding: 20px 11px 20px 20px;
     border-radius: 2px;
@@ -201,7 +218,7 @@
 
 .acikHavuzText {
     width: 52px;
-    height: 30px;
+    height: auto;
     margin: 5px 0 0;
     font-family: SourceSansPro;
     font-size: 12px;
@@ -222,7 +239,7 @@
 }
 
 .spaText {
-    width: 50px;
+    width: 40px;
     height: 15px;
     margin: 8px 2px 0 8px;
     font-family: SourceSansPro;
@@ -244,7 +261,7 @@
 }
 
 .beachText {
-    width: 25px;
+    width: 45px;
     height: 15px;
     margin: 8px 0 0 5px;
     font-family: SourceSansPro;
@@ -257,13 +274,15 @@
     text-align: center;
     color: #3a3a3a;
 }
-.wifiIcon{
+
+.wifiIcon {
     width: 24px;
     height: 24px;
     margin: 0 14px 5px;
     object-fit: contain;
 }
-.wifiText{
+
+.wifiText {
     width: 52px;
     height: 30px;
     margin: 5px 0 0;
@@ -277,14 +296,16 @@
     text-align: center;
     color: #3a3a3a;
 }
-.tvIcon{
+
+.tvIcon {
     width: 24px;
     height: 24px;
     margin: 0 10px 5px 8px;
     object-fit: contain;
 }
-.tvText{
-    width: 42px;
+
+.tvText {
+    width: 52px;
     height: 30px;
     margin: 5px 0 0;
     font-family: SourceSansPro;
@@ -297,14 +318,16 @@
     text-align: center;
     color: #3a3a3a;
 }
-.golfIcon{
+
+.golfIcon {
     width: 24px;
     height: 24px;
     margin: 0 6px 5px 4px;
     object-fit: contain;
 }
-.golfText{
-    width: 34px;
+
+.golfText {
+    width: 54px;
     height: 30px;
     margin: 5px 0 0;
     font-family: SourceSansPro;
@@ -331,24 +354,25 @@
     letter-spacing: normal;
     color: #3a3a3a;
 }
-.DigerOtelOzellikleriElementText{
+
+.DigerOtelOzellikleriElementText {
     width: 95.7px;
-  height: 18px;
-  margin: 1px 7.3px 1px 10px;
-  font-family: SourceSansPro;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #636363;
+    height: 18px;
+    margin: 1px 7.3px 1px 10px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #636363;
 }
 
 .CocukRectangle {
     width: 260px;
     height: 60px;
-    margin: 130px 20px 20px -20px;
+    margin: 40px 20px 20px -20px;
     padding: 20px;
     border-radius: 2px;
     background-color: #fff;
@@ -367,6 +391,7 @@
     letter-spacing: normal;
     color: #3a3a3a;
 }
+
 .OtelKonaklamaTipiRectangle {
     width: 260px;
     height: 60px;
@@ -374,8 +399,9 @@
     padding: 20px;
     border-radius: 2px;
     background-color: #fff;
-  }
-.OtelKonaklamaTipi{
+}
+
+.OtelKonaklamaTipi {
     width: auto;
     height: 20px;
     margin: 0 61px 0 0;
@@ -388,6 +414,7 @@
     letter-spacing: normal;
     color: #3a3a3a;
 }
+
 .OtelTipiRectangle {
     width: 260px;
     height: 60px;
@@ -395,7 +422,8 @@
     padding: 20px;
     border-radius: 2px;
     background-color: #fff;
-  }
+}
+
 .OtelTipi {
     width: auto;
     height: 20px;
@@ -408,16 +436,18 @@
     line-height: normal;
     letter-spacing: normal;
     color: #3a3a3a;
-  }
-  .OtelTemalarRectangle {
+}
+
+.OtelTemalarRectangle {
     width: 260px;
     height: 60px;
     margin: 20px 20px 187px -20px;
     padding: 20px;
     border-radius: 2px;
     background-color: #fff;
-  }
-  .OtelTemalar {
+}
+
+.OtelTemalar {
     width: 95px;
     height: 20px;
     margin: 0 109px 0 0;
@@ -429,7 +459,7 @@
     line-height: normal;
     letter-spacing: normal;
     color: #3a3a3a;
-  }
+}
 
 .IconUp {
     width: 16px;
@@ -437,18 +467,20 @@
     margin: -40px 0 2px 200px;
     object-fit: contain;
 }
-.iconUpDigerOtelOzellikleriText{
+
+.iconUpDigerOtelOzellikleriText {
     width: 16px;
     height: 16px;
     margin: -40px 0 2px 200px;
     object-fit: contain;
-    
+
 }
-.iconDownCocukText{
+
+.iconDownCocukText {
     width: 16px;
-  height: 16px;
-  margin: -35px 0 2px 200px;
-  object-fit: contain;
-  rotate: 180deg;
+    height: 16px;
+    margin: -35px 0 2px 200px;
+    object-fit: contain;
+    rotate: 180deg;
 
 }

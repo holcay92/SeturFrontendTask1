@@ -35,15 +35,21 @@ function FilterUp2() {
             <div className='OtelAdıAramaRectangle'>
               <p className="OtelAdıText">Otel Adı</p>
               <div className='OtelAdıAramaField'>
+                <p className='OtelAdıAramaFieldText'>Otel adı ile arayın</p>
               </div>
             </div>
             <div className='KonaklamaFiyatıRectangle'>
               <p className="KonaklamaFiyatıText">
                 Konaklama Fiyatı
-              </p><img className='IconUp' src={iconUp} alt='' />
+              </p>
+              <img className='IconUp' src={iconUp} alt='' />
               <div className='d-flex'>
-                <div className='MinFiyatRectangle'><p className='MinMaxText'>Min Fiyat</p></div>
-                <div className='MaxFiyatRectangle'><p className='MinMaxText'>Max Fiyat</p></div>
+                <div className='MinFiyatRectangle'>
+                  <p className='MinMaxText'>Min Fiyat</p>
+                </div>
+                <div className='MaxFiyatRectangle'>
+                  <p className='MinMaxText'>Max Fiyat</p>
+                </div>
               </div>
             </div>
           </div>
@@ -100,7 +106,6 @@ function FilterUp2() {
               <Form.Check id={`box-1-`} label={`Ücretsiz Otopark (23)`} />
               <Form.Check id={`box-2-`} label={`Ücretsiz İnternet (12) `} />
 
-              <Form.Check id={`box-4-`} label={`Manavgat (8) `} />  {/*${type}*/}
             </Form >
 
             <div className='CocukRectangle'>

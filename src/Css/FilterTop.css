@@ -77,11 +77,25 @@
         display: revert;
     }
 }
+.filterUpMobile {
+    display: none
+    
+}
 
+@media(max-width:1200px) {
+    .filterUpMobile {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        margin-top: -112px;
+    }
+}
 .UpFilterRectangleMobile {
     width: auto;
-    height: 136px;   
-    margin: 64px 0 15px;
+    
+    height: 350px;   
+    
+    margin: 105px 0 15px;
     padding: 0 0 17px;
     border-radius: 2px;
     background-color: #fff;
@@ -217,18 +231,8 @@
 }
 
 
-.filterUpMobile {
-    display: none
-    
-}
 
-@media(max-width:1200px) {
-    .filterUpMobile {
-        display: flex;
-        width: auto;
-        margin-top: -112px;
-    }
-}
+
 .iptalIadeRectangleMobile {
     width: 320px;
     height: 107px;

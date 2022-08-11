@@ -6,8 +6,7 @@ import './Css/OtelCard1Image.css'
 import './Css/OtelCard2Detail.css'
 import './Css/OtelCard3Pricing.css'
 import './Css/Footer.css'
-import './Css/FooterUp.css'
-import './Css/FilterUpLeft.css'
+import './Css/FilterTop.css'
 import './Css/FilterUp2.css'
 import './Css/HotelCardMediaQueries.css'
 import './Css/HotelCardMobile.css'
@@ -20,23 +19,19 @@ import IptalGuvenceBanner from './components/IptalGuvenceBanner'
 import DesktopHotelCardAndUpFilterComponents from './components/DesktopHotelCardAndUpFilterComponents.js'
 import HotelCardMobile from './components/HotelCardMobile';
 import FilterUpMobile from './components/FilterUpMobile'
+import FooterMobile from './components/FooterMobile';
+import FooterUpMobile from './components/FooterUpMobile';
 
 
 function App() {
 
   return (
     <div className="App">
-      
-
-        {/*
-      
- <IptalGuvenceBanner />
-<NavBarMobile />
-
-
-*/}
-
-     
+      {/*     
+      <IptalGuvenceBanner />
+      <FooterUpMobile />
+      <FooterMobile />
+      */}
 
       <NavBar />
       <FilterUpMobile />
@@ -48,12 +43,7 @@ function App() {
       <HotelCardMobile />
       <FooterUp />
       <Footer />
-
-
-
-
-
-      
+     
     </div>
   );
 }

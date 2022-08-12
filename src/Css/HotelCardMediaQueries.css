@@ -1,16 +1,18 @@
 .DesktopHotelCardAndUpFilterComponents{
+   
     display:none;
     padding: 10px;
 }
 .HotelCardMobile{
     width: auto;
-    justify-content: center;
-    display: flex;
+   
 }
 
 
 @media(min-width:1200px){
     .DesktopHotelCardAndUpFilterComponents{
+        width: auto;
+        height: auto;
         display:revert
     }
     .HotelCardMobile{

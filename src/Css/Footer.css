@@ -279,51 +279,323 @@
 
 }
 
+@media(max-width:1372) {
+    .footerUpMobile {
+        display: none;
+    }
+
+}
+
 .footerUpMobile {
     width: auto;
     height: 90px;
+
     padding: 20px 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.twitterIconMobile {
+    width: 50px;
+    height: 50px;
+
+    object-fit: contain;
+}
+
+.pinterestIconMobile {
+    width: 50px;
+    height: 50px;
+
+    object-fit: contain;
+}
+
+.instagramIconMobile {
+    width: 50px;
+    height: 50px;
+
+    object-fit: contain;
+}
+
+.youtubeIconMobile {
+    width: 50px;
+    height: 50px;
+
+    object-fit: contain;
+}
+
+.appleIconMobile {
+    width: 156px;
+    height: 42px;
+    margin: 4px 0px 4px 0px;
+    object-fit: contain;
+}
+
+.googleIconMobile {
+    width: 156px;
+    height: 42px;
+    margin: 4px 0 4px 0px;
+    object-fit: contain;
+}
+
+.whatsappRectangleMobile {
+    width: 194px;
+    height: 62px;
+   
+    padding: 12px 25px;
+    border-radius: 2px;
+    background-color: #575757;
+}
+
+.whatsappIconMobile {
+    width: 30px;
+    height: 30px;
+    margin: 4px 11px 4px 0;
+    object-fit: contain;
+}
+
+.whatsAppTextMobile {
+    width: 59px;
+    height: 18px;
+    margin: 0 44px 0 11px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5cc85c;
+}
+
+.whatsAppNumberMobile {
+    width: 103px;
+    height: 20px;
+    margin: 18px 0 0 11px;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5cc85c;
+}
+
+.cagriMerkeziRectangleMobile {
+    width: 163px;
+    height: 62px;
+    
+    padding: 12px 26px 12px 20px;
+    border-radius: 2px;
+    background-color: #575757;
+}
+
+
+.cagriMerkeziTextMobile {
+    width: 79px;
+  height: 18px;
+  margin: 0 0 0 10px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.cagriMerkeziNumberMobile {
+    width: 66px;
+    height: 20px;
+    margin: 18px 13px 0 10px;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+.seturLogoFooterMobile {
+    width: 115px;
+    height: 37px;
+    margin: 0 17px 23px 0;
+    object-fit: contain;
+}
+
+.otellerTextMobile {
+    width: 74px;
+    height: 24px;
+    margin: 0 30px 20px 0;
+    font-family: SourceSansPro;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+.otelTemalarıTextMobile {
+    width: 143px;
+    height: 24px;
+    margin: 0 13px 20px 0;
+    font-family: SourceSansPro;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+.footerLogosRectangleMobile {
+    width: auto;
+    height: 20px;
+    margin: 70px 0px 55px;
+}
+
+.logoSeturDutyFreeMobile {
+    width: 128px;
+    height: 20px;
+    margin: 4px 34px 1px 0;
+    object-fit: contain;
     background-color: #fff;
 }
-.facebookIconMobile{
-    width: 50px;
-    height: 50px;
-    margin: 0 15px 0 0;
+
+.logoseturdayMobile {
+    width: 128px;
+    height: 20px;
+    margin: 4px 34px 1px 0;
+    object-fit: contain;
+    background-color: #fff;
+}
+.logoSeturBizMobile{
+    width: 146px;
+    height: 20px;
+    margin: 1px 38px 4px 33px;
+    object-fit: contain;
+    background-color: #fff;
+}
+.logoSeturMiceMobile{
+    width: 103px;
+    height: 20px;
+    margin: 0 38px 5px;
+    object-fit: contain;
+    background-color: #fff;
+}
+.logoSedventureMobile{
+    width: 121px;
+    height: 20px;
+    margin: 0 38px 5px;
+    object-fit: contain;
+    background-color: #fff;
+}
+.logoSeturSelectMobile{
+    width: 126px;
+    height: 20px;
+    margin: 0 37px 5px 38px;
+    object-fit: contain;
+    background-color: #fff;
+}
+.logoSeturCruiseMobile{
+    width: 129px;
+    height: 20px;
+    margin: 0 38px 5px 37px;
+    object-fit: contain;
+    background-color: #fff;
+}
+.logoSeturAcademiaMobile{
+    width: 168px;
+    height: 20px;
+    margin: 0 0 5px 38px;
+    object-fit: contain;
+    background-color: #fff;
+}
+
+.horizontalDividerMobile{
+    width: 714px;
+    height: 1px;
+    margin: 49px 263px 30px;
+    background-color:#cfd4de;
+}
+.footerInfoRectangleMobile{
+    width: 1170px;
+    height: 240px;
+    margin: 30px 35px 0;
+    opacity: 0.8;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+.footerBottomLogoRectangleMobile{
+    width: 1440px;
+    height: 90px;
+    margin: 811px 0 0;
+    padding: 0 10px 10px 100px;
+    background-color: #282828;
+}
+.logoKocMobile{
+    width: 99px;
+    height: 30px;
+    margin: 0 20px 0 0;
     object-fit: contain;
 }
-.twitterIconMobile{
-    width: 50px;
-    height: 50px;
-    margin: 0 15px;
+.copyrightMobile{
+    width: 140px;
+    height: 24px;
+    margin: 3px 0 3px 20px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #fff;
+}
+.seturServisTuristikTextMobile{
+    width: 163px;
+    height: 36px;
+    margin: 20px 8px 24px 631px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #fff;
+}
+.logoTursabMobile{
+    width: 75px;
+    height: 29px;
+    margin: 23px 9.3px 28px 8px;
     object-fit: contain;
 }
-.pinterestIconMobile{
-    width: 50px;
-    height: 50px;
-    margin: 0 15px;
+.logoVisaMobile{
+    width: 88.7px;
+    height: 31px;
+    margin: 23px 16px 26px 9.3px;
     object-fit: contain;
 }
-.instagramIconMobile{
-    width: 50px;
-    height: 50px;
-    margin: 0 15px;
-    object-fit: contain;
-}
-.youtubeIconMobile{
-    width: 50px;
-    height: 50px;
-    margin: 0 15px;
-    object-fit: contain;
-}
-.appleIconMobile{
-    width: 156px;
-    height: 42px;
-    margin: 4px 20px 4px 598px;
-    object-fit: contain;
-}
-.googleIconMobile{
-    width: 156px;
-    height: 42px;
-    margin: 4px 0 4px 20px;
-    object-fit: contain;
+.sayfaBasinaDonMobile{
+    width: 80px;
+    height: 80px;
+    margin: 0 0 0 16px;
+    padding: 11px 5px;
+    border-radius: 1.6px;
+    border: solid 0.8px #dedede;
+    background-color: #fff;
 }

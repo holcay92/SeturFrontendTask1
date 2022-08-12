@@ -29,8 +29,9 @@ function App() {
     <div className="App">
       {/*     
       <IptalGuvenceBanner />
-      <FooterUpMobile />
-      <FooterMobile />
+      <FooterUp />
+      <Footer />
+     
       */}
 
       <NavBar />
@@ -41,9 +42,10 @@ function App() {
       <HotelCardMobile />
       <HotelCardMobile />
       <HotelCardMobile />
-      <FooterUp />
-      <Footer />
-     
+      
+      <FooterUpMobile />
+      <FooterMobile />
+      
     </div>
   );
 }

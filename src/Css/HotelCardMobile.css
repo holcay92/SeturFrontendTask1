@@ -50,26 +50,33 @@
     margin: 0 4px 0 -3px;
     object-fit: contain;
 }
+.hotelCardDetailMobileFlex{
+    width: auto;
+    object-fit: contain;
+    
+}
 
 .cardDetailMobileForPadding {
     margin-left: 17px;
+    width: auto;
 }
 
 .hotelLocationGuestRateMobile {
+    width: auto;
     margin-top: 0;
     display: flex;
     direction: row;
 }
 
 .iconLocationMobile {
-    width: 16px;
+    width: auto;
     height: 16px;
     margin: 1px 4px 0 0;
     object-fit: contain;
 }
 
 .hotelLocationMobile {
-    width: 91px;
+    width: auto;
     height: 18px;
     margin: 0 0 0 4px;
     font-family: SourceSansPro;

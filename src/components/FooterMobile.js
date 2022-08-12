@@ -6,6 +6,22 @@ import PinterestIcon from './images/footerImages/pinterest.svg';
 import YoutubeIcon from './images/footerImages/youtube.svg';
 import appledownload from './images/footerImages/appledownload.png';
 import androiddownload from './images/footerImages/androiddownload.png';
+import iconWhatsapp from './images/footerImages/whatsapp.svg';
+
+import seturfootericon from './images/footerImages/seturfootericon.svg';
+import rightArrow from './images/footerImages/rightarrowicon.svg';
+import koclogo from './images/footerImages/koc.svg';
+import visalogo from './images/footerImages/visa.png';
+import tursablogo from './images/footerImages/tursab.svg';
+//company logos
+import seturDutyFree from './images/footerImages/seturCompanies/seturdutyfree.png'
+import seturday from './images/footerImages/seturCompanies/seturday-logo.png'
+import seturSelect from './images/footerImages/seturCompanies/seturselect.png'
+import seturBiz from './images/footerImages/seturCompanies/seturbiz.png'
+import seturMice from './images/footerImages/seturCompanies/seturmice.png'
+import sedventure from './images/footerImages/seturCompanies/sedadventure.png'
+import seturCruise from './images/footerImages/seturCompanies/seturcruise.png'
+import seturAcademia from './images/footerImages/seturCompanies/seturacademia.png'
 
 import {
     MDBFooter,
@@ -23,52 +39,26 @@ export default function App() {
 
         <div className='footerMobile'>
 
-           
+
             <MDBFooter className='text-center' color='white'  >
-                <MDBContainer className='p-4'>
-                    <section className='mb-4'>
-                        <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-                            <MDBIcon fab icon='facebook-f' />
-                        </MDBBtn>
+                <MDBContainer className='p-5'>
 
-                        <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-                            <MDBIcon fab icon='twitter' />
-                        </MDBBtn>
-
-                        <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-                            <MDBIcon fab icon='google' />
-                        </MDBBtn>
-
-                        <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-                            <MDBIcon fab icon='instagram' />
-                        </MDBBtn>
-
-                        <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-                            <MDBIcon fab icon='linkedin-in' />
-                        </MDBBtn>
-
-                        <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-                            <MDBIcon fab icon='github' />
-                        </MDBBtn>
-                    </section>
 
                     <section className=''>
                         <form action=''>
-                            <MDBRow className='d-flex justify-content-center'>
-                                <MDBCol size="auto">
-                                    <p className='pt-2'>
-                                        <strong>Sign up for our newsletter</strong>
-                                    </p>
-                                </MDBCol>
-
-                                <MDBCol md='5' start='12'>
-                                    <MDBInput contrast type='email' label='Email address' className='mb-4' />
-                                </MDBCol>
+                            <MDBRow className='d-flex justify-content-center justify-content-rg'>
 
                                 <MDBCol size="auto">
-                                    <MDBBtn outline color='light' type='submit' className='mb-4'>
-                                        Subscribe
-                                    </MDBBtn>
+                                    <div className='whatsappRectangleMobile'>
+                                        <p className='whatsAppTextMobile'><img className='whatsappIconMobile' src={iconWhatsapp} /> Whatsapp</p>
+                                        <p ><a className='whatsAppNumberMobile' href="tel:0-546-786-68-00">0546 786 68 00</a> </p>
+                                    </div>
+                                </MDBCol>
+                                <MDBCol size="auto">
+                                    <div className='cagriMerkeziRectangleMobile'>
+                                        <p className='cagriMerkeziTextMobile'><i></i> Çağrı Merkezi</p>
+                                        <p ><a className='cagriMerkeziNumberMobile' href='tel:444 28 22'>444 28 22</a> </p>
+                                    </div>
                                 </MDBCol>
                             </MDBRow>
                         </form>

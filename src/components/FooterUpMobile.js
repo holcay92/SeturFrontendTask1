@@ -9,31 +9,31 @@ import androiddownload from './images/footerImages/androiddownload.png';
 
 
 function FooterUpMobile() {
-  return (
-    <div>
-         {/*UP FOOTER--SOCIAL MEDIA SECTION */}
-         <div className='footerUpMobile'>
-                <div className='d-flex justify-content-center' style={{ backgroundColor: '#dddd' }}>
+    return (
+         
+            <section className='footerUpMobile'>
+                {/*UP FOOTER--SOCIAL MEDIA SECTION */}
+                <section className='d-flex justify-content-center justify-content-lg-between'>
                     <div>
                         <a href='https://www.facebook.com.tr' className='me-4 text-reset'>
                             <img className='facebookIconMobile' src={facebookIcon} alt='' />
-                            <i className='fab fa-facebook-f'></i>
+
                         </a>
                         <a href='https://www.twitter.com.tr' className='me-4 text-reset'>
                             <img className='twitterIconMobile' src={TwitterIcon} alt='' />
-                            <i className='fab fa-twitter'></i>
+
                         </a>
                         <a href='https://www.pinterest.com.tr' className='me-4 text-reset'>
                             <img className='pinterestIconMobile' src={PinterestIcon} alt='' />
-                            <i className='fab fa-instagram'></i>
+
                         </a>
                         <a href='https://www.instagram.com.tr' className='me-4 text-reset'>
                             <img className='instagramIconMobile' src={InstagramIcon} alt='' />
-                            <i className='fab fa-instagram'></i>
+
                         </a>
                         <a href='https://www.youtube.com.tr' className='me-4 text-reset'>
                             <img className='youtubeIconMobile' src={YoutubeIcon} alt='' />
-                            <i className='fab fa-linkedin'></i>
+
                         </a>
                     </div>
 
@@ -48,11 +48,13 @@ function FooterUpMobile() {
                             <i className='fab fa-linkedin'></i>
                         </a>
                     </div>
-                </div>
-            {/*UP FOOTER--SOCIAL MEDIA SECTION */}
-            </div>
-    </div>
-  )
+                </section>
+                {/*UP FOOTER--SOCIAL MEDIA SECTION */}
+            </section>
+            
+       
+
+    )
 }
 
 export default FooterUpMobile

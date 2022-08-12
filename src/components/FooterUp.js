@@ -12,7 +12,7 @@ function FooterUp() {
     <section >
                 {/*SOCIAL MEDIA SECTION */}
                 <div >
-                    <div className='d-flex justify-content-center'   style={{ backgroundColor: '#dddd' }}>
+                    <div className='d-flex justify-content-center justify-content-lg-between'   style={{ backgroundColor: '#dddd' }}>
                         <a href='https://www.facebook.com.tr' className='me-4 text-reset'>
                             <img className='facebookicon' src={facebookIcon} alt='' />
                             <i className='fab fa-facebook-f'></i>

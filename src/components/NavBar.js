@@ -59,10 +59,11 @@ function NavBar() {
           </div>
         </Navbar>
       </div>
-      {/*MOBILE NAVBAR */}
 
+
+      {/*MOBILE NAVBAR */}
       <div className='MobileNavBar' >
-        <Navbar className='' >
+        <Navbar className='appMobileResponsive' >
           <Container fluid>
             <Row >
               <Col>

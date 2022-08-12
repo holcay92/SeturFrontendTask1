@@ -15,7 +15,7 @@ import { Button, Container } from 'react-bootstrap';
 function HotelCardDesktop() {
     return (
 
-        <Container className='HotelCard'>
+        <Container className='DesktopHotelCard' >
             <div className="col-md-12">
                 <div className="e-card-horizontal">
                     <div className="row bg-white border rounded ">

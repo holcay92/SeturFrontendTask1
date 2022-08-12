@@ -1,8 +1,7 @@
 
 .MaskMobile {
-    width: auto;
+    width: 320px;
     justify-content: center;
-   
     height: 625px;
     margin: 1px 0 20px;
     padding: 0 0 14px;
@@ -13,13 +12,20 @@
 
 .imgHotelMobile {
     width: 320px;
-    height: 165px;
     margin: 0 0 12px;
     padding: 5px;
+    display: flex;
     object-fit: contain;
     border-radius: 2px;
     border: solid 1px #dedede;
 }
+
+.hotelCardDetailMobileFlex {
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
 
 .seturOneriyorRectangleMobile {
     width: 99px;
@@ -49,11 +55,6 @@
     height: 16px;
     margin: 0 4px 0 -3px;
     object-fit: contain;
-}
-.hotelCardDetailMobileFlex{
-    width: auto;
-    object-fit: contain;
-    
 }
 
 .cardDetailMobileForPadding {
@@ -118,7 +119,8 @@
     text-align: right;
     color: #000;
 }
-.mukemmelAndCommentMobile{
+
+.mukemmelAndCommentMobile {
     margin-top: -5px;
 }
 
@@ -135,7 +137,8 @@
     border-radius: 2px;
     background-color: #2fbd14;
 }
-.greenRectangleTextMobile{
+
+.greenRectangleTextMobile {
     width: 22px;
     height: 30px;
     margin: 0 0 0 3px;
@@ -162,6 +165,7 @@
     line-height: normal;
     letter-spacing: normal;
     color: #292a2c;
+
 }
 
 .ultraHerSeyDahilMobile {
@@ -223,7 +227,7 @@
     padding: 7px 19px 8px 20px;
     opacity: 0.9;
     border-radius: 2px;
-    border:dashed  1px #2fbd14;
+    border: dashed 1px #2fbd14;
     background-color: #e0f7dc;
 }
 
@@ -287,6 +291,7 @@
     letter-spacing: normal;
     color: #682a7a;
 }
+
 .yetiskinOteliTextMobile {
     width: 82px;
     height: 18px;
@@ -493,22 +498,23 @@
     box-shadow: 0 10px 30px 0 rgba(255, 65, 57, 0.5);
     background-color: #e2231b;
 }
-.oteliSecButtonText{
+
+.oteliSecButtonText {
     width: 55px;
-  height: 18px;
-  font-family: SourceSansPro;
-  font-size: 14px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #fff;
+    height: 18px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
 }
 
 
-.hotelCardMiddleSectionMobile{
+.hotelCardMiddleSectionMobile {
     display: flex;
     direction: column;
 }
@@ -527,6 +533,7 @@
     text-align: right;
     color: #b6b5b5;
 }
+
 .hotelPriceMobile {
     width: 90px;
     height: 46px;
@@ -573,7 +580,7 @@
 .denBaslayanFiyatlarlaTextMobile {
     width: 116px;
     height: 15px;
-    margin: -20px 0  4px;
+    margin: -20px 0 4px;
     opacity: 0.75;
     font-family: SourceSansPro;
     font-size: 12px;

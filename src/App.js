@@ -20,31 +20,34 @@ import DesktopHotelCardAndUpFilterComponents from './components/DesktopHotelCard
 import HotelCardMobile from './components/HotelCardMobile';
 import FilterUpMobile from './components/FilterUpMobile'
 import FooterMobile from './components/FooterMobile';
-import FooterUpMobile from './components/FooterUpMobile';
+
 
 
 function App() {
 
   return (
-    <div className="App">
+    <div className="App" fluid >
       {/*     
       <IptalGuvenceBanner />
-      <FooterUp />
-      <Footer />
      
-      */}
-
-      <NavBar />
-      <FilterUpMobile />
-      <CarouselUp />
-      <DesktopHotelCardAndUpFilterComponents />
-      <HotelCardMobile />
-      <HotelCardMobile />
-      <HotelCardMobile />
-      <HotelCardMobile />
-      
       <FooterUpMobile />
       <FooterMobile />
+      */}
+      
+
+
+        <NavBar />
+        <FilterUpMobile />
+        <CarouselUp />
+        <DesktopHotelCardAndUpFilterComponents   />
+        <HotelCardMobile />
+        <HotelCardMobile />
+        <HotelCardMobile />
+        <HotelCardMobile />
+        <FooterUp />
+        <Footer />
+
+
       
     </div>
   );

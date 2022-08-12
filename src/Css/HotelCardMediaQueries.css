@@ -1,29 +1,37 @@
-.DesktopHotelCardAndUpFilterComponents{
+.DesktopHotelCardAndUpFilterComponents {
    
-    display:none;
+    display: none;
     padding: 10px;
 }
-.HotelCardMobile{
-    width: auto;
-   
+.DesktopHotelCard{
+    min-width: 1200px;
+    min-height: 330px;
+    width: 100%;
 }
+/*  style={{ minWidth: '1200px', minHeight:'22rem'}} */
 
+@media(max-width:1199px) {
+    .DesktopHotelCardAndUpFilterComponents {
+        display: none;
+    }
 
-@media(min-width:1200px){
-    .DesktopHotelCardAndUpFilterComponents{
+    .HotelCardMobile {
+        width: auto;
+        height: 625px;     
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(min-width:1200px) {
+    .DesktopHotelCardAndUpFilterComponents {
+      
         width: auto;
         height: auto;
-        display:revert
+        display: revert
     }
-    .HotelCardMobile{
-        display:none
-    }
-}
-@media(max-width:1199px){
-    .DesktopHotelCardAndUpFilterComponents{
-        display:none;
-    }
-    .HotelCardMobile{
-        display:revert;
+
+    .HotelCardMobile {
+        display: none
     }
 }
+

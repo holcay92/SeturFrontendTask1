@@ -86,7 +86,7 @@
     .filterUpMobile {
         display: flex;
         width: auto;
-        justify-content: center;
+        justify-content: center;  
         margin-top: -112px;
     }
 }
@@ -219,7 +219,7 @@
 .filterAndSortTextMobile {
     width: 147px;
     height: 18px;
-    margin: 3px 0 3px 15px;
+    margin: 3px 0 3px 1px;
     font-family: SourceSansPro;
     font-size: 14px;
     font-weight: 600;
@@ -253,7 +253,7 @@
 .yetmisIkıSaateKadarIptalTextMobile {
     width: auto;
     height: 46px;
-    margin: 22px 17px 9px 26px;
+    margin: 22px 17px 9px 5px;
     padding: 2px 2px 9px 61px;
     font-family: Gilroy;
     font-size: 16px;

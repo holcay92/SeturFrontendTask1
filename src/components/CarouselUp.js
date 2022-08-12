@@ -12,7 +12,7 @@ import { Container } from 'react-bootstrap';
 function CarouselUp() {
   return (
     <div className='CarouselBanner'>
-      <div className='container mt-5 mb-5' >
+      <div className=' mt-5 mb-5' style={{marginLeft:'90px'}} >
         <div className="d-flex justify-content-center row">
           <div className="col-md-12 col-sm-12 row">
             <div className="col-md-3">

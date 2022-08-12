@@ -1,6 +1,9 @@
-.App{
- 
-    background-color: #f7f7f7;
-   
+.App {
+  min-width: auto;
+  min-height: auto;
+  width: auto;
+  height: auto;
+  background-color: #f7f7f7;
+  justify-content: center;
 
-  }
+}
